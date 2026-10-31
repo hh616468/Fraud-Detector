@@ -1,0 +1,156 @@
+# Scam scorecard: 13 risk rules and 2 credits a reviewer can read line by line.
+# Points add up per transfer. Thresholds are starting values for validation, not fraud policy.
+version: v0
+
+tiers:            # highest matching min_score wins
+  - {name: pass,  min_score: -1000, en: Pass and log,     ar: يمر ويتسجل}
+  - {name: nudge, min_score: 4,     en: One-line nudge,   ar: تنبيه بسطر واحد}
+  - {name: coach, min_score: 6,     en: Coaching chat,    ar: محادثة توعية}
+
+overrides:
+  - id: O1
+    en: Security event or live call plus a balance drain always gets full coaching
+    any_of: [R06, R07]
+    all_of: [R03]
+    tier: coach
+
+guardrails:
+  # R02 and R05 compare against the user's own baseline; below this many past outgoing
+  # transfers they stay off instead of inventing a baseline.
+  min_history_for_personal: 10
+
+rules:
+  - id: R01
+    kind: risk
+    points: 2
+    en: First transfer to this recipient
+    ar: أول تحويل لهذا المستلم
+
+  - id: R02
+    kind: risk
+    points: 2
+    en: Amount above max(user P95, median + 4·MAD)
+    ar: المبلغ أعلى من المعتاد لهذا المستخدم
+    params:
+      mad_multiplier: 4
+      percentile: 95
+      min_amount_iqd: 100000   # never flag amounts below this as "unusually large"
+    requires_history: true
+
+  - id: R03
+    kind: risk
+    points: 3
+    en: Leaves under 20% of the balance
+    ar: يبقى أقل من ٢٠٪ من الرصيد
+    params:
+      remaining_share: 0.20
+      min_amount_iqd: 50000    # small balances emptied by small payments are not a drain
+
+  - id: R04
+    kind: risk
+    points: 2
+    en: 3+ outgoing in 15 min, or rising amounts to a payee first seen <14 days ago
+    ar: ثلاث تحويلات أو أكثر خلال ربع ساعة، أو مبالغ متصاعدة لمستلم جديد
+    params:
+      burst_count: 3          # including this transfer
+      burst_window_min: 15
+      rising_payee_max_age_days: 14
+      rising_min_prior: 1
+
+  - id: R05
+    kind: risk
+    points: 1
+    en: Outside the user's usual hours (shifted during Ramadan)
+    ar: خارج أوقات المستخدم المعتادة
+    params:
+      min_hour_share: 0.04    # share of past transfers within ±1 h of this hour
+      ramadan_night_hours: [20, 21, 22, 23, 0, 1, 2, 3]
+    requires_history: true
+
+  - id: R06
+    kind: risk
+    points: 3
+    en: "Security event in last 24 h: new device, PIN reset, SIM change"
+    ar: حدث أمني خلال آخر ٢٤ ساعة (جهاز جديد، تغيير رمز، تبديل شريحة)
+    params:
+      window_hours: 24
+      kinds: [new_device, pin_reset, sim_change]
+
+  - id: R07
+    kind: risk
+    points: 3
+    en: Active phone call during the transfer (simulated device flag)
+    ar: مكالمة هاتفية جارية أثناء التحويل
+
+  - id: R08
+    kind: risk
+    points: 3
+    en: Recipient reported, under 7 days old, or paid by many unrelated senders
+    ar: حساب المستلم مُبلّغ عنه أو جديد أو يستلم من مرسلين كثيرين
+    params:
+      max_age_days: 7
+      unrelated_senders_7d: 8
+
+  - id: R09
+    kind: risk
+    points: 3
+    en: Recipient name or note impersonates the wallet, a bank or the government
+    ar: اسم المستلم أو الملاحظة ينتحل صفة المحفظة أو جهة رسمية
+
+  - id: R10
+    kind: risk
+    points: 2
+    en: Note mentions a fee, prize, activation, grant or deposit
+    ar: رسوم، جائزة، تفعيل، منحة، عربون
+
+  - id: R11
+    kind: risk
+    points: 3
+    en: Refund request under 2 h after an unexpected credit from a stranger
+    ar: طلب إرجاع خلال ساعتين من وصول مبلغ من شخص غريب
+    params:
+      window_minutes: 120
+
+  - id: R12
+    kind: risk
+    points: 3
+    en: Name matches a saved contact, but the number differs
+    ar: الاسم يطابق جهة اتصال محفوظة لكن الرقم مختلف
+    params:
+      min_similarity: 0.85
+
+  - id: R13
+    kind: risk
+    points: 6
+    en: User picks a scam cue as the reason, e.g. "someone asked for my code"
+    ar: المستخدم اختار سبباً يطابق أسلوب احتيال، مثل "أحد طلب مني الرمز"
+    params:
+      cue_reasons: [asked_for_code, prize_fee, safe_account, exchange_deposit, unlock_money]
+
+  - id: M01
+    kind: credit
+    points: -3
+    en: Recurring payee
+    ar: مستلم متكرر
+    params:
+      min_prior: 3
+      min_span_days: 30
+
+  - id: M02
+    kind: credit
+    points: -2
+    en: Saved contact over 30 days, or known biller
+    ar: جهة اتصال محفوظة منذ أكثر من ٣٠ يوماً أو جهة دفع فواتير معروفة
+    params:
+      min_contact_age_days: 30
+
+# Reasons offered (optionally) for new payees only. Picking a cue adds points; nothing subtracts.
+reasons:
+  - {code: family,           cue: false, ar: "عائلة أو صديق",                en: Family or friend}
+  - {code: purchase,         cue: false, ar: "شراء غرض",                     en: Buying something}
+  - {code: bill,             cue: false, ar: "فاتورة أو قسط",               en: Bill or instalment}
+  - {code: asked_for_code,   cue: true,  ar: "واحد طلب مني الرمز أو الكود",  en: Someone asked for my code}
+  - {code: prize_fee,        cue: true,  ar: "رسوم حتى أستلم جائزة",          en: Fee to receive a prize}
+  - {code: safe_account,     cue: true,  ar: "أنقل فلوسي لحساب آمن",           en: Moving money to a safe account}
+  - {code: exchange_deposit, cue: true,  ar: "عربون لشركة صيرفة",            en: Deposit for an exchange company}
+  - {code: unlock_money,     cue: true,  ar: "رسوم حتى يفتحولي فلوس أو منحة", en: Fee to unlock money or a grant}

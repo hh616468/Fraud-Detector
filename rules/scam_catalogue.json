@@ -1,0 +1,74 @@
+{
+  "version": "v0",
+  "note": "Scam families the coach can name. Iraqi wording is a draft for native-speaker review. 'triggers' lists alternatives; every token in one alternative must hold. Tokens: a rule id (R07), a rule with a fee category (R10:prize), a reason tap (reason:prize_fee) or a note lexicon (text:safe_account, text:exchange). 'terms' are words only this family's coaching may use, so the model cannot invent a story the facts do not support.",
+  "families": [
+    {
+      "id": "safe_account",
+      "en": "Wallet or bank impersonation: move it to a safe account",
+      "ar": "انتحال صفة المحفظة أو المصرف (حساب آمن)",
+      "triggers": [["reason:safe_account"], ["reason:asked_for_code"], ["text:safe_account"], ["R09", "R07"], ["R06", "R03"], ["R07", "R03"]],
+      "concern": "شركة المحفظة والمصارف ما يطلبون منك أبداً تحوّل فلوسك لحساب آمن أو تنطيهم الرمز.",
+      "next_tactic": "إذا يگلك سويها بسرعة وإلا ينقفل حسابك، ترة هذا بالضبط كلام النصابين.",
+      "safe_step": "سد الخط واتصل انت بالرقم الرسمي المكتوب بالتطبيق أو على بطاقتك.",
+      "terms": ["حساب آمن", "حساب امان", "ينقفل", "يتجمد", "قسم الحماية"],
+      "source": "Central Bank of Iraq warning on impersonation of financial employees, 18 Oct 2025 (cbi.iq/news/print_news/3016)"
+    },
+    {
+      "id": "exchange_deposit",
+      "en": "Fake exchange-company page taking dinar deposits",
+      "ar": "صفحة شركة صيرفة وهمية تطلب إيداع",
+      "triggers": [["reason:exchange_deposit"], ["text:exchange"]],
+      "concern": "شركات الصيرفة المرخصة ما تطلب إيداع أو عربون على محفظة شخصية من صفحة بالفيسبوك أو التلگرام.",
+      "next_tactic": "بعد ما تدز، ممكن يطلبون رسوم ثانية حتى يسلمونك الدولار.",
+      "safe_step": "تأكد من اسم الشركة بموقع البنك المركزي، وروح لمكتبهم بنفسك.",
+      "terms": ["صيرفة", "صرافة", "دولار", "تصريف", "رسوم"],
+      "source": "Central Bank of Iraq warning on fake exchange-company pages taking dinar deposits, 17 Apr 2024 (cbi.iq/news/print_news/2549)"
+    },
+    {
+      "id": "prize_fee",
+      "en": "Prize, fee, activation or grant to unlock money",
+      "ar": "جائزة أو منحة أو تفعيل تحتاج رسوم",
+      "triggers": [["reason:prize_fee"], ["reason:unlock_money"], ["R10:prize"], ["R10:grant"], ["R10:activation"], ["R10:fee", "R09"]],
+      "concern": "إذا طالبين منك رسوم حتى تستلم جائزة أو منحة أو حتى يفعّلون حسابك، هاي علامة احتيال.",
+      "next_tactic": "ممكن بعدها يطلبون رسوم ثانية.",
+      "safe_step": "الجوائز الحقيقية ما تحتاج تدفع شي. اتصل بالرقم الرسمي للجهة وتأكد.",
+      "terms": ["جائزة", "جايزة", "جوائز", "ربحت", "فزت", "مسابقة", "منحة", "تفعيل", "رسوم"],
+      "source": "964media on misuse of the Zain Cash name for prize scams, 15 Mar 2024 (en.964media.com/16114)"
+    },
+    {
+      "id": "refund_after_credit",
+      "en": "Refund request after an unexpected credit",
+      "ar": "طلب إرجاع مبلغ وصلك من غريب",
+      "triggers": [["R11"]],
+      "concern": "وصلتك فلوس من رقم ما تعرفه وهسه يطلب ترجعها؟ ممكن الفلوس اللي وصلتك مسروقة أو ينسحب التحويل بعدين وتخسر مرتين.",
+      "next_tactic": "ممكن يضغط عليك أو يهددك بالشرطة حتى تستعجل.",
+      "safe_step": "لا ترجع شي بنفسك. خلي شركة المحفظة ترجعها من خلال الدعم الرسمي.",
+      "terms": ["ترجعها", "إرجاع", "بالغلط", "وصلتك فلوس"],
+      "source": "Team catalogue from wallet complaint patterns; needs a public citation before deployment"
+    },
+    {
+      "id": "hacked_relative",
+      "en": "Hacked relative or contact asking for help",
+      "ar": "حساب قريب أو صديق مسروق يطلب فلوس",
+      "triggers": [["R12"]],
+      "concern": "إذا واحد من أهلك أو أصدقائك يطلب فلوس من رقم جديد أو بشكل مستعجل، ممكن حسابه مسروق.",
+      "next_tactic": "ممكن يطلب مبلغ ثاني بعد شوية.",
+      "safe_step": "اتصل بيه على رقمه القديم اللي تعرفه وتأكد بصوته.",
+      "terms": ["حسابه مسروق", "أهلك", "قريبك", "رقمه القديم"],
+      "source": "Team catalogue; common social-media account takeover pattern"
+    }
+  ],
+  "generic": {
+    "id": "generic",
+    "en": "No specific scam pattern matched",
+    "ar": "ما اكو نمط احتيال محدد",
+    "concern": "خل نتأكد قبل لا ترسل.",
+    "next_tactic": "",
+    "safe_step": "إذا أحد دا يستعجلك، هذا بحد ذاته علامة. تأكد من المستلم على رقم تعرفه.",
+    "terms": []
+  },
+  "text_lexicons": {
+    "safe_account": ["حساب امن", "حساب امان", "حماية الرصيد", "حماية حسابك", "safe account"],
+    "exchange": ["صيرفة", "صيرفه", "صرافة", "صرافه", "تصريف", "دولار", "exchange"]
+  }
+}

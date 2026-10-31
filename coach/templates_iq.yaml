@@ -1,0 +1,73 @@
+# Human-written Iraqi Arabic templates. DRAFT: needs review by Iraqi speakers before any user test.
+# Placeholders {amount} {recipient} {first_name} are filled by the app, never by the model.
+
+facts:            # one phrase per risk rule, shown in the deterministic warning
+  R01: "هاي أول مرة تحوّل لـ{recipient}"
+  R02: "المبلغ {amount} أكبر بهواية من تحويلاتك المعتادة"
+  R03: "بعد هالتحويل يبقى عندك أقل من خُمس رصيدك"
+  R04: "صارلك كذا تحويل ورا بعض بوقت قصير"
+  R05: "هذا مو وقتك المعتاد للتحويل"
+  R06: "خلال آخر يوم صار تغيير بجهازك أو رمزك أو شريحتك"
+  R07: "انت هسه على مكالمة"
+  R08: "حساب المستلم جديد أو عليه بلاغات"
+  R09: "اسم المستلم أو الملاحظة يبين كأنه جهة رسمية أو شركة المحفظة"
+  R10: "الملاحظة بيها كلام عن رسوم أو جائزة أو عربون"
+  R11: "قبل شوية وصلتك فلوس من رقم ما تعرفه"
+  R12: "الاسم يشبه واحد من جهات اتصالك بس الرقم مختلف"
+  R13: "السبب اللي اخترته يطابق أسلوب نصب معروف"
+
+nudge: "لحظة {first_name}، {facts}. تأكد من المستلم قبل لا تكمل."
+coach_header: "لحظة قبل ما تدز يا {first_name}."
+
+# Template chat used when the model is slow, down or fails validation.
+fallback_chat:
+  turn1:
+    question: "منو طلب منك تدز هالفلوس؟"
+    options:
+      - {id: call,    label: "واحد اتصل بيه"}
+      - {id: message, label: "رسالة أو إعلان"}
+      - {id: known,   label: "شخص أعرفه"}
+      - {id: self,    label: "محد، آني قررت"}
+  turn2:
+    call:
+      concern: "الجهات الرسمية وشركة المحفظة ما يتصلون بيك حتى يطلبون تحويل."
+      next_tactic: "إذا يگلك لا تسد الخط، هذا حتى ما تلحگ تتأكد."
+      next_step: "سد الخط واتصل انت بالرقم الرسمي المكتوب بالتطبيق."
+      question: "تگدر هسه تتصل وتتأكد؟"
+      options:
+        - {id: will_check, label: "راح أتصل وأتأكد"}
+        - {id: cant_check, label: "ما أگدر هسه"}
+    message:
+      concern: "الرسائل والإعلانات اللي تطلب فلوس مقدماً أغلبها نصب."
+      next_tactic: "بعد أول دفعة، عادةً يطلبون دفعة ثانية."
+      next_step: "تأكد من الجهة من مصدر رسمي، مو من الرابط أو الرقم اللي بالرسالة."
+      question: "تعرف الجهة من مكان رسمي؟"
+      options:
+        - {id: verified,   label: "إي، متأكد منها"}
+        - {id: not_sure,   label: "لا، مو متأكد"}
+    known:
+      concern: "حتى لو الشخص تعرفه، ممكن حسابه أو رقمه مسروق."
+      next_tactic: "إذا يستعجلك ويگول لا تتصل بيه، هاي علامة."
+      next_step: "اتصل بيه على رقمه اللي تعرفه وتأكد بصوته."
+      question: "حچيت وياه بصوته؟"
+      options:
+        - {id: spoke,     label: "إي، حچيت وياه"}
+        - {id: not_spoke, label: "لا، بس رسائل"}
+    self:
+      concern: "زين. بس هالتحويل بيه علامات تخلينا نتأكد."
+      next_tactic: ""
+      next_step: "تأكد من رقم المستلم واسمه قبل لا تكمل."
+      question: "تأكدت من الرقم؟"
+      options:
+        - {id: checked,     label: "إي، تأكدت"}
+        - {id: not_checked, label: "خلي أتأكد"}
+  final:
+    concern: "أي أحد يستعجلك حتى تحوّل، خذ وقتك وياه."
+    next_tactic: ""
+    next_step: "إذا عندك أي شك، ألغي التحويل وارجع سويه بعدين."
+    question: ""
+    options: []
+
+# Generic bank-style notice in Modern Standard Arabic, used only as the comparison arm
+# in rater studies (contextual Iraqi coaching vs a generic warning).
+msa_generic: "تنبيه: يرجى التحقق من هوية المستلم قبل إتمام عملية التحويل، وعدم مشاركة رمز التحقق مع أي جهة."

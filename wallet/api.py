@@ -66,6 +66,7 @@ class RecipientIn(BaseModel):
     age_days: float | None = None
     reported: bool = False
     is_biller: bool = False
+    is_business: bool = False
     unrelated_senders_7d: int = 0
 
 

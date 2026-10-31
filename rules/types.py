@@ -41,6 +41,8 @@ class RecipientInfo:
     created_at: datetime | None = None
     reported: bool = False
     is_biller: bool = False
+    # Verified business/organisation account (merchant, clinic, school, charity with business KYC).
+    is_business: bool = False
     # Provider-side network signal (simulated): distinct unrelated senders in the last 7 days.
     unrelated_senders_7d: int = 0
 

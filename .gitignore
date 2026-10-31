@@ -6,5 +6,5 @@ __pycache__/
 .ruff_cache/
 *.egg-info/
 var/
-data/generated/
+data/generated/*
 !data/generated/.gitkeep

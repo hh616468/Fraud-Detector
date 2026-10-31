@@ -85,8 +85,8 @@ rules:
   - id: R08
     kind: risk
     points: 3
-    en: Recipient reported, under 7 days old, or paid by many unrelated senders
-    ar: حساب المستلم مُبلّغ عنه أو جديد أو يستلم من مرسلين كثيرين
+    en: Recipient reported, under 7 days old, or a personal account paid by many unrelated senders
+    ar: حساب المستلم مُبلّغ عنه أو جديد، أو حساب شخصي يستلم من مرسلين كثيرين
     params:
       max_age_days: 7
       unrelated_senders_7d: 8
@@ -94,8 +94,8 @@ rules:
   - id: R09
     kind: risk
     points: 3
-    en: Recipient name or note impersonates the wallet, a bank or the government
-    ar: اسم المستلم أو الملاحظة ينتحل صفة المحفظة أو جهة رسمية
+    en: Recipient name or note impersonates the wallet, a bank or the government (personal accounts)
+    ar: اسم المستلم أو الملاحظة ينتحل صفة المحفظة أو جهة رسمية (حساب شخصي)
 
   - id: R10
     kind: risk

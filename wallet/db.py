@@ -33,6 +33,7 @@ accounts = Table(
     Column("created_at", DateTime),
     Column("reported", Boolean, nullable=False, default=False),
     Column("is_biller", Boolean, nullable=False, default=False),
+    Column("is_business", Boolean, nullable=False, default=False),
     # Provider-side network signal, simulated: distinct unrelated senders in the last 7 days.
     Column("unrelated_senders_7d", Integer, nullable=False, default=0),
 )

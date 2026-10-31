@@ -90,6 +90,8 @@ def test_r08_risky_recipient(scorecard):
     for info in (young, reported, mule):
         assert "R08" in fired(scorecard, make_ctx(recipient_info=info))
     assert "R08" not in fired(scorecard, make_ctx())
+    shop = RecipientInfo(wallet=NEW, created_at=T0 - timedelta(days=200), unrelated_senders_7d=40, is_business=True)
+    assert "R08" not in fired(scorecard, make_ctx(recipient_info=shop))
 
 
 def test_r09_impersonation_but_not_plain_names_or_billers(scorecard):
@@ -99,6 +101,8 @@ def test_r09_impersonation_but_not_plain_names_or_billers(scorecard):
     assert "R09" not in fired(scorecard, make_ctx(name="عبد الرشيد"))
     biller = RecipientInfo(wallet=NEW, display_name="زين كاش للدفع", created_at=T0 - timedelta(days=900), is_biller=True)
     assert "R09" not in fired(scorecard, make_ctx(name="زين كاش للدفع", recipient_info=biller))
+    charity = RecipientInfo(wallet=NEW, display_name="هيئة الرعاية", created_at=T0 - timedelta(days=900), is_business=True)
+    assert "R09" not in fired(scorecard, make_ctx(name="هيئة الرعاية", recipient_info=charity))
 
 
 def test_r10_fee_words_with_categories(scorecard):

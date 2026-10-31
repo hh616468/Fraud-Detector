@@ -111,18 +111,20 @@ def active_call(ctx, f, p):
 def risky_recipient(ctx, f, p):
     r = ctx.recipient
     young = f.recipient_age_days is not None and f.recipient_age_days < p["max_age_days"]
-    many = r.unrelated_senders_7d >= p["unrelated_senders_7d"]
+    # Shops and billers are paid by many strangers by design; the mule signal is for personal accounts.
+    many = not (r.is_business or r.is_biller) and r.unrelated_senders_7d >= p["unrelated_senders_7d"]
     return (r.reported or young or many), {
         "reported": r.reported,
         "account_age_days": _round(f.recipient_age_days, 1),
         "unrelated_senders_7d": r.unrelated_senders_7d,
+        "business_account": r.is_business,
     }
 
 
 @rule("R09")
 def impersonation(ctx, f, p):
-    if ctx.recipient.is_biller:
-        return False, {"known_biller": True}
+    if ctx.recipient.is_biller or ctx.recipient.is_business:
+        return False, {"verified_account": True}
     texts = {"name": f"{ctx.draft.recipient_name} {ctx.recipient.display_name}", "note": ctx.draft.note}
     hits = {k: lexicons.find_terms(v, lexicons.IMPERSONATION_TERMS) for k, v in texts.items()}
     hits = {k: v for k, v in hits.items() if v}

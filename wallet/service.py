@@ -191,6 +191,7 @@ class WalletService:
             created_at=acc["created_at"] if acc else None,
             reported=bool(acc and acc["reported"]),
             is_biller=bool(acc and acc["is_biller"]),
+            is_business=bool(acc and acc["is_business"]),
             unrelated_senders_7d=acc["unrelated_senders_7d"] if acc else 0,
         )
         draft = Draft(
@@ -279,6 +280,8 @@ class WalletService:
                 "override": a["override"], "fired": fired, "family": {"id": family["id"], "ar": family["ar"], "en": family["en"]},
                 "rules_version": a["rules_version"], "latency_ms": a["latency_ms"],
                 "proceed_unlock_at": a["proceed_unlock_at"].isoformat(),
+                "proceed_unlock_in_s": max(0.0, round((a["proceed_unlock_at"] - self.clock()).total_seconds(), 1)),
+                "results": a["results"],
                 "superseded": a["superseded"],
                 "is_new_recipient": "R01" in a["fired_ids"],
             }
@@ -627,6 +630,7 @@ class WalletService:
                 values = dict(
                     display_name=recipient.get("display_name", ""), created_at=created,
                     reported=bool(recipient.get("reported")), is_biller=bool(recipient.get("is_biller")),
+                    is_business=bool(recipient.get("is_business")),
                     unrelated_senders_7d=int(recipient.get("unrelated_senders_7d", 0)),
                 )
                 if self._one(conn, db.accounts, db.accounts.c.wallet == recipient["wallet"]) is None:

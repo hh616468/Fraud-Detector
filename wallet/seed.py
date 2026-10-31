@@ -97,11 +97,11 @@ def demo_history(u: dict, end: datetime, seed: int) -> list[dict]:
 
 def _insert_user(conn, u: dict, history: list[dict], start_balance: int, split: str, persona=None,
                  contacts_saved_at: datetime | None = None, extra_accounts: list[dict] | None = None) -> None:
-    def ensure(wallet, name, created, is_biller=False, reported=False, senders=0):
+    def ensure(wallet, name, created, is_biller=False, reported=False, senders=0, is_business=False):
         if conn.execute(select(db.accounts.c.wallet).where(db.accounts.c.wallet == wallet)).first() is None:
             conn.execute(insert(db.accounts).values(wallet=wallet, display_name=name, created_at=created,
                                                     is_biller=is_biller, reported=reported,
-                                                    unrelated_senders_7d=senders))
+                                                    unrelated_senders_7d=senders, is_business=is_business))
 
     first_ts = history[0]["ts"] if history else now_baghdad()
     ensure(u["wallet"], f"{u['first_name']} {u['last_name']}".strip(), first_ts - timedelta(days=30))
@@ -109,7 +109,7 @@ def _insert_user(conn, u: dict, history: list[dict], start_balance: int, split: 
         ensure(w, name, first_ts - timedelta(days=2000), is_biller=True)
     for acc in extra_accounts or []:
         ensure(acc["wallet"], acc.get("display_name", ""), acc.get("created_at"), acc.get("is_biller", False),
-               acc.get("reported", False), acc.get("unrelated_senders_7d", 0))
+               acc.get("reported", False), acc.get("unrelated_senders_7d", 0), acc.get("is_business", False))
 
     balance = start_balance + sum(r["amount"] if r["direction"] == "in" else -r["amount"] for r in history)
     conn.execute(insert(db.users).values(

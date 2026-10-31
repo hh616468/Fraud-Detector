@@ -85,3 +85,27 @@ def test_console_setup_changes_the_assessment(client):
     a = c.post("/api/transfers", json={"user_id": "u1", "recipient_wallet": NEW, "amount": 100_000,
                                        "recipient_name": "خدمة عملاء زين كاش"}).json()["assessment"]
     assert {"R01", "R06", "R08", "R09"} <= {r["id"] for r in a["fired"]} and a["tier"] == "coach"
+
+
+def test_patch_can_clear_the_reason(client):
+    c, _ = client
+    tid = c.post("/api/transfers", json={"user_id": "u1", "recipient_wallet": NEW, "amount": 10_000,
+                                        "reason_code": "prize_fee"}).json()["transfer"]["id"]
+    cleared = c.patch(f"/api/transfers/{tid}", json={"draft_version": 1, "reason_code": None}).json()
+    assert cleared["transfer"]["reason_code"] is None
+    assert "R13" not in {r["id"] for r in cleared["assessment"]["fired"]}
+    untouched = c.patch(f"/api/transfers/{tid}", json={"draft_version": 2, "amount": 12_000}).json()
+    assert untouched["transfer"]["reason_code"] is None and untouched["transfer"]["amount"] == 12_000
+
+
+def test_reviewer_detail_is_pseudonymous(client):
+    c, _ = client
+    body = c.post("/api/transfers", json={"user_id": "u1", "recipient_wallet": NEW, "amount": 900_000,
+                                         "recipient_name": "أبو علي", "note": "secret note", "call_active": True}).json()
+    tid = body["transfer"]["id"]
+    c.post(f"/api/transfers/{tid}/coach", json={"draft_version": 1})
+    detail = c.get(f"/api/review/{tid}").json()
+    dumped = str(detail)
+    for raw in ("u1", NEW, "أبو علي", "secret note", "سجاد", "900,000"):
+        assert raw not in dumped, raw
+    assert detail["transfer"]["user_ref"] and detail["transfer"]["has_note"]

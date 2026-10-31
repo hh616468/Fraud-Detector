@@ -74,7 +74,8 @@ def extra_allowed_terms(fired: list[dict]) -> set[str]:
 
 def fallback_turn(req: CoachRequest) -> dict:
     chat = load_templates()["fallback_chat"]
-    cited = req.risk_ids[:3] or ["R01"]
+    strongest = sorted((r for r in req.fired if r["points"] > 0), key=lambda r: (-r["points"], r["id"]))
+    cited = [r["id"] for r in strongest[:3]] or ["R01"]
     if req.final:
         turn = dict(chat["final"])
     elif req.turn == 1:

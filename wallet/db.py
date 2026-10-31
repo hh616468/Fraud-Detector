@@ -84,6 +84,7 @@ transactions = Table(
     Column("updated_at", DateTime, nullable=False),
     Column("committed_at", DateTime),
     UniqueConstraint("user_id", "idempotency_key", name="uq_draft_idempotency"),
+    sqlite_autoincrement=True,
 )
 
 device_events = Table(
@@ -115,6 +116,7 @@ assessments = Table(
     Column("proceed_unlock_at", DateTime, nullable=False),
     Column("superseded", Boolean, nullable=False, default=False),
     Column("created_at", DateTime, nullable=False),
+    sqlite_autoincrement=True,
 )
 
 coach_turns = Table(
@@ -130,6 +132,7 @@ coach_turns = Table(
     Column("errors", JSON),
     Column("created_at", DateTime, nullable=False),
     UniqueConstraint("assessment_id", "turn", name="uq_turn_per_assessment"),
+    sqlite_autoincrement=True,
 )
 
 decisions = Table(
@@ -142,6 +145,7 @@ decisions = Table(
     Column("choice", String, nullable=False),  # cancel | proceed
     Column("outcome", String, nullable=False),  # cancelled | committed
     Column("created_at", DateTime, nullable=False),
+    sqlite_autoincrement=True,
 )
 
 audit_log = Table(
@@ -153,6 +157,7 @@ audit_log = Table(
     Column("user_ref", String, nullable=False),  # HMAC pseudonym, never the raw id
     Column("transfer_id", Integer),
     Column("payload", JSON, nullable=False),
+    sqlite_autoincrement=True,
 )
 
 

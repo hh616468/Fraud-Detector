@@ -259,19 +259,21 @@ class WalletService:
             "first_name": user["first_name"],
         }
 
-    def _view(self, conn: Connection, t, a=None, replay: bool = False) -> dict:
+    def _view(self, conn: Connection, t, a=None, replay: bool = False, pseudonymous: bool = False) -> dict:
         a = a or self._current_assessment(conn, t["id"])
-        fill = self._fill_values(conn, t)
-        view = {
-            "transfer": {
-                "id": t["id"], "user_id": t["user_id"], "recipient_wallet": t["counterparty"],
-                "recipient_name": t["counterparty_name"], "amount": t["amount"], "note": t["note"],
-                "reason_code": t["reason_code"], "call_active": bool(t["call_active"]), "status": t["status"],
-                "draft_version": t["draft_version"],
-                "committed_at": t["committed_at"].isoformat() if t["committed_at"] else None,
-            },
-            "replay": replay,
+        fill = {} if pseudonymous else self._fill_values(conn, t)
+        transfer = {
+            "id": t["id"], "amount": t["amount"], "reason_code": t["reason_code"],
+            "call_active": bool(t["call_active"]), "status": t["status"], "draft_version": t["draft_version"],
+            "committed_at": t["committed_at"].isoformat() if t["committed_at"] else None,
         }
+        if pseudonymous:
+            transfer.update(user_ref=self.pseudonym(t["user_id"]), recipient_ref=self.pseudonym(t["counterparty"]),
+                            has_note=bool(t["note"]))
+        else:
+            transfer.update(user_id=t["user_id"], recipient_wallet=t["counterparty"],
+                            recipient_name=t["counterparty_name"], note=t["note"])
+        view = {"transfer": transfer, "replay": replay}
         if a is not None:
             fired = [r for r in a["results"] if r["fired"]]
             family = families_by_id().get(a["family"], families_by_id()["generic"])
@@ -323,17 +325,18 @@ class WalletService:
                 ],
             }
 
-    def get_transfer(self, transfer_id: int) -> dict:
+    def get_transfer(self, transfer_id: int, pseudonymous: bool = False) -> dict:
+        """Full transfer view. pseudonymous=True is the reviewer's view: refs instead of ids and names."""
         with self.engine.connect() as conn:
             t = self._transfer(conn, transfer_id)
-            view = self._view(conn, t)
+            view = self._view(conn, t, pseudonymous=pseudonymous)
             if "assessment" in view:
                 turns = conn.execute(
                     select(db.coach_turns)
                     .where(db.coach_turns.c.assessment_id == view["assessment"]["id"])
                     .order_by(db.coach_turns.c.turn)
                 ).mappings()
-                fill = self._fill_values(conn, t)
+                fill = {} if pseudonymous else self._fill_values(conn, t)
                 view["coach_turns"] = [self._turn_view(r, fill) for r in turns]
             view["audit"] = self._audit_rows(conn, transfer_id=transfer_id, limit=200)
             return view
@@ -434,7 +437,10 @@ class WalletService:
                 return self._view(conn, existing, replay=True)
 
     def update_draft(self, transfer_id: int, draft_version: int, **changes) -> dict:
-        changes = {k: v for k, v in changes.items() if k in EDITABLE and v is not None}
+        # reason_code may be cleared (None or ""); other fields ignore None.
+        changes = {k: v for k, v in changes.items() if k in EDITABLE and (v is not None or k == "reason_code")}
+        if "reason_code" in changes:
+            changes["reason_code"] = changes["reason_code"] or None
         if not changes:
             raise Invalid("nothing_to_change")
         self._validate_fields(changes)

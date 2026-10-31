@@ -92,3 +92,11 @@ def test_invalid_llm_output_falls_back_to_template():
     assert res.source == "template" and res.errors
     res = asyncio.run(next_turn(req, None, timeout_s=1))
     assert res.source == "template" and res.payload["options"]
+
+
+def test_template_turn_cites_strongest_rules():
+    fired = [{"id": "R01", "points": 2, "en": "", "values": {}}, {"id": "R05", "points": 1, "en": "", "values": {}},
+             {"id": "R10", "points": 2, "en": "", "values": {}}, {"id": "R13", "points": 6, "en": "", "values": {}}]
+    req = CoachRequest(turn=1, fired=fired, family=families_by_id()["prize_fee"], amount_band=[])
+    res = asyncio.run(next_turn(req, None, timeout_s=1))
+    assert res.payload["cited_rules"] == ["R13", "R01", "R10"]

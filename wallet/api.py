@@ -132,7 +132,7 @@ def create_app(service: WalletService | None = None) -> FastAPI:
 
     @app.patch("/api/transfers/{transfer_id}")
     def edit(transfer_id: int, body: EditIn):
-        data = body.model_dump()
+        data = body.model_dump(exclude_unset=True)
         version = data.pop("draft_version")
         return svc.update_draft(transfer_id, version, **data)
 
@@ -155,6 +155,10 @@ def create_app(service: WalletService | None = None) -> FastAPI:
     @app.get("/api/review")
     def review(limit: int = 100, include_pass: bool = False):
         return svc.review_queue(limit=min(limit, 1000), include_pass=include_pass)
+
+    @app.get("/api/review/{transfer_id}")
+    def review_detail(transfer_id: int):
+        return svc.get_transfer(transfer_id, pseudonymous=True)
 
     @app.post("/api/console/setup")
     def console_setup(body: SetupIn):

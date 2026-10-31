@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reviewer · Scam Warning Agent</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script type="module" src="/static/reviewer.js"></script>
+</head>
+<body class="reviewer-page">
+  <div class="desk">
+    <header class="desk-header">
+      <div>
+        <h1>Reviewer queue</h1>
+        <p class="muted small">One row per transfer: latest assessment, coaching sources, taps and the user's choice. Users appear only as pseudonyms.</p>
+      </div>
+      <nav aria-label="Pages">
+        <a href="/">Wallet (Arabic)</a>
+        <a href="/console">Judge console</a>
+      </nav>
+    </header>
+
+    <div id="grid" class="reviewer-grid">
+      <section class="panel" aria-labelledby="queue-title">
+        <h2 id="queue-title">Transfers</h2>
+        <div class="toolbar">
+          <label class="check" for="include-pass"><input id="include-pass" type="checkbox"> Include pass tier</label>
+          <label class="check" for="auto-refresh"><input id="auto-refresh" type="checkbox"> Auto-refresh every 5 s</label>
+          <button id="refresh-btn" type="button" class="btn-secondary">Refresh</button>
+          <span id="updated" class="muted small" role="status"></span>
+        </div>
+        <div id="queue-error" class="error-box" role="alert" hidden></div>
+        <div class="table-wrap">
+          <table class="data-table review-table">
+            <caption class="visually-hidden">Transfers awaiting review. Activate a row to open its detail.</caption>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Time</th>
+                <th scope="col">User ref</th>
+                <th scope="col" class="num">Amount</th>
+                <th scope="col">Tier</th>
+                <th scope="col" class="num">Score</th>
+                <th scope="col">Fired rules</th>
+                <th scope="col">Family</th>
+                <th scope="col">Coach sources</th>
+                <th scope="col">Taps</th>
+                <th scope="col">Choice</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody id="queue"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="detail" class="panel" aria-labelledby="detail-title" hidden>
+        <div class="desk-header" style="margin-bottom:.5rem">
+          <h2 id="detail-title" tabindex="-1" style="border:none;margin:0">Transfer</h2>
+          <button id="close-detail" type="button" class="btn-secondary">Close</button>
+        </div>
+        <div id="detail-error" class="error-box" role="alert" hidden></div>
+        <div id="detail-body"></div>
+      </section>
+    </div>
+
+    <p class="footer-note">A cancel is not a scam label; a proceed does not prove a transfer was legitimate.</p>
+  </div>
+</body>
+</html>

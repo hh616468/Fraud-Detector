@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>محفظتي (تجريبي)</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script type="module" src="/static/wallet.js"></script>
+</head>
+<body class="wallet-page">
+  <main class="phone" aria-labelledby="app-title">
+    <header class="phone-header">
+      <h1 id="app-title">محفظتي <small>نسخة تجريبية</small></h1>
+      <label for="persona">الحساب التجريبي</label>
+      <select id="persona" aria-describedby="persona-hint"></select>
+      <span id="persona-hint" class="visually-hidden">اختيار المستخدم التجريبي يبدل الرصيد وجهات الاتصال</span>
+      <div class="balance" aria-live="polite">
+        <div>
+          <div class="label">رصيدك</div>
+          <div class="amount" id="balance">—</div>
+        </div>
+        <div class="wallet-no ltr" id="user-wallet"></div>
+      </div>
+    </header>
+
+    <div class="phone-body">
+      <div id="global-error" class="error-box" role="alert" hidden></div>
+
+      <!-- ===== Transfer form ===== -->
+      <section id="screen-form" aria-labelledby="form-title">
+        <h2 id="form-title">تحويل فلوس</h2>
+        <div id="edit-banner" class="notice-box" hidden>
+          <strong>تعديل التحويل.</strong>
+          <span>أي تغيير بالمبلغ أو المستلم يحتاج فحص جديد قبل التأكيد.</span>
+        </div>
+        <form id="transfer-form" novalidate>
+          <fieldset>
+            <legend>لمن تحوّل؟</legend>
+            <div class="segmented">
+              <label><input type="radio" name="rmode" value="contact" checked> جهة اتصال محفوظة</label>
+              <label><input type="radio" name="rmode" value="new"> رقم جديد</label>
+            </div>
+            <div id="contact-pane">
+              <div id="contact-list" class="contact-list" role="radiogroup" aria-label="جهات الاتصال المحفوظة"></div>
+              <p id="no-contacts" class="hint" hidden>ماكو جهات اتصال محفوظة.</p>
+            </div>
+            <div id="new-pane" hidden>
+              <div class="field">
+                <label for="r-wallet">رقم المحفظة</label>
+                <input id="r-wallet" type="tel" inputmode="numeric" dir="ltr" autocomplete="off"
+                       placeholder="07XXXXXXXXX" maxlength="11" aria-describedby="r-wallet-hint">
+                <p id="r-wallet-hint" class="hint">11 رقم ويبدي بـ 07</p>
+              </div>
+              <div class="field">
+                <label for="r-name">اسم المستلم</label>
+                <input id="r-name" type="text" maxlength="60" autocomplete="off">
+              </div>
+            </div>
+          </fieldset>
+
+          <div id="reason-block" class="field" hidden>
+            <span class="label-like" id="reason-title"><strong>شنو سبب التحويل؟ (اختياري)</strong></span>
+            <div id="reason-chips" class="chips" role="group" aria-labelledby="reason-title"></div>
+          </div>
+
+          <div class="field">
+            <label for="amount">المبلغ (دينار عراقي)</label>
+            <input id="amount" type="text" inputmode="numeric" dir="ltr" autocomplete="off"
+                   placeholder="0" aria-describedby="amount-preview">
+            <div id="amount-preview" class="amount-preview" aria-live="polite"></div>
+          </div>
+
+          <div class="field">
+            <label for="note">ملاحظة (اختياري)</label>
+            <input id="note" type="text" maxlength="140" autocomplete="off">
+          </div>
+
+          <div class="demo-flag">
+            <label class="check" for="call-active">
+              <input id="call-active" type="checkbox">
+              <span>📞 أنا على مكالمة هسه (محاكاة)</span>
+            </label>
+            <p class="hint">علامة جهاز تجريبية للعرض فقط، بالتطبيق الحقيقي الجهاز يعرفها لوحده.</p>
+          </div>
+
+          <div id="form-error" class="error-box" role="alert" hidden></div>
+          <button id="submit-btn" type="submit" class="btn-block">متابعة</button>
+          <button id="edit-back-btn" type="button" class="btn-secondary btn-block" hidden
+                  style="margin-top:.5rem">رجوع بدون تغيير</button>
+        </form>
+      </section>
+
+      <!-- ===== Review: summary, warning, coaching chat ===== -->
+      <section id="screen-review" aria-labelledby="review-title" hidden>
+        <h2 id="review-title" class="visually-hidden">مراجعة التحويل</h2>
+        <div id="review-notice" class="notice-box" role="status" hidden></div>
+        <div id="review-summary"></div>
+        <div id="warn-card" class="warn-card" role="alert">
+          <h2 id="warn-title"></h2>
+          <p id="warn-text" class="warn-text"></p>
+        </div>
+        <div id="chat" class="chat" aria-live="polite" aria-label="محادثة توعية"></div>
+        <div id="review-error" class="error-box" role="alert" hidden></div>
+        <div class="actions sticky">
+          <button id="cancel-btn" type="button" class="btn-danger">ألغي التحويل</button>
+          <button id="proceed-btn" type="button">أكمل التحويل</button>
+        </div>
+        <p id="countdown-status" class="visually-hidden" role="status"></p>
+        <div class="edit-row">
+          <button type="button" class="btn-link js-edit">تعديل</button>
+          <p class="hint">تغيير المبلغ أو المستلم يحتاج فحص جديد.</p>
+        </div>
+      </section>
+
+      <!-- ===== PIN ===== -->
+      <section id="screen-pin" aria-labelledby="pin-title" hidden>
+        <h2 id="pin-title">تأكيد التحويل</h2>
+        <div id="pin-notice" class="notice-box" role="status" hidden></div>
+        <div id="pin-summary"></div>
+        <form id="pin-form" novalidate>
+          <div class="field">
+            <label for="pin" style="text-align:center">اكتب الرمز السري (4 أرقام)</label>
+            <input id="pin" class="pin-input" type="password" inputmode="numeric" autocomplete="off"
+                   maxlength="4" aria-describedby="pin-hint">
+            <p id="pin-hint" class="hint" style="text-align:center">الرمز التجريبي: 1234</p>
+          </div>
+          <div id="pin-error" class="error-box" role="alert" hidden></div>
+          <div id="pin-extra" class="edit-row" hidden></div>
+          <button id="pin-submit" type="submit" class="btn-block">تأكيد وإرسال</button>
+        </form>
+        <div class="actions" style="margin-top:.6rem">
+          <button id="pin-cancel" type="button" class="btn-danger">ألغي التحويل</button>
+          <button id="pin-back" type="button" class="btn-secondary">رجوع</button>
+        </div>
+        <div class="edit-row">
+          <button type="button" class="btn-link js-edit">تعديل</button>
+          <p class="hint">تغيير المبلغ أو المستلم يحتاج فحص جديد.</p>
+        </div>
+      </section>
+
+      <!-- ===== Receipt / cancelled ===== -->
+      <section id="screen-done" class="receipt" aria-labelledby="done-title" hidden>
+        <div id="done-icon" class="tick" aria-hidden="true">✓</div>
+        <h2 id="done-title"></h2>
+        <p id="done-text"></p>
+        <dl id="done-details"></dl>
+        <button id="new-transfer" type="button" class="btn-block">تحويل جديد</button>
+      </section>
+    </div>
+
+    <details class="recent" id="recent">
+      <summary>آخر الحركات</summary>
+      <ul id="recent-list"></ul>
+    </details>
+  </main>
+
+  <nav class="demo-links" aria-label="صفحات العرض" dir="ltr">
+    <a href="/console">Judge console</a>
+    <a href="/reviewer">Reviewer view</a>
+  </nav>
+</body>
+</html>

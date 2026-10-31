@@ -90,13 +90,43 @@ The coach expects an OpenAI-compatible endpoint (`LLM_BASE_URL`, default `http:/
   about 29% precision; the results include a prevalence table. Synthetic numbers cannot establish production
   effectiveness, and a cancel is a behaviour, not proof of fraud.
 
+## Results (rules v0, frozen before the test run, run once)
+
+Held-out test: 20 users, 400 decisions (100 scams, 300 legitimate). Full table with per-family and
+per-category breakdowns: [eval/results/results_test_v0.md](eval/results/results_test_v0.md).
+
+| Detector | Precision [95% CI] | Recall [95% CI] | False-positive rate [95% CI] |
+|---|---|---|---|
+| Scorecard, any warning (nudge or coaching) | 64.9% [56.4, 72.5] | 85.0% [76.7, 90.7] | 15.3% [11.7, 19.8] |
+| Scorecard, coaching tier only | 85.4% [76.1, 91.4] | 70.0% [60.4, 78.1] | 4.0% [2.3, 6.9] |
+| Baseline: flag all new payees | 47.9% [40.5, 55.4] | 80.0% [71.1, 86.7] | 29.0% [24.2, 34.4] |
+
+- **Against the slide targets (≥ 90% precision, ≥ 80% recall, ≤ 2% FPR):** recall is met; precision and FPR
+  are not.
+- **False alarms:** 26 of the 46 are matched twins, built with the same amount, time, call flag and device events
+  as a scam. They show the ceiling of any transaction-only detector. Most of the rest are honest, unusually large
+  first payments, which get the one-line nudge.
+- **Held-out scam families:** fake investment platforms are caught 87% of the time (rising amounts to a recently
+  first-paid recipient, R04); the baseline catches none, because those recipients are no longer new. Fake
+  marketplace deposits are caught only 47% of the time: small amounts to an ordinary-looking new payee.
+- **Weakest known family:** hacked relatives at 64%, mostly when the relative's own long-trusted account is used.
+- **Realistic prevalence:** at 1% scam prevalence, the measured recall and FPR imply about 5% precision for any
+  warning, and about 15% for the coaching tier.
+
+Coaching auto-checks, 30 coaching-tier val cases through Gemma-4-31B
+([eval/results/coach_val.md](eval/results/coach_val.md)):
+
+- **Validator:** 30/30 turns passed and were shown. No reason was shown that cites a rule that didn't fire.
+- **Latency:** p50 4.8 s, p95 5.9 s. None met the 3 s target; the template warning always appears first.
+- **Not measured yet:** dialect quality, clarity and usefulness need the blind Iraqi rater study. The packet is
+  generated in `data/generated/rater_packet/`.
+
 ## Deviations from the slides
 
 - **SQLite instead of PostgreSQL** (SQLAlchemy Core; a connection-string change).
 - **Test set from a different prompt set and seed, same LLM**: only Gemma-4-31B was available locally.
-- **Coaching latency:** Gemma-4-31B measured ~5 s per turn against a 3 s target. The template appears at once
-  either way; `COACH_TIMEOUT_S` (default 8) sets how long the app waits for the model. Results report the share
-  within 3 s.
+- **Coaching latency:** Gemma-4-31B measured p50 4.8 s per turn against a 3 s target. The template appears at
+  once either way; `COACH_TIMEOUT_S` (default 8) sets how long the app waits for the model.
 - **R08/R09 for verified businesses:** the "many unrelated senders" clause and impersonation-by-name apply to
   personal accounts only (see the tuning log).
 

@@ -54,13 +54,72 @@ FEW_SHOT_ANSWER = {
 }
 
 
+EVENT_WORDS = {"new_device": "a new phone was linked", "pin_reset": "the PIN was reset", "sim_change": "the SIM was changed"}
+FEE_WORDS = {"fee": "a fee", "prize": "a prize", "activation": "an activation", "grant": "a grant", "deposit": "a deposit"}
+REASON_WORDS = {
+    "asked_for_code": "someone asked me for my code", "prize_fee": "a fee to receive a prize",
+    "safe_account": "moving my money to a safe account", "exchange_deposit": "a deposit for an exchange company",
+    "unlock_money": "a fee to unlock money or a grant",
+}
+
+
+def describe(r: dict) -> str:
+    """The specific condition that made a rule fire, in words and without numbers.
+
+    Rule texts like R08's list alternatives ("reported, new, or paid by many senders"); given only
+    that, the model may assert the wrong one. The rule's values say which one actually held.
+    """
+    v, rid = r.get("values") or {}, r["id"]
+    if rid == "R02":
+        return "the amount is much larger than this user's usual transfers"
+    if rid == "R03":
+        return "after this transfer less than a fifth of the balance would remain"
+    if rid == "R04":
+        return ("rising amounts to a recipient first paid only recently" if v.get("rising_to_new_payee")
+                else "several outgoing transfers within a few minutes")
+    if rid == "R05":
+        return "this is outside the user's usual hours for transfers"
+    if rid == "R06":
+        events = [EVENT_WORDS.get(e, e) for e in v.get("events", [])] or ["a security change"]
+        return "in the last day " + " and ".join(events) + " on the user's account"
+    if rid == "R08":
+        parts = []
+        if v.get("reported"):
+            parts.append("the recipient account has been reported by other users")
+        age = v.get("account_age_days")
+        if age is not None and age < 7:
+            parts.append("the recipient account was opened less than a week ago")
+        if not v.get("business_account") and (v.get("unrelated_senders_7d") or 0) >= 8:
+            parts.append("this personal account received money from many unrelated people this week")
+        return "; ".join(parts) or r["en"]
+    if rid == "R09":
+        where = " and ".join({"name": "the recipient name", "note": "the transfer note"}.get(w, w)
+                             for w in v.get("matched_in", [])) or "the recipient details"
+        return f"{where} uses words that pose as the wallet company, a bank or the government"
+    if rid == "R10":
+        cats = [FEE_WORDS.get(c, c) for c in v.get("categories", [])]
+        return "the transfer note mentions " + (" or ".join(cats) if cats else "a fee")
+    if rid == "R11":
+        s = "an unexpected payment from a stranger arrived shortly before"
+        if v.get("to_same_wallet"):
+            s += ", and this transfer sends money back to that same number"
+        if v.get("refund_words"):
+            s += ", and the note asks for a refund"
+        return s
+    if rid == "R12":
+        return "the recipient's name matches one of the user's saved contacts, but the number is different"
+    if rid == "R13":
+        return f"the user chose the reason: {REASON_WORDS.get(v.get('reason'), 'a known scam cue')}"
+    return r["en"]
+
+
 def build_facts(
     turn: int, final: bool, fired: list[dict], amount_band: list[str], family: dict, conversation: list[dict]
 ) -> dict:
     return {
         "turn": turn,
         "final_turn": final,
-        "fired_rules": [{"id": r["id"], "meaning": r["en"]} for r in fired if r["points"] > 0],
+        "fired_rules": [{"id": r["id"], "meaning": describe(r)} for r in fired if r["points"] > 0],
         "amount_band": amount_band,
         "scam_family": {
             "id": family["id"],

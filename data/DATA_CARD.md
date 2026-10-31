@@ -61,6 +61,8 @@ wallet, and hacked relatives using the relative's own trusted account.
 ## Known limits
 
 - One LLM for both prompt sets; the test set differs by prompt, temperature and seed, not by model.
+- Gemma's persona names collapse onto a few surnames (الخفاجي, الجبوري) and it rarely picks some habits
+  (savings groups, bills). Names do not drive any rule except R12 via contact names; Python writes every number.
 - "Unrelated senders", call state and account type are simulated provider-side signals.
 - The simulator encodes our assumptions about Iraqi wallet use; results measure the detector against those
   assumptions, not against real fraud.

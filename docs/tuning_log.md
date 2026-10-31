@@ -25,6 +25,21 @@ only; **val** is the check; **test** is touched once, after `python -m eval.free
   the design deliberately nudges (one line, not the coaching chat).
 - Decision: stop tuning. Further changes would fit the simulator rather than scams.
 
+## v0-c: Gemma personas and scripts (dev → val), then freeze
+
+- Rebuilt dev/val with LLM-written personas and script pools. Dev: 68.5% / 92.7% / 14.2%; val: 67.6% /
+  92.0% / 14.7%. Same error patterns as v0-b, so no rule change.
+- Froze rules v0 (fingerprint `10c60f31b5375467`, tag `rules-v0`), then built and evaluated the test split once:
+  64.9% / 85.0% / 15.3%.
+
+## Coaching prompt (val only; the detector is untouched)
+
+- Live check on 30 val cases: 29/30 passed the validator; the one rejection mentioned a prize in an exchange case.
+- Reading the passing turns found a grounding error the validator cannot see: given only R08's text ("reported,
+  new, or paid by many unrelated senders"), the model claimed "many people sent money to this number" for an
+  account that was merely new. The prompt now states the specific condition that held for each fired rule
+  (`coach/prompts.py: describe`), without numbers. Re-run: 30/30 passed, and the case now says "a new number".
+
 ## Not changed on purpose
 
 - Point values and tier thresholds stay as on slide 2.

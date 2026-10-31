@@ -100,3 +100,15 @@ def test_template_turn_cites_strongest_rules():
     req = CoachRequest(turn=1, fired=fired, family=families_by_id()["prize_fee"], amount_band=[])
     res = asyncio.run(next_turn(req, None, timeout_s=1))
     assert res.payload["cited_rules"] == ["R13", "R01", "R10"]
+
+
+def test_prompt_states_which_condition_fired():
+    from coach.prompts import describe
+
+    young = {"id": "R08", "en": "x", "values": {"reported": False, "account_age_days": 2.0, "unrelated_senders_7d": 0}}
+    assert "less than a week" in describe(young) and "many unrelated" not in describe(young)
+    mule = {"id": "R08", "en": "x", "values": {"reported": False, "account_age_days": 90.0, "unrelated_senders_7d": 20}}
+    assert "many unrelated" in describe(mule) and "week ago" not in describe(mule)
+    sim = {"id": "R06", "en": "x", "values": {"events": ["sim_change"]}}
+    assert "SIM" in describe(sim) and "PIN" not in describe(sim)
+    assert not any(ch.isdigit() for r in (young, mule, sim) for ch in describe(r))

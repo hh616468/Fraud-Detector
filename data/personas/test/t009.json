@@ -1,0 +1,82 @@
+{
+ "id": "t009",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "الرمادي",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "سعاد",
+ "last_name": "الدليمي",
+ "job": "خياطة منزلية",
+ "habits": [
+  "generator_fees",
+  "family_support",
+  "phone_topups",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أبو جاسم",
+   "relation": "generator"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "sister"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  },
+  {
+   "name": "سارة",
+   "relation": "friend"
+  },
+  {
+   "name": "أبو سجاد",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "ربة منزل تعتمد على الخياطة لتأمين مصاريف عائلتها وتدفع أجرة المولد شهرياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "الدليمي",
+  "job": "خياطة منزلية",
+  "habits": [
+   "generator_fees",
+   "family_support",
+   "phone_topups",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أبو جاسم",
+    "relation": "generator"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "sister"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   },
+   {
+    "name": "سارة",
+    "relation": "friend"
+   },
+   {
+    "name": "أبو سجاد",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "ربة منزل تعتمد على الخياطة لتأمين مصاريف عائلتها وتدفع أجرة المولد شهرياً."
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "d024",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "العمارة",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "جاسم",
+ "last_name": "الخفاجي",
+ "job": "موظف حكومي متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "علي جاسم",
+   "relation": "son"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "حميد",
+   "relation": "friend"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل متقاعد يقضي وقته في القراءة ويهتم بمساعدة أبنائه ودفع التزامات المنزل إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "الخفاجي",
+  "job": "موظف حكومي متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "علي جاسم",
+    "relation": "son"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "حميد",
+    "relation": "friend"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل متقاعد يقضي وقته في القراءة ويهتم بمساعدة أبنائه ودفع التزامات المنزل إلكترونياً."
+ }
+}

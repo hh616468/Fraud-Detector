@@ -1,0 +1,90 @@
+{
+ "id": "d013",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "أربيل",
+ "income_band": "mid",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "بختيار",
+ "last_name": "محمد",
+ "job": "مهندس مدني",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "school_fees",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "سوزان",
+   "relation": "spouse"
+  },
+  {
+   "name": "ريان",
+   "relation": "son"
+  },
+  {
+   "name": "سارة",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو رامي",
+   "relation": "generator"
+  },
+  {
+   "name": "آزاد",
+   "relation": "brother"
+  },
+  {
+   "name": "دكتور سامي",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظف حكومي في أربيل يهتم بتأمين مصاريف دراسة أبنائه ودفع التزامات المنزل.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "بختيار",
+  "last_name": "محمد",
+  "job": "مهندس مدني",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "school_fees",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "سوزان",
+    "relation": "spouse"
+   },
+   {
+    "name": "ريان",
+    "relation": "son"
+   },
+   {
+    "name": "سارة",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو رامي",
+    "relation": "generator"
+   },
+   {
+    "name": "آزاد",
+    "relation": "brother"
+   },
+   {
+    "name": "دكتور سامي",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظف حكومي في أربيل يهتم بتأمين مصاريف دراسة أبنائه ودفع التزامات المنزل."
+ }
+}

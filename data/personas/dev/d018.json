@@ -1,0 +1,80 @@
+{
+ "id": "d018",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "18-25",
+ "city": "السماوة",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "مرتضى",
+ "last_name": "الخفاجي",
+ "job": "عامل توصيل",
+ "habits": [
+  "phone_topups",
+  "generator_fees",
+  "grocery_shop",
+  "online_shopping"
+ ],
+ "contacts": [
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "عمر",
+   "relation": "brother"
+  },
+  {
+   "name": "كرار",
+   "relation": "friend"
+  },
+  {
+   "name": "سجاد",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "شاب يعمل في التوصيل ويعتمد على التطبيقات لتسهيل معاملاته اليومية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "مرتضى",
+  "last_name": "الخفاجي",
+  "job": "عامل توصيل",
+  "habits": [
+   "phone_topups",
+   "generator_fees",
+   "grocery_shop",
+   "online_shopping"
+  ],
+  "contacts": [
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "عمر",
+    "relation": "brother"
+   },
+   {
+    "name": "كرار",
+    "relation": "friend"
+   },
+   {
+    "name": "سجاد",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "شاب يعمل في التوصيل ويعتمد على التطبيقات لتسهيل معاملاته اليومية."
+ }
+}

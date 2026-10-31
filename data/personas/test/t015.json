@@ -1,0 +1,80 @@
+{
+ "id": "t015",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "أربيل",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "إدريس",
+ "last_name": "البارزاني",
+ "job": "متقاعد من التربية",
+ "habits": [
+  "medical",
+  "generator_fees",
+  "family_support",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو ريام",
+   "relation": "generator"
+  },
+  {
+   "name": "زيد",
+   "relation": "son"
+  },
+  {
+   "name": "ليلى",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو خالد",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "daughter"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل مسن يعتمد على أولاده في التعامل مع التطبيقات ويهتم بمصاريف العلاج والمولد.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "إدريس",
+  "last_name": "البارزاني",
+  "job": "متقاعد من التربية",
+  "habits": [
+   "medical",
+   "generator_fees",
+   "family_support",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو ريام",
+    "relation": "generator"
+   },
+   {
+    "name": "زيد",
+    "relation": "son"
+   },
+   {
+    "name": "ليلى",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو خالد",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "daughter"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل مسن يعتمد على أولاده في التعامل مع التطبيقات ويهتم بمصاريف العلاج والمولد."
+ }
+}

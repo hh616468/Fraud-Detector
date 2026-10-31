@@ -1,0 +1,90 @@
+{
+ "id": "v009",
+ "split": "val",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "البصرة",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "عبد الحسين",
+ "last_name": "الخفاجي",
+ "job": "موظف حكومي متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "سارة عبد الحسين",
+   "relation": "daughter"
+  },
+  {
+   "name": "محمد عبد الحسين",
+   "relation": "son"
+  },
+  {
+   "name": "أم محمد",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو كرار للمولدات",
+   "relation": "generator"
+  },
+  {
+   "name": "جاسم العبيدي",
+   "relation": "friend"
+  },
+  {
+   "name": "دكتور ليث",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل متقاعد يقضي وقته في المساء بمتابعة أخبار العائلة وإدارة مصاريف المنزل عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الحسين",
+  "last_name": "الخفاجي",
+  "job": "موظف حكومي متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "سارة عبد الحسين",
+    "relation": "daughter"
+   },
+   {
+    "name": "محمد عبد الحسين",
+    "relation": "son"
+   },
+   {
+    "name": "أم محمد",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو كرار للمولدات",
+    "relation": "generator"
+   },
+   {
+    "name": "جاسم العبيدي",
+    "relation": "friend"
+   },
+   {
+    "name": "دكتور ليث",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل متقاعد يقضي وقته في المساء بمتابعة أخبار العائلة وإدارة مصاريف المنزل عبر التطبيق."
+ }
+}

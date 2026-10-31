@@ -1,0 +1,82 @@
+{
+ "id": "d002",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "الديوانية",
+ "income_band": "mid",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "زينة",
+ "last_name": "الخفاجي",
+ "job": "موظفة إدارية",
+ "habits": [
+  "rent",
+  "online_shopping",
+  "phone_topups",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أبو مرتضى",
+   "relation": "landlord"
+  },
+  {
+   "name": "هناء",
+   "relation": "sister"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "colleague"
+  },
+  {
+   "name": "أم علي",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "موظفة طموحة تعتمد على التطبيقات الإلكترونية لتنظيم مصاريفها الشهرية وتسوقها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينة",
+  "last_name": "الخفاجي",
+  "job": "موظفة إدارية",
+  "habits": [
+   "rent",
+   "online_shopping",
+   "phone_topups",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أبو مرتضى",
+    "relation": "landlord"
+   },
+   {
+    "name": "هناء",
+    "relation": "sister"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "colleague"
+   },
+   {
+    "name": "أم علي",
+    "relation": "mother"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "موظفة طموحة تعتمد على التطبيقات الإلكترونية لتنظيم مصاريفها الشهرية وتسوقها."
+ }
+}

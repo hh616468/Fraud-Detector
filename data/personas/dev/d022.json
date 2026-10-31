@@ -1,0 +1,88 @@
+{
+ "id": "d022",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "18-25",
+ "city": "الكوت",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "التميمي",
+ "job": "طالبة جامعية",
+ "habits": [
+  "online_shopping",
+  "phone_topups",
+  "generator_fees",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "نور",
+   "relation": "sister"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "colleague"
+  },
+  {
+   "name": "أبو أحمد",
+   "relation": "shop"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "طالبة في المرحلة الثالثة تستخدم التطبيق لتسوق الملابس ودفع اشتراك المولدة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "التميمي",
+  "job": "طالبة جامعية",
+  "habits": [
+   "online_shopping",
+   "phone_topups",
+   "generator_fees",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "نور",
+    "relation": "sister"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "colleague"
+   },
+   {
+    "name": "أبو أحمد",
+    "relation": "shop"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "mother"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "طالبة في المرحلة الثالثة تستخدم التطبيق لتسوق الملابس ودفع اشتراك المولدة."
+ }
+}

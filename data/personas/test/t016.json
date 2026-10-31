@@ -1,0 +1,80 @@
+{
+ "id": "t016",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "بعقوبة",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "كرار",
+ "last_name": "الساعدي",
+ "job": "سائق تكسي",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو جاسم",
+   "relation": "generator"
+  },
+  {
+   "name": "أم كرار",
+   "relation": "mother"
+  },
+  {
+   "name": "زيد",
+   "relation": "brother"
+  },
+  {
+   "name": "أبو سيف",
+   "relation": "friend"
+  },
+  {
+   "name": "سوق الخير",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "شاب مكافح يشتغل بالساحة ويصرف أغلب فلوسه على أهله ومصاريف المولدة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "كرار",
+  "last_name": "الساعدي",
+  "job": "سائق تكسي",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو جاسم",
+    "relation": "generator"
+   },
+   {
+    "name": "أم كرار",
+    "relation": "mother"
+   },
+   {
+    "name": "زيد",
+    "relation": "brother"
+   },
+   {
+    "name": "أبو سيف",
+    "relation": "friend"
+   },
+   {
+    "name": "سوق الخير",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "شاب مكافح يشتغل بالساحة ويصرف أغلب فلوسه على أهله ومصاريف المولدة."
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "d015",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "كركوك",
+ "income_band": "high",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "عبد الرزاق",
+ "last_name": "الجبوري",
+ "job": "ضابط متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "سارة عبد الرزاق",
+   "relation": "daughter"
+  },
+  {
+   "name": "أحمد عبد الرزاق",
+   "relation": "son"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو علي للمولدات",
+   "relation": "generator"
+  },
+  {
+   "name": "دكتور ليث",
+   "relation": "friend"
+  },
+  {
+   "name": "حسين العطار",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "ضابط متقاعد يسكن في كركوك، يهتم بدعم عائلته ودفع التزامات المنزل إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الرزاق",
+  "last_name": "الجبوري",
+  "job": "ضابط متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "سارة عبد الرزاق",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد عبد الرزاق",
+    "relation": "son"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو علي للمولدات",
+    "relation": "generator"
+   },
+   {
+    "name": "دكتور ليث",
+    "relation": "friend"
+   },
+   {
+    "name": "حسين العطار",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "ضابط متقاعد يسكن في كركوك، يهتم بدعم عائلته ودفع التزامات المنزل إلكترونياً."
+ }
+}

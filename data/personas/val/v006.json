@@ -1,0 +1,90 @@
+{
+ "id": "v006",
+ "split": "val",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "العمارة",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "جاسم",
+ "last_name": "الخفاجي",
+ "job": "موظف حكومي متقاعد",
+ "habits": [
+  "medical",
+  "generator_fees",
+  "religious_donations",
+  "grocery_shop",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "فاطمة جاسم",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "محمد جاسم",
+   "relation": "son"
+  },
+  {
+   "name": "أبو حسن",
+   "relation": "friend"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  },
+  {
+   "name": "زينب جاسم",
+   "relation": "daughter"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل متقاعد من العمارة، يستخدم التطبيق لسداد مصاريف العلاج واشتراك المولدة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "الخفاجي",
+  "job": "موظف حكومي متقاعد",
+  "habits": [
+   "medical",
+   "generator_fees",
+   "religious_donations",
+   "grocery_shop",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "فاطمة جاسم",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "محمد جاسم",
+    "relation": "son"
+   },
+   {
+    "name": "أبو حسن",
+    "relation": "friend"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   },
+   {
+    "name": "زينب جاسم",
+    "relation": "daughter"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل متقاعد من العمارة، يستخدم التطبيق لسداد مصاريف العلاج واشتراك المولدة."
+ }
+}

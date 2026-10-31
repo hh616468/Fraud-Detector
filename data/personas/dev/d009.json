@@ -1,0 +1,80 @@
+{
+ "id": "d009",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "الناصرية",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "كرار",
+ "last_name": "الخفاجي",
+ "job": "سائق تكسي",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "زينة كرار",
+   "relation": "daughter"
+  },
+  {
+   "name": "أم زينة",
+   "relation": "spouse"
+  },
+  {
+   "name": "عباس جاسم",
+   "relation": "friend"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "يعمل كسائق أجرة في الناصرية ويستخدم التطبيق لتسديد التزاماته اليومية ومصاريف عائلته.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "كرار",
+  "last_name": "الخفاجي",
+  "job": "سائق تكسي",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "زينة كرار",
+    "relation": "daughter"
+   },
+   {
+    "name": "أم زينة",
+    "relation": "spouse"
+   },
+   {
+    "name": "عباس جاسم",
+    "relation": "friend"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "يعمل كسائق أجرة في الناصرية ويستخدم التطبيق لتسديد التزاماته اليومية ومصاريف عائلته."
+ }
+}

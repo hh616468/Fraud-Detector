@@ -1,0 +1,82 @@
+{
+ "id": "t012",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "الحلة",
+ "income_band": "mid",
+ "active_period": "morning",
+ "prompt_set": "B",
+ "first_name": "أبو جاسم",
+ "last_name": "الخفاجي",
+ "job": "متقاعد من التربية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "جاسم",
+   "relation": "son"
+  },
+  {
+   "name": "أم جاسم",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "سعاد",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل وقور يقضي صباحاته بالمسجد ويهتم بمصاريف عائلته وعلاجاته الشهرية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "أبو جاسم",
+  "last_name": "الخفاجي",
+  "job": "متقاعد من التربية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "جاسم",
+    "relation": "son"
+   },
+   {
+    "name": "أم جاسم",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "سعاد",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل وقور يقضي صباحاته بالمسجد ويهتم بمصاريف عائلته وعلاجاته الشهرية."
+ }
+}

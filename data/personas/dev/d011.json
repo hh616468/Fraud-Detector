@@ -1,0 +1,82 @@
+{
+ "id": "d011",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "بغداد",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "فوزية",
+ "last_name": "الجبوري",
+ "job": "موظفة حكومية متقاعدة",
+ "habits": [
+  "family_support",
+  "medical",
+  "religious_donations",
+  "grocery_shop",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "سارة فوزية",
+   "relation": "daughter"
+  },
+  {
+   "name": "أحمد فوزية",
+   "relation": "son"
+  },
+  {
+   "name": "أم مريم",
+   "relation": "sister"
+  },
+  {
+   "name": "خديجة",
+   "relation": "friend"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة متقاعدة تهتم بعائلتها وتستخدم التطبيق لتحويل مبالغ بسيطة لأولادها والتبرعات.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "فوزية",
+  "last_name": "الجبوري",
+  "job": "موظفة حكومية متقاعدة",
+  "habits": [
+   "family_support",
+   "medical",
+   "religious_donations",
+   "grocery_shop",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "سارة فوزية",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد فوزية",
+    "relation": "son"
+   },
+   {
+    "name": "أم مريم",
+    "relation": "sister"
+   },
+   {
+    "name": "خديجة",
+    "relation": "friend"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة متقاعدة تهتم بعائلتها وتستخدم التطبيق لتحويل مبالغ بسيطة لأولادها والتبرعات."
+ }
+}

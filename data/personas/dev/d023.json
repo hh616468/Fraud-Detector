@@ -1,0 +1,58 @@
+{
+ "id": "d023",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "الرمادي",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "عمار",
+ "last_name": "الجبوري",
+ "job": "موظف إداري",
+ "habits": [
+  "generator_fees",
+  "family_support",
+  "phone_topups",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "مولدة أبو صادق",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظف حكومي بسيط يسعى لتنظيم مصاريف عائلته الشهرية عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عمار",
+  "last_name": "الجبوري",
+  "job": "موظف إداري",
+  "habits": [
+   "generator_fees",
+   "family_support",
+   "phone_topups",
+   "grocery_shop"
+  ],
+  "contacts": [
+   "أبو علي",
+   "generator",
+   "نور عمار",
+   "daughter",
+   "زينب",
+   "spouse",
+   "محمد جاسم",
+   "colleague",
+   "حسين",
+   "friend"
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظف حكومي بسيط يسعى لتنظيم مصاريف عائلته الشهرية عبر التطبيق."
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "v001",
+ "split": "val",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "الكوت",
+ "income_band": "low",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "عباس",
+ "last_name": "الخفاجي",
+ "job": "موظف بريد",
+ "habits": [
+  "generator_fees",
+  "rent",
+  "phone_topups",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أبو علي",
+   "relation": "landlord"
+  },
+  {
+   "name": "حجي كريم",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب عباس",
+   "relation": "daughter"
+  },
+  {
+   "name": "أم زينب",
+   "relation": "spouse"
+  },
+  {
+   "name": "مرتضى",
+   "relation": "brother"
+  },
+  {
+   "name": "سعدون",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "موظف حكومي بسيط يعتمد على المحفظة لتسديد التزامات البيت الشهرية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عباس",
+  "last_name": "الخفاجي",
+  "job": "موظف بريد",
+  "habits": [
+   "generator_fees",
+   "rent",
+   "phone_topups",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أبو علي",
+    "relation": "landlord"
+   },
+   {
+    "name": "حجي كريم",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب عباس",
+    "relation": "daughter"
+   },
+   {
+    "name": "أم زينب",
+    "relation": "spouse"
+   },
+   {
+    "name": "مرتضى",
+    "relation": "brother"
+   },
+   {
+    "name": "سعدون",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "موظف حكومي بسيط يعتمد على المحفظة لتسديد التزامات البيت الشهرية."
+ }
+}

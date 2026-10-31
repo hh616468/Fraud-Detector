@@ -1,0 +1,80 @@
+{
+ "id": "v007",
+ "split": "val",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "بعقوبة",
+ "income_band": "low",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "الجبوري",
+ "job": "خياطة منزلية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "سعاد",
+   "relation": "mother"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "sister"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "friend"
+  },
+  {
+   "name": "حسين",
+   "relation": "brother"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "تعمل من المنزل وتستخدم التطبيق لدفع أجرة المولدة وشحن رصيد هاتفها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الجبوري",
+  "job": "خياطة منزلية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "سعاد",
+    "relation": "mother"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "sister"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "friend"
+   },
+   {
+    "name": "حسين",
+    "relation": "brother"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "تعمل من المنزل وتستخدم التطبيق لدفع أجرة المولدة وشحن رصيد هاتفها."
+ }
+}

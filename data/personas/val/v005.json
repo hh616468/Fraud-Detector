@@ -1,0 +1,80 @@
+{
+ "id": "v005",
+ "split": "val",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "النجف",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "الخفاجي",
+ "job": "ممرضة",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "online_shopping",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "سارة",
+   "relation": "sister"
+  },
+  {
+   "name": "مريم",
+   "relation": "colleague"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "mother"
+  },
+  {
+   "name": "نور",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "تعمل في المستشفى وتفضل استخدام التطبيقات لإدارة مصاريف المنزل ودفع أجور المولدة ليلاً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الخفاجي",
+  "job": "ممرضة",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "online_shopping",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "سارة",
+    "relation": "sister"
+   },
+   {
+    "name": "مريم",
+    "relation": "colleague"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "mother"
+   },
+   {
+    "name": "نور",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "تعمل في المستشفى وتفضل استخدام التطبيقات لإدارة مصاريف المنزل ودفع أجور المولدة ليلاً."
+ }
+}

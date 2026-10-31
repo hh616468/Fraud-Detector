@@ -1,0 +1,80 @@
+{
+ "id": "t017",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "الكوت",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "مرتضى",
+ "last_name": "الخفاجي",
+ "job": "كاتب في دائرة البلدية",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "علي",
+   "relation": "brother"
+  },
+  {
+   "name": "أم مرتضى",
+   "relation": "mother"
+  },
+  {
+   "name": "سيف",
+   "relation": "colleague"
+  },
+  {
+   "name": "أبو جاسم",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظف بسيط يخصص أغلب راتبه لمساعدة أهله ويسدد التزامات المولدة شهرياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "مرتضى",
+  "last_name": "الخفاجي",
+  "job": "كاتب في دائرة البلدية",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "علي",
+    "relation": "brother"
+   },
+   {
+    "name": "أم مرتضى",
+    "relation": "mother"
+   },
+   {
+    "name": "سيف",
+    "relation": "colleague"
+   },
+   {
+    "name": "أبو جاسم",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظف بسيط يخصص أغلب راتبه لمساعدة أهله ويسدد التزامات المولدة شهرياً."
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "id": "d007",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "الناصرية",
+ "income_band": "mid",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "عبد الزهرة",
+ "last_name": "الخفاجي",
+ "job": "موظف حكومي متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "مرتضى",
+   "relation": "son"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  },
+  {
+   "name": "أم مرتضى",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "حسين",
+   "relation": "brother"
+  },
+  {
+   "name": "أبو كرار",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل متقاعد يقضي وقته في المسجد ويهتم بدعم عائلته ومصاريف العلاج.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الزهرة",
+  "last_name": "الخفاجي",
+  "job": "موظف حكومي متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "مرتضى",
+    "relation": "son"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   },
+   {
+    "name": "أم مرتضى",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "حسين",
+    "relation": "brother"
+   },
+   {
+    "name": "أبو كرار",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل متقاعد يقضي وقته في المسجد ويهتم بدعم عائلته ومصاريف العلاج."
+ }
+}

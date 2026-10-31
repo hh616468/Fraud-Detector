@@ -1,0 +1,80 @@
+{
+ "id": "t019",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "الديوانية",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "جاسم",
+ "last_name": "الخفاجي",
+ "job": "موظف متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "كرار",
+   "relation": "son"
+  },
+  {
+   "name": "أم علي",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو حيدر",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "daughter"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل وقور يقضي أمسياته بمتابعة أخبار المنطقة ويهتم بمصاريف علاجه ومساعدة عائلته.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "الخفاجي",
+  "job": "موظف متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "كرار",
+    "relation": "son"
+   },
+   {
+    "name": "أم علي",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو حيدر",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "daughter"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل وقور يقضي أمسياته بمتابعة أخبار المنطقة ويهتم بمصاريف علاجه ومساعدة عائلته."
+ }
+}

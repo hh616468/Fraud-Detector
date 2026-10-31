@@ -1,0 +1,82 @@
+{
+ "id": "d017",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "الرمادي",
+ "income_band": "high",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "عبد الرزاق",
+ "last_name": "الدليمي",
+ "job": "مهندس مدني",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "school_fees",
+  "medical",
+  "online_shopping"
+ ],
+ "contacts": [
+  {
+   "name": "مولدة أبو حسين",
+   "relation": "generator"
+  },
+  {
+   "name": "إسراء",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "مهندس يعمل في مشاريع البنى التحتية ويهتم بتأمين مصاريف عائلته وتعليم أبنائه عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الرزاق",
+  "last_name": "الدليمي",
+  "job": "مهندس مدني",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "school_fees",
+   "medical",
+   "online_shopping"
+  ],
+  "contacts": [
+   "نورة عبد الرزاق",
+   "أحمد عبد الرزاق",
+   "سعاد الدليمي",
+   "أبو علي مولدة",
+   "دكتور سامر",
+   "ياسر الخفاجي"
+  ],
+  "contacts_detailed": [
+   {
+    "name": "نورة عبد الرزاق",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد عبد الرزاق",
+    "relation": "son"
+   },
+   {
+    "name": "سعاد الدليمي",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو علي مولدة",
+    "relation": "generator"
+   },
+   {
+    "name": "دكتور سامر",
+    "relation": "friend"
+   },
+   {
+    "name": "ياسر الخفاجي",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "مهندس يعمل في مشاريع البنى التحتية ويهتم بتأمين مصاريف عائلته وتعليم أبنائه عبر التطبيق."
+ }
+}

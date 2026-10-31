@@ -1,0 +1,80 @@
+{
+ "id": "v010",
+ "split": "val",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "الكوت",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "هدى",
+ "last_name": "التميمي",
+ "job": "ممرضة",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "online_shopping",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "colleague"
+  },
+  {
+   "name": "عمر",
+   "relation": "brother"
+  },
+  {
+   "name": "سارة",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "تعمل في المستشفى الحكومي وتفضل تسديد كافة التزاماتها الشهرية إلكترونياً في المساء.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "هدى",
+  "last_name": "التميمي",
+  "job": "ممرضة",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "online_shopping",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "colleague"
+   },
+   {
+    "name": "عمر",
+    "relation": "brother"
+   },
+   {
+    "name": "سارة",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "تعمل في المستشفى الحكومي وتفضل تسديد كافة التزاماتها الشهرية إلكترونياً في المساء."
+ }
+}

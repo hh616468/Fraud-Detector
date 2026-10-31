@@ -1,0 +1,80 @@
+{
+ "id": "v002",
+ "split": "val",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "18-25",
+ "city": "أربيل",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "سارة",
+ "last_name": "محمد",
+ "job": "طالبة جامعية",
+ "habits": [
+  "phone_topups",
+  "online_shopping",
+  "generator_fees",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "زينب محمد",
+   "relation": "sister"
+  },
+  {
+   "name": "أبو أحمد",
+   "relation": "generator"
+  },
+  {
+   "name": "نور",
+   "relation": "friend"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "أم سارة",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "طالبة في السنة الثالثة، تعتمد على المحفظة لتسديد اشتراك المولدة وشراء مستلزماتها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سارة",
+  "last_name": "محمد",
+  "job": "طالبة جامعية",
+  "habits": [
+   "phone_topups",
+   "online_shopping",
+   "generator_fees",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "زينب محمد",
+    "relation": "sister"
+   },
+   {
+    "name": "أبو أحمد",
+    "relation": "generator"
+   },
+   {
+    "name": "نور",
+    "relation": "friend"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "أم سارة",
+    "relation": "mother"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "طالبة في السنة الثالثة، تعتمد على المحفظة لتسديد اشتراك المولدة وشراء مستلزماتها."
+ }
+}

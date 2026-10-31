@@ -1,0 +1,90 @@
+{
+ "id": "d012",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "الرمادي",
+ "income_band": "high",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "عبد الواحد",
+ "last_name": "الجبوري",
+ "job": "ضابط متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أحمد عبد الواحد",
+   "relation": "son"
+  },
+  {
+   "name": "زينب عبد الواحد",
+   "relation": "daughter"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "سليم العاني",
+   "relation": "friend"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "ضابط سابق يفضل قضاء وقته في المساء مع عائلته ويستخدم التطبيق لتسهيل مصاريف البيت.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الواحد",
+  "last_name": "الجبوري",
+  "job": "ضابط متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أحمد عبد الواحد",
+    "relation": "son"
+   },
+   {
+    "name": "زينب عبد الواحد",
+    "relation": "daughter"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "سليم العاني",
+    "relation": "friend"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "ضابط سابق يفضل قضاء وقته في المساء مع عائلته ويستخدم التطبيق لتسهيل مصاريف البيت."
+ }
+}

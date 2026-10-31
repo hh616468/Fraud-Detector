@@ -1,0 +1,82 @@
+{
+ "id": "d008",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "النجف",
+ "income_band": "mid",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "الجبوري",
+ "job": "ممرضة",
+ "habits": [
+  "rent",
+  "online_shopping",
+  "medical",
+  "family_support",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو علي",
+   "relation": "landlord"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "sister"
+  },
+  {
+   "name": "مريم",
+   "relation": "mother"
+  },
+  {
+   "name": "سارة",
+   "relation": "colleague"
+  },
+  {
+   "name": "هناء",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "تعمل في المستشفى الحكومي وتعتمد على المحفظة لتسديد إيجار شقتها وتسوقها الإلكتروني.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الجبوري",
+  "job": "ممرضة",
+  "habits": [
+   "rent",
+   "online_shopping",
+   "medical",
+   "family_support",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو علي",
+    "relation": "landlord"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "sister"
+   },
+   {
+    "name": "مريم",
+    "relation": "mother"
+   },
+   {
+    "name": "سارة",
+    "relation": "colleague"
+   },
+   {
+    "name": "هناء",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "تعمل في المستشفى الحكومي وتعتمد على المحفظة لتسديد إيجار شقتها وتسوقها الإلكتروني."
+ }
+}

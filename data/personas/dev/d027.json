@@ -1,0 +1,82 @@
+{
+ "id": "d027",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "أربيل",
+ "income_band": "low",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "سعاد",
+ "last_name": "الجبوري",
+ "job": "موظفة حكومية متقاعدة",
+ "habits": [
+  "medical",
+  "family_support",
+  "generator_fees",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "نور سعاد",
+   "relation": "daughter"
+  },
+  {
+   "name": "أحمد الجبوري",
+   "relation": "son"
+  },
+  {
+   "name": "أبو علي المولدة",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "أم مريم",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة متقاعدة تهتم بصحتها وتساعد أبناءها وتستخدم التطبيق في أوقات متأخرة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "الجبوري",
+  "job": "موظفة حكومية متقاعدة",
+  "habits": [
+   "medical",
+   "family_support",
+   "generator_fees",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "نور سعاد",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد الجبوري",
+    "relation": "son"
+   },
+   {
+    "name": "أبو علي المولدة",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "أم مريم",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة متقاعدة تهتم بصحتها وتساعد أبناءها وتستخدم التطبيق في أوقات متأخرة."
+ }
+}

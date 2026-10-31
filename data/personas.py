@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from data import pools
@@ -160,30 +161,35 @@ def generate(splits: list[str], offline: bool, force: bool) -> dict[str, int]:
         use_llm = reachable()
         if not use_llm:
             print("LLM unreachable: falling back to offline personas")
+    def make(slot: dict) -> dict:
+        if use_llm:
+            for _attempt in range(3):
+                try:
+                    return llm_persona(slot)
+                except Exception as exc:  # noqa: BLE001 - any LLM failure falls back to offline
+                    print(f"  {slot['id']}: LLM attempt failed ({type(exc).__name__}: {exc})")
+        return offline_persona(slot)
+
     counts = {}
     for split in splits:
         out_dir = PERSONA_DIR / split
         out_dir.mkdir(parents=True, exist_ok=True)
-        made = 0
+        todo = []
         for slot in slots(split):
             path = out_dir / f"{slot['id']}.json"
             if path.exists() and not force:
                 existing = json.loads(path.read_text(encoding="utf-8"))
                 if existing.get("source") == "llm" or not use_llm:
                     continue
-            persona = None
-            if use_llm:
-                for _attempt in range(3):
-                    try:
-                        persona = llm_persona(slot)
-                        break
-                    except Exception as exc:  # noqa: BLE001 - any LLM failure falls back to offline
-                        print(f"  {slot['id']}: LLM attempt failed ({type(exc).__name__}: {exc})")
-            persona = persona or offline_persona(slot)
-            path.write_text(json.dumps(persona, ensure_ascii=False, indent=1), encoding="utf-8")
-            made += 1
-            print(f"  {slot['id']} {slot['segment']:<10} {persona['first_name']} {persona['last_name']} [{persona['source']}]")
-        counts[split] = made
+            todo.append(slot)
+        # The server batches concurrent requests; each persona depends only on its own slot.
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for slot, persona in zip(todo, pool.map(make, todo), strict=True):
+                (out_dir / f"{slot['id']}.json").write_text(json.dumps(persona, ensure_ascii=False, indent=1),
+                                                            encoding="utf-8")
+                print(f"  {slot['id']} {slot['segment']:<10} {persona['first_name']} {persona['last_name']} "
+                      f"[{persona['source']}]")
+        counts[split] = len(todo)
     return counts
 
 

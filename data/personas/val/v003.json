@@ -1,0 +1,90 @@
+{
+ "id": "v003",
+ "split": "val",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "النجف",
+ "income_band": "mid",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "مصطفى",
+ "last_name": "الجبوري",
+ "job": "محاسب",
+ "habits": [
+  "rent",
+  "generator_fees",
+  "online_shopping",
+  "phone_topups",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو علي",
+   "relation": "landlord"
+  },
+  {
+   "name": "كرار",
+   "relation": "generator"
+  },
+  {
+   "name": "سارة",
+   "relation": "sister"
+  },
+  {
+   "name": "محمد",
+   "relation": "colleague"
+  },
+  {
+   "name": "ليلى",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "شاب يعمل في المحاسبة ويفضل إنجاز كافة معاملاته المالية عبر التطبيق لتوفير الوقت.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "مصطفى",
+  "last_name": "الجبوري",
+  "job": "محاسب",
+  "habits": [
+   "rent",
+   "generator_fees",
+   "online_shopping",
+   "phone_topups",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو علي",
+    "relation": "landlord"
+   },
+   {
+    "name": "كرار",
+    "relation": "generator"
+   },
+   {
+    "name": "سارة",
+    "relation": "sister"
+   },
+   {
+    "name": "محمد",
+    "relation": "colleague"
+   },
+   {
+    "name": "ليلى",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "شاب يعمل في المحاسبة ويفضل إنجاز كافة معاملاته المالية عبر التطبيق لتوفير الوقت."
+ }
+}

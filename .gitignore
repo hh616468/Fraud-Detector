@@ -8,3 +8,4 @@ __pycache__/
 var/
 data/generated/*
 !data/generated/.gitkeep
+PROJECT_GUIDE.md

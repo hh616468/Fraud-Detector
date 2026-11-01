@@ -11,6 +11,32 @@ never decides whether to warn, and approves nothing.
 > **Status: hackathon MVP.** All data is synthetic. Thresholds are starting values for validation, not fraud
 > policy. Iraqi wording is a draft awaiting native-speaker review.
 
+## Screenshots
+
+All three pages run on the same backend with synthetic data. Screenshots are taken from the demo seed.
+
+### Wallet (Arabic, mobile)
+
+A risky transfer (new recipient, 90,000 IQD, simulated active call) is held. The user sees the warning at once,
+then a short coaching chat. Nothing is debited until the user confirms; cancelling never debits.
+
+| Transfer form | Warning and coaching chat | Cancelled, no debit |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/wallet-form.png" alt="Wallet transfer form with a new recipient, amount and active-call checkbox" width="260"> | <img src="docs/screenshots/wallet-coaching.png" alt="Iraqi-Arabic warning card followed by a three-turn coaching chat with tap answers" width="260"> | <img src="docs/screenshots/wallet-cancelled.png" alt="Receipt screen confirming the transfer was cancelled" width="260"> |
+
+### Judge console (`/console`)
+
+Pick a preset scenario (or fill the form), run it, and see the score, tier, the warning, and every rule's values.
+
+![Judge console showing the safe-account preset, coach tier, score 20, the Arabic warning and the full rule trace](docs/screenshots/console.png)
+
+### Reviewer queue (`/reviewer`)
+
+One row per transfer with fired rules, coaching sources, taps and the user's choice. Users appear only as
+pseudonyms. Opening a row shows the rule trace, coach turns and audit events.
+
+![Reviewer queue with a transfer open in the detail panel](docs/screenshots/reviewer.png)
+
 ## How it works
 
 ```

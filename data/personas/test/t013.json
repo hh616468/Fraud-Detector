@@ -1,0 +1,82 @@
+{
+ "id": "t013",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "النجف",
+ "income_band": "mid",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "كرار",
+ "last_name": "الجبوري",
+ "job": "محاسب بقسم التربية",
+ "habits": [
+  "generator_fees",
+  "family_support",
+  "phone_topups",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "سعاد",
+   "relation": "mother"
+  },
+  {
+   "name": "مرتضى",
+   "relation": "brother"
+  },
+  {
+   "name": "زيدون",
+   "relation": "colleague"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "شاب ملتزم بعمله، يتكفل بمصاريف البيت ويدفع أجور المولد إلكترونياً كل شهر.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "كرار",
+  "last_name": "الجبوري",
+  "job": "محاسب بقسم التربية",
+  "habits": [
+   "generator_fees",
+   "family_support",
+   "phone_topups",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "سعاد",
+    "relation": "mother"
+   },
+   {
+    "name": "مرتضى",
+    "relation": "brother"
+   },
+   {
+    "name": "زيدون",
+    "relation": "colleague"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "شاب ملتزم بعمله، يتكفل بمصاريف البيت ويدفع أجور المولد إلكترونياً كل شهر."
+ }
+}

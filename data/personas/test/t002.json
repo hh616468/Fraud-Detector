@@ -1,0 +1,82 @@
+{
+ "id": "t002",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "الرمادي",
+ "income_band": "high",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "عبد الرحمن",
+ "last_name": "الخفاجي",
+ "job": "متقاعد من وزارة التربية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "زيد",
+   "relation": "son"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "friend"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل وقور يقضي وقته بين المسجد وزيارة أحفاده ويستخدم المحفظة بحذر شديد.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عبد الرحمن",
+  "last_name": "الخفاجي",
+  "job": "متقاعد من وزارة التربية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "زيد",
+    "relation": "son"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "friend"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل وقور يقضي وقته بين المسجد وزيارة أحفاده ويستخدم المحفظة بحذر شديد."
+ }
+}

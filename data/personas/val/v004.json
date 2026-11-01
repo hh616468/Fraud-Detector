@@ -1,0 +1,80 @@
+{
+ "id": "v004",
+ "split": "val",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "الموصل",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "هناء",
+ "last_name": "العبيدي",
+ "job": "ممرضة",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "online_shopping",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "سارة هناء",
+   "relation": "daughter"
+  },
+  {
+   "name": "أحمد العبيدي",
+   "relation": "brother"
+  },
+  {
+   "name": "أبو مريم",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "colleague"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "تعمل في المستشفى وتستخدم التطبيق لتسديد التزامات المنزل والتسوق الإلكتروني.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "هناء",
+  "last_name": "العبيدي",
+  "job": "ممرضة",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "online_shopping",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "سارة هناء",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد العبيدي",
+    "relation": "brother"
+   },
+   {
+    "name": "أبو مريم",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "colleague"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "تعمل في المستشفى وتستخدم التطبيق لتسديد التزامات المنزل والتسوق الإلكتروني."
+ }
+}

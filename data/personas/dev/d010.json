@@ -1,0 +1,80 @@
+{
+ "id": "d010",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "18-25",
+ "city": "الموصل",
+ "income_band": "low",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "عمر",
+ "last_name": "الجبوري",
+ "job": "عامل توصيل",
+ "habits": [
+  "phone_topups",
+  "generator_fees",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "sister"
+  },
+  {
+   "name": "أحمد",
+   "relation": "brother"
+  },
+  {
+   "name": "سعدون",
+   "relation": "friend"
+  },
+  {
+   "name": "أم عمر",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "شاب طموح يعمل في التوصيل ويعتمد على المحفظة لتسديد مصاريفه اليومية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عمر",
+  "last_name": "الجبوري",
+  "job": "عامل توصيل",
+  "habits": [
+   "phone_topups",
+   "generator_fees",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "sister"
+   },
+   {
+    "name": "أحمد",
+    "relation": "brother"
+   },
+   {
+    "name": "سعدون",
+    "relation": "friend"
+   },
+   {
+    "name": "أم عمر",
+    "relation": "mother"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "شاب طموح يعمل في التوصيل ويعتمد على المحفظة لتسديد مصاريفه اليومية."
+ }
+}

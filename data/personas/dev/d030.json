@@ -1,0 +1,80 @@
+{
+ "id": "d030",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "18-25",
+ "city": "الكوت",
+ "income_band": "low",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "علي",
+ "last_name": "التميمي",
+ "job": "عامل توصيل",
+ "habits": [
+  "phone_topups",
+  "generator_fees",
+  "grocery_shop",
+  "online_shopping"
+ ],
+ "contacts": [
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "محمد",
+   "relation": "brother"
+  },
+  {
+   "name": "عمر",
+   "relation": "friend"
+  },
+  {
+   "name": "أبو كرار",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "شاب يعمل في التوصيل ويفضل استخدام التطبيقات المالية لتسديد التزاماته اليومية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "علي",
+  "last_name": "التميمي",
+  "job": "عامل توصيل",
+  "habits": [
+   "phone_topups",
+   "generator_fees",
+   "grocery_shop",
+   "online_shopping"
+  ],
+  "contacts": [
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "محمد",
+    "relation": "brother"
+   },
+   {
+    "name": "عمر",
+    "relation": "friend"
+   },
+   {
+    "name": "أبو كرار",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "شاب يعمل في التوصيل ويفضل استخدام التطبيقات المالية لتسديد التزاماته اليومية."
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "d019",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "الموصل",
+ "income_band": "low",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "عمر",
+ "last_name": "الجبوري",
+ "job": "سائق تكسي",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو يوسف",
+   "relation": "generator"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "mother"
+  },
+  {
+   "name": "زيد",
+   "relation": "brother"
+  },
+  {
+   "name": "مصطفى",
+   "relation": "friend"
+  },
+  {
+   "name": "سوق السلام",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "يعمل كسائق في الموصل ويستخدم التطبيق لتسهيل دفعات المولدة والمصاريف اليومية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عمر",
+  "last_name": "الجبوري",
+  "job": "سائق تكسي",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو يوسف",
+    "relation": "generator"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "mother"
+   },
+   {
+    "name": "زيد",
+    "relation": "brother"
+   },
+   {
+    "name": "مصطفى",
+    "relation": "friend"
+   },
+   {
+    "name": "سوق السلام",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "يعمل كسائق في الموصل ويستخدم التطبيق لتسهيل دفعات المولدة والمصاريف اليومية."
+ }
+}

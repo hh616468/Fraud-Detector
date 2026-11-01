@@ -1,0 +1,80 @@
+{
+ "id": "d025",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "18-25",
+ "city": "بعقوبة",
+ "income_band": "low",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "العبيدي",
+ "job": "طالبة جامعية",
+ "habits": [
+  "phone_topups",
+  "online_shopping",
+  "generator_fees",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "sister"
+  },
+  {
+   "name": "سارة",
+   "relation": "friend"
+  },
+  {
+   "name": "عمر",
+   "relation": "brother"
+  },
+  {
+   "name": "أم زينب",
+   "relation": "mother"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "طالبة في المرحلة الثانية، تعتمد على المحفظة الإلكترونية لتسديد اشتراك المولدة وشراء مستلزماتها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "العبيدي",
+  "job": "طالبة جامعية",
+  "habits": [
+   "phone_topups",
+   "online_shopping",
+   "generator_fees",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "sister"
+   },
+   {
+    "name": "سارة",
+    "relation": "friend"
+   },
+   {
+    "name": "عمر",
+    "relation": "brother"
+   },
+   {
+    "name": "أم زينب",
+    "relation": "mother"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "طالبة في المرحلة الثانية، تعتمد على المحفظة الإلكترونية لتسديد اشتراك المولدة وشراء مستلزماتها."
+ }
+}

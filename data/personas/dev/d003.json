@@ -1,0 +1,82 @@
+{
+ "id": "d003",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "بغداد",
+ "income_band": "low",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "فوزية",
+ "last_name": "الخفاجي",
+ "job": "موظفة حكومية متقاعدة",
+ "habits": [
+  "medical",
+  "generator_fees",
+  "family_support",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "مريم فوزية",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "أم علي",
+   "relation": "friend"
+  },
+  {
+   "name": "سعدون",
+   "relation": "son"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة متقاعدة تعتمد على ابنتها في إدارة التطبيق لإرسال المساعدات المالية ودفع أجور المولدة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "فوزية",
+  "last_name": "الخفاجي",
+  "job": "موظفة حكومية متقاعدة",
+  "habits": [
+   "medical",
+   "generator_fees",
+   "family_support",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "مريم فوزية",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "أم علي",
+    "relation": "friend"
+   },
+   {
+    "name": "سعدون",
+    "relation": "son"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة متقاعدة تعتمد على ابنتها في إدارة التطبيق لإرسال المساعدات المالية ودفع أجور المولدة."
+ }
+}

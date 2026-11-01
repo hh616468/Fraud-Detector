@@ -1,0 +1,90 @@
+{
+ "id": "t005",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "بعقوبة",
+ "income_band": "mid",
+ "active_period": "morning",
+ "prompt_set": "B",
+ "first_name": "جاسم",
+ "last_name": "الساعدي",
+ "job": "مدقق حسابات",
+ "habits": [
+  "generator_fees",
+  "school_fees",
+  "family_support",
+  "medical",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "سعاد",
+   "relation": "spouse"
+  },
+  {
+   "name": "عمر",
+   "relation": "son"
+  },
+  {
+   "name": "ليلى",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "friend"
+  },
+  {
+   "name": "ست مريم",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظف حكومي ملتزم يخصص أغلب راتبه لمصاريف عائلته وأقساط مدرسة أولاده.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "الساعدي",
+  "job": "مدقق حسابات",
+  "habits": [
+   "generator_fees",
+   "school_fees",
+   "family_support",
+   "medical",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "سعاد",
+    "relation": "spouse"
+   },
+   {
+    "name": "عمر",
+    "relation": "son"
+   },
+   {
+    "name": "ليلى",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "friend"
+   },
+   {
+    "name": "ست مريم",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظف حكومي ملتزم يخصص أغلب راتبه لمصاريف عائلته وأقساط مدرسة أولاده."
+ }
+}

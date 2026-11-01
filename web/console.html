@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Judge Console · Scam Warning Agent</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script type="module" src="/static/console.js"></script>
+</head>
+<body class="console-page">
+  <div class="desk">
+    <header class="desk-header">
+      <div>
+        <h1>Judge console</h1>
+        <p class="muted small" id="health">Checking backend…</p>
+      </div>
+      <nav aria-label="Pages">
+        <a href="/">Wallet (Arabic)</a>
+        <a href="/reviewer">Reviewer view</a>
+      </nav>
+    </header>
+
+    <div class="console-grid">
+      <!-- ===== Scenario builder ===== -->
+      <section class="panel" aria-labelledby="builder-title">
+        <h2 id="builder-title">Scenario</h2>
+        <div class="field">
+          <label for="user">User</label>
+          <select id="user"></select>
+          <p class="hint" id="user-info"></p>
+          <details class="small">
+            <summary>Saved contacts</summary>
+            <ul id="contacts" class="small" dir="rtl"></ul>
+          </details>
+        </div>
+
+        <div class="field">
+          <span id="presets-label"><strong>Presets</strong> <span class="muted small">(fill the form; edit before running)</span></span>
+          <div class="preset-row" role="group" aria-labelledby="presets-label">
+            <button type="button" class="btn-secondary" data-preset="safe_account">Safe-account call</button>
+            <button type="button" class="btn-secondary" data-preset="prize_fee">Prize fee</button>
+            <button type="button" class="btn-secondary" data-preset="refund">Refund after credit</button>
+            <button type="button" class="btn-secondary" data-preset="lookalike">Hacked relative lookalike</button>
+            <button type="button" class="btn-secondary" data-preset="eid_gift">Honest Eid gift</button>
+            <button type="button" class="btn-secondary" data-preset="rent">Familiar rent</button>
+          </div>
+        </div>
+        <p id="preset-status" class="notice-box small" role="status" hidden></p>
+
+        <form id="scenario" novalidate>
+          <fieldset>
+            <legend>Device event (provider side)</legend>
+            <div class="grid-2">
+              <div class="field">
+                <label for="dev-kind">Kind</label>
+                <select id="dev-kind">
+                  <option value="">none</option>
+                  <option value="new_device">new_device</option>
+                  <option value="pin_reset">pin_reset</option>
+                  <option value="sim_change">sim_change</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="dev-min">Minutes ago</label>
+                <input id="dev-min" type="number" min="0" step="1" value="45">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Recipient account (provider facts)</legend>
+            <div class="grid-2">
+              <div class="field">
+                <label for="rc-wallet">Recipient wallet</label>
+                <input id="rc-wallet" type="text" inputmode="numeric" placeholder="07XXXXXXXXX" maxlength="11" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="rc-display">Account display name</label>
+                <input id="rc-display" type="text" dir="auto" maxlength="60" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="rc-age">Account age (days)</label>
+                <input id="rc-age" type="number" min="0" step="0.1" placeholder="unknown">
+              </div>
+              <div class="field">
+                <label for="rc-senders">Unrelated senders, 7 d</label>
+                <input id="rc-senders" type="number" min="0" step="1" placeholder="0">
+              </div>
+            </div>
+            <div class="grid-3">
+              <label class="check" for="rc-reported"><input id="rc-reported" type="checkbox"> Reported</label>
+              <label class="check" for="rc-biller"><input id="rc-biller" type="checkbox"> Known biller</label>
+              <label class="check" for="rc-business" title="Verified business account (shop, clinic, school, charity)"><input id="rc-business" type="checkbox"> Business account</label>
+            </div>
+            <p class="hint">Business account = verified shop, clinic, school or charity; R08's many-senders clause and R09 skip it.</p>
+            <p class="hint">Facts are sent to setup only if a display name, age, sender count or flag is filled in.</p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Incoming credit (before the transfer)</legend>
+            <div class="grid-2">
+              <div class="field">
+                <label for="cr-wallet">From wallet</label>
+                <input id="cr-wallet" type="text" inputmode="numeric" placeholder="07XXXXXXXXX" maxlength="11" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="cr-name">From name</label>
+                <input id="cr-name" type="text" dir="auto" maxlength="60" autocomplete="off">
+              </div>
+              <div class="field">
+                <label for="cr-amount">Amount (IQD)</label>
+                <input id="cr-amount" type="number" min="1" step="250">
+              </div>
+              <div class="field">
+                <label for="cr-min">Minutes ago</label>
+                <input id="cr-min" type="number" min="0" step="1" value="30">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Transfer draft</legend>
+            <div class="grid-2">
+              <div class="field">
+                <label for="tx-amount">Amount (IQD)</label>
+                <input id="tx-amount" type="number" min="1" step="250" required>
+                <p class="hint" id="tx-amount-hint"></p>
+              </div>
+              <div class="field">
+                <label for="tx-name">Recipient name (as typed)</label>
+                <input id="tx-name" type="text" dir="auto" maxlength="60" autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <label for="tx-note">Note</label>
+              <input id="tx-note" type="text" dir="auto" maxlength="140" autocomplete="off">
+            </div>
+            <div class="grid-2">
+              <div class="field">
+                <label for="tx-reason">Reason</label>
+                <select id="tx-reason"><option value="">none</option></select>
+              </div>
+              <label class="check" for="tx-call"><input id="tx-call" type="checkbox"> call_active (simulated)</label>
+            </div>
+          </fieldset>
+
+          <div id="run-error" class="error-box" role="alert" hidden></div>
+          <div class="preset-row">
+            <button id="run-btn" type="submit">Run</button>
+            <button id="clear-btn" type="button" class="btn-secondary">Clear form</button>
+          </div>
+          <p class="hint">Setup is cumulative: device events and credits stay on the user until <code>./dev.sh seed</code>.</p>
+        </form>
+      </section>
+
+      <!-- ===== Result ===== -->
+      <section class="panel" aria-labelledby="result-title" aria-live="polite">
+        <h2 id="result-title">Result</h2>
+        <p id="result-empty" class="muted">Pick a preset or fill the form, then Run.</p>
+        <div id="result" hidden>
+          <div id="stats" class="stats"></div>
+          <p id="setup-applied" class="small muted"></p>
+          <h3>Warning shown to the user</h3>
+          <div id="warning" class="panel arabic-block" lang="ar" dir="rtl"></div>
+          <h3>Rule trace (all rules)</h3>
+          <div id="trace"></div>
+          <div class="preset-row" style="margin:1rem 0 .5rem">
+            <button id="coach-btn" type="button">Coach turn</button>
+            <button id="audit-btn" type="button" class="btn-secondary">Audit record</button>
+          </div>
+          <div id="action-error" class="error-box" role="alert" hidden></div>
+          <div id="chat" class="chat"></div>
+          <div id="audit-wrap" hidden>
+            <h3>Audit events</h3>
+            <div id="audit"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+{
+ "id": "d001",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "الرمادي",
+ "income_band": "high",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "زيد",
+ "last_name": "العاني",
+ "job": "مهندس اتصالات",
+ "habits": [
+  "online_shopping",
+  "generator_fees",
+  "family_support",
+  "medical",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو أحمد",
+   "relation": "generator"
+  },
+  {
+   "name": "سارة زيد",
+   "relation": "daughter"
+  },
+  {
+   "name": "ليلى العاني",
+   "relation": "spouse"
+  },
+  {
+   "name": "محمد العاني",
+   "relation": "brother"
+  },
+  {
+   "name": "عمر خالد",
+   "relation": "colleague"
+  },
+  {
+   "name": "ياسر محمود",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "مهندس طموح يسعى لتنظيم مصاريف منزله واحتياجات عائلته عبر التطبيقات الحديثة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زيد",
+  "last_name": "العاني",
+  "job": "مهندس اتصالات",
+  "habits": [
+   "online_shopping",
+   "generator_fees",
+   "family_support",
+   "medical",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو أحمد",
+    "relation": "generator"
+   },
+   {
+    "name": "سارة زيد",
+    "relation": "daughter"
+   },
+   {
+    "name": "ليلى العاني",
+    "relation": "spouse"
+   },
+   {
+    "name": "محمد العاني",
+    "relation": "brother"
+   },
+   {
+    "name": "عمر خالد",
+    "relation": "colleague"
+   },
+   {
+    "name": "ياسر محمود",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "مهندس طموح يسعى لتنظيم مصاريف منزله واحتياجات عائلته عبر التطبيقات الحديثة."
+ }
+}

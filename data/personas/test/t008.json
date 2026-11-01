@@ -1,0 +1,82 @@
+{
+ "id": "t008",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "البصرة",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "B",
+ "first_name": "جاسم",
+ "last_name": "المنصوري",
+ "job": "متقاعد من مديرية التربية",
+ "habits": [
+  "generator_fees",
+  "medical",
+  "family_support",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "كرار",
+   "relation": "son"
+  },
+  {
+   "name": "أم جاسم",
+   "relation": "spouse"
+  },
+  {
+   "name": "سلمان",
+   "relation": "brother"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل وقور يقضي ليله بمتابعة الأخبار ويستخدم المحفظة لتحويل مبالغ بسيطة لعائلته ودفع أجور المولد.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "المنصوري",
+  "job": "متقاعد من مديرية التربية",
+  "habits": [
+   "generator_fees",
+   "medical",
+   "family_support",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "كرار",
+    "relation": "son"
+   },
+   {
+    "name": "أم جاسم",
+    "relation": "spouse"
+   },
+   {
+    "name": "سلمان",
+    "relation": "brother"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل وقور يقضي ليله بمتابعة الأخبار ويستخدم المحفظة لتحويل مبالغ بسيطة لعائلته ودفع أجور المولد."
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "d021",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "الحلة",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "سعاد",
+ "last_name": "الخفاجي",
+ "job": "موظفة حكومية متقاعدة",
+ "habits": [
+  "family_support",
+  "medical",
+  "religious_donations",
+  "grocery_shop",
+  "generator_fees"
+ ],
+ "contacts": [
+  {
+   "name": "نور سعاد",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "أم علي",
+   "relation": "friend"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة متقاعدة تهتم بمساعدة عائلتها وتدفع التزامات المولدة والمسواك عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "الخفاجي",
+  "job": "موظفة حكومية متقاعدة",
+  "habits": [
+   "family_support",
+   "medical",
+   "religious_donations",
+   "grocery_shop",
+   "generator_fees"
+  ],
+  "contacts": [
+   {
+    "name": "نور سعاد",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "أم علي",
+    "relation": "friend"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة متقاعدة تهتم بمساعدة عائلتها وتدفع التزامات المولدة والمسواك عبر التطبيق."
+ }
+}

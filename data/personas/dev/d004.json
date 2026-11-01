@@ -1,0 +1,90 @@
+{
+ "id": "d004",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "41-60",
+ "city": "الكوت",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "سعاد",
+ "last_name": "التميمي",
+ "job": "موظفة إدارية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "grocery_shop",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أحمد",
+   "relation": "son"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "ليلى",
+   "relation": "sister"
+  },
+  {
+   "name": "أم علي",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظفة حكومية تهتم بتأمين احتياجات عائلتها ومصاريف المنزل عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "التميمي",
+  "job": "موظفة إدارية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "grocery_shop",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أحمد",
+    "relation": "son"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "ليلى",
+    "relation": "sister"
+   },
+   {
+    "name": "أم علي",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظفة حكومية تهتم بتأمين احتياجات عائلتها ومصاريف المنزل عبر التطبيق."
+ }
+}

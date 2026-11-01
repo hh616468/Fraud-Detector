@@ -1,0 +1,80 @@
+{
+ "id": "d020",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "كربلاء",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "حسين",
+ "last_name": "الجبوري",
+ "job": "موظف بريد",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "زينب حسين",
+   "relation": "daughter"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو مرتضى",
+   "relation": "generator"
+  },
+  {
+   "name": "علي",
+   "relation": "brother"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "موظف حكومي بسيط يعتمد على المحفظة الإلكترونية لتسديد مصاريف البيت والمولدة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "حسين",
+  "last_name": "الجبوري",
+  "job": "موظف بريد",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "زينب حسين",
+    "relation": "daughter"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو مرتضى",
+    "relation": "generator"
+   },
+   {
+    "name": "علي",
+    "relation": "brother"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "موظف حكومي بسيط يعتمد على المحفظة الإلكترونية لتسديد مصاريف البيت والمولدة."
+ }
+}

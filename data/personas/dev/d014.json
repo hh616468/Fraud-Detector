@@ -1,0 +1,82 @@
+{
+ "id": "d014",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "النجف",
+ "income_band": "low",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "زكية",
+ "last_name": "الخفاجي",
+ "job": "موظفة حكومية متقاعدة",
+ "habits": [
+  "religious_donations",
+  "medical",
+  "grocery_shop",
+  "phone_topups",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "مريم زكية",
+   "relation": "daughter"
+  },
+  {
+   "name": "علي جاسم",
+   "relation": "son"
+  },
+  {
+   "name": "أم علي",
+   "relation": "sister"
+  },
+  {
+   "name": "سعاد",
+   "relation": "friend"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة متقاعدة تهتم بالعبادات ومساعدة أبنائها وتستخدم التطبيق لإرسال المبالغ البسيطة.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زكية",
+  "last_name": "الخفاجي",
+  "job": "موظفة حكومية متقاعدة",
+  "habits": [
+   "religious_donations",
+   "medical",
+   "grocery_shop",
+   "phone_topups",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "مريم زكية",
+    "relation": "daughter"
+   },
+   {
+    "name": "علي جاسم",
+    "relation": "son"
+   },
+   {
+    "name": "أم علي",
+    "relation": "sister"
+   },
+   {
+    "name": "سعاد",
+    "relation": "friend"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة متقاعدة تهتم بالعبادات ومساعدة أبنائها وتستخدم التطبيق لإرسال المبالغ البسيطة."
+ }
+}

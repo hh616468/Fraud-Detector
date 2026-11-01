@@ -1,0 +1,82 @@
+{
+ "id": "t004",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "41-60",
+ "city": "كربلاء",
+ "income_band": "high",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "سعاد",
+ "last_name": "الخفاجي",
+ "job": "مديرة مدرسة",
+ "habits": [
+  "school_fees",
+  "religious_donations",
+  "generator_fees",
+  "medical",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  },
+  {
+   "name": "علي",
+   "relation": "son"
+  },
+  {
+   "name": "أم جاسم",
+   "relation": "friend"
+  },
+  {
+   "name": "دكتورة هدى",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "سيدة وقورة تهتم بمصاريف أولادها وتدفع أجور المولدة إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "الخفاجي",
+  "job": "مديرة مدرسة",
+  "habits": [
+   "school_fees",
+   "religious_donations",
+   "generator_fees",
+   "medical",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   },
+   {
+    "name": "علي",
+    "relation": "son"
+   },
+   {
+    "name": "أم جاسم",
+    "relation": "friend"
+   },
+   {
+    "name": "دكتورة هدى",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "سيدة وقورة تهتم بمصاريف أولادها وتدفع أجور المولدة إلكترونياً."
+ }
+}

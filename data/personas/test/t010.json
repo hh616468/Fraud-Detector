@@ -1,0 +1,82 @@
+{
+ "id": "t010",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "41-60",
+ "city": "أربيل",
+ "income_band": "high",
+ "active_period": "morning",
+ "prompt_set": "B",
+ "first_name": "سوزان",
+ "last_name": "عبد الله",
+ "job": "مديرة قسم إداري",
+ "habits": [
+  "school_fees",
+  "medical",
+  "online_shopping",
+  "bills",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أحمد",
+   "relation": "son"
+  },
+  {
+   "name": "سارة",
+   "relation": "daughter"
+  },
+  {
+   "name": "إياد",
+   "relation": "spouse"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "ليلى",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "امرأة عملية تهتم بمصاريف دراسة أولادها وتتسوق إلكترونياً بشكل مستمر.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سوزان",
+  "last_name": "عبد الله",
+  "job": "مديرة قسم إداري",
+  "habits": [
+   "school_fees",
+   "medical",
+   "online_shopping",
+   "bills",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أحمد",
+    "relation": "son"
+   },
+   {
+    "name": "سارة",
+    "relation": "daughter"
+   },
+   {
+    "name": "إياد",
+    "relation": "spouse"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "ليلى",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "امرأة عملية تهتم بمصاريف دراسة أولادها وتتسوق إلكترونياً بشكل مستمر."
+ }
+}

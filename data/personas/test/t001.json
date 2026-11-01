@@ -1,0 +1,80 @@
+{
+ "id": "t001",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "أربيل",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "أحمد",
+ "last_name": "جاسم",
+ "job": "موظف إداري",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop",
+  "family_support"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "سعاد",
+   "relation": "mother"
+  },
+  {
+   "name": "عمر",
+   "relation": "brother"
+  },
+  {
+   "name": "علي",
+   "relation": "colleague"
+  },
+  {
+   "name": "أبو كرم",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "شاب مكافح يخصص أغلب راتبه لمساعدة أهله ويسدد التزامات المولدة شهرياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "أحمد",
+  "last_name": "جاسم",
+  "job": "موظف إداري",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop",
+   "family_support"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "سعاد",
+    "relation": "mother"
+   },
+   {
+    "name": "عمر",
+    "relation": "brother"
+   },
+   {
+    "name": "علي",
+    "relation": "colleague"
+   },
+   {
+    "name": "أبو كرم",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "شاب مكافح يخصص أغلب راتبه لمساعدة أهله ويسدد التزامات المولدة شهرياً."
+ }
+}

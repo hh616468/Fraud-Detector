@@ -1,0 +1,309 @@
+{
+ "split": "dev",
+ "rules_version": "v0",
+ "fingerprint": "10c60f31b5375467",
+ "frozen": false,
+ "frozen_record": null,
+ "generated_at": "2026-10-31T23:07:02",
+ "n": 600,
+ "n_scam": 150,
+ "detectors": {
+  "scorecard_warn": {
+   "tp": 139,
+   "fp": 64,
+   "tn": 386,
+   "fn": 11,
+   "precision": 0.6847290640394089,
+   "recall": 0.9266666666666666,
+   "fpr": 0.14222222222222222,
+   "precision_ci": [
+    0.6178856249549155,
+    0.7447106806238463
+   ],
+   "recall_ci": [
+    0.873463014734016,
+    0.9585616131949707
+   ],
+   "fpr_ci": [
+    0.11297352991353964,
+    0.1775278256254854
+   ],
+   "bootstrap": {
+    "precision": [
+     0.625,
+     0.7440476190476191
+    ],
+    "recall": [
+     0.8758169934640523,
+     0.972027972027972
+    ],
+    "fpr": [
+     0.10972568578553615,
+     0.18045112781954886
+    ]
+   },
+   "at_prevalence": {
+    "0.001": 0.006479884387674234,
+    "0.005": 0.0317037938112978,
+    "0.01": 0.06175033318525099,
+    "0.05": 0.2553582363747704
+   }
+  },
+  "scorecard_coach": {
+   "tp": 123,
+   "fp": 22,
+   "tn": 428,
+   "fn": 27,
+   "precision": 0.8482758620689655,
+   "recall": 0.82,
+   "fpr": 0.04888888888888889,
+   "precision_ci": [
+    0.780954637732863,
+    0.8976190943420409
+   ],
+   "recall_ci": [
+    0.7507753195800668,
+    0.8732431513666732
+   ],
+   "fpr_ci": [
+    0.032504021007069964,
+    0.07291073162909209
+   ],
+   "bootstrap": {
+    "precision": [
+     0.7894736842105263,
+     0.903448275862069
+    ],
+    "recall": [
+     0.7639751552795031,
+     0.8774193548387097
+    ],
+    "fpr": [
+     0.029850746268656716,
+     0.0710172744721689
+    ]
+   },
+   "at_prevalence": {
+    "0.001": 0.016512283527990335,
+    "0.005": 0.07773330524541815,
+    "0.01": 0.1448763250883392,
+    "0.05": 0.46886912325285895
+   }
+  },
+  "flag_all_new_payees": {
+   "tp": 142,
+   "fp": 138,
+   "tn": 312,
+   "fn": 8,
+   "precision": 0.5071428571428571,
+   "recall": 0.9466666666666667,
+   "fpr": 0.30666666666666664,
+   "precision_ci": [
+    0.4488835138708591,
+    0.5652088531394734
+   ],
+   "recall_ci": [
+    0.8982949952532904,
+    0.9727307871098676
+   ],
+   "fpr_ci": [
+    0.2658479380113542,
+    0.35075838454700103
+   ],
+   "bootstrap": {
+    "precision": [
+     0.45228215767634855,
+     0.5591054313099042
+    ],
+    "recall": [
+     0.9032258064516129,
+     0.9865771812080537
+    ],
+    "fpr": [
+     0.2540415704387991,
+     0.3665158371040724
+    ]
+   },
+   "at_prevalence": {
+    "0.001": 0.003080527594585214,
+    "0.005": 0.015275387263339072,
+    "0.01": 0.030238500851788756,
+    "0.05": 0.13976377952755908
+   }
+  }
+ },
+ "by_family": {
+  "exchange_deposit": {
+   "n": 30,
+   "held_out": false,
+   "scorecard_warn": 1.0,
+   "scorecard_coach": 0.8333333333333334,
+   "flag_all_new_payees": 1.0
+  },
+  "hacked_relative": {
+   "n": 30,
+   "held_out": false,
+   "scorecard_warn": 0.7,
+   "scorecard_coach": 0.5666666666666667,
+   "flag_all_new_payees": 0.7333333333333333
+  },
+  "prize_fee": {
+   "n": 30,
+   "held_out": false,
+   "scorecard_warn": 0.9666666666666667,
+   "scorecard_coach": 0.8333333333333334,
+   "flag_all_new_payees": 1.0
+  },
+  "refund_after_credit": {
+   "n": 30,
+   "held_out": false,
+   "scorecard_warn": 0.9666666666666667,
+   "scorecard_coach": 0.9,
+   "flag_all_new_payees": 1.0
+  },
+  "safe_account": {
+   "n": 30,
+   "held_out": false,
+   "scorecard_warn": 1.0,
+   "scorecard_coach": 0.9666666666666667,
+   "flag_all_new_payees": 1.0
+  }
+ },
+ "by_legit_category": {
+  "bill": {
+   "n": 45,
+   "scorecard_warn": 0.0,
+   "scorecard_coach": 0.0,
+   "flag_all_new_payees": 0.022222222222222223
+  },
+  "cold_start": {
+   "n": 60,
+   "scorecard_warn": 0.05,
+   "scorecard_coach": 0.016666666666666666,
+   "flag_all_new_payees": 0.5333333333333333
+  },
+  "eid_gift": {
+   "n": 15,
+   "scorecard_warn": 0.06666666666666667,
+   "scorecard_coach": 0.0,
+   "flag_all_new_payees": 0.3333333333333333
+  },
+  "honest_call": {
+   "n": 38,
+   "scorecard_warn": 0.02631578947368421,
+   "scorecard_coach": 0.02631578947368421,
+   "flag_all_new_payees": 0.0
+  },
+  "honest_security_event": {
+   "n": 45,
+   "scorecard_warn": 0.08888888888888889,
+   "scorecard_coach": 0.08888888888888889,
+   "flag_all_new_payees": 0.06666666666666667
+  },
+  "matched_twin": {
+   "n": 45,
+   "scorecard_warn": 0.7777777777777778,
+   "scorecard_coach": 0.3111111111111111,
+   "flag_all_new_payees": 1.0
+  },
+  "new_payee": {
+   "n": 52,
+   "scorecard_warn": 0.36538461538461536,
+   "scorecard_coach": 0.038461538461538464,
+   "flag_all_new_payees": 1.0
+  },
+  "routine": {
+   "n": 120,
+   "scorecard_warn": 0.0,
+   "scorecard_coach": 0.0,
+   "flag_all_new_payees": 0.0
+  },
+  "unusual_amount": {
+   "n": 30,
+   "scorecard_warn": 0.03333333333333333,
+   "scorecard_coach": 0.0,
+   "flag_all_new_payees": 0.0
+  }
+ },
+ "tiers": {
+  "legit:coach": 22,
+  "legit:nudge": 42,
+  "legit:pass": 386,
+  "scam:coach": 123,
+  "scam:nudge": 16,
+  "scam:pass": 11
+ },
+ "rules": {
+  "R01": {
+   "scam_rate": 0.9466666666666667,
+   "legit_rate": 0.30666666666666664
+  },
+  "R02": {
+   "scam_rate": 0.5666666666666667,
+   "legit_rate": 0.11555555555555555
+  },
+  "R03": {
+   "scam_rate": 0.19333333333333333,
+   "legit_rate": 0.022222222222222223
+  },
+  "R04": {
+   "scam_rate": 0.0,
+   "legit_rate": 0.028888888888888888
+  },
+  "R05": {
+   "scam_rate": 0.21333333333333335,
+   "legit_rate": 0.07777777777777778
+  },
+  "R06": {
+   "scam_rate": 0.04666666666666667,
+   "legit_rate": 0.10222222222222223
+  },
+  "R07": {
+   "scam_rate": 0.4,
+   "legit_rate": 0.13111111111111112
+  },
+  "R08": {
+   "scam_rate": 0.6266666666666667,
+   "legit_rate": 0.035555555555555556
+  },
+  "R09": {
+   "scam_rate": 0.07333333333333333,
+   "legit_rate": 0.0
+  },
+  "R10": {
+   "scam_rate": 0.09333333333333334,
+   "legit_rate": 0.017777777777777778
+  },
+  "R11": {
+   "scam_rate": 0.16,
+   "legit_rate": 0.0
+  },
+  "R12": {
+   "scam_rate": 0.11333333333333333,
+   "legit_rate": 0.008888888888888889
+  },
+  "R13": {
+   "scam_rate": 0.18,
+   "legit_rate": 0.0
+  },
+  "M01": {
+   "scam_rate": 0.04666666666666667,
+   "legit_rate": 0.54
+  },
+  "M02": {
+   "scam_rate": 0.05333333333333334,
+   "legit_rate": 0.48
+  }
+ },
+ "matched_pairs": {
+  "both warned": 33,
+  "scam only": 9,
+  "twin only": 2,
+  "neither": 1
+ },
+ "latency_ms": {
+  "p50": 0.3885,
+  "p95": 0.6454999999999995,
+  "max": 5.982
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "d026",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "41-60",
+ "city": "الموصل",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "عمر",
+ "last_name": "العبيدي",
+ "job": "موظف في دائرة الصحة",
+ "habits": [
+  "generator_fees",
+  "school_fees",
+  "medical",
+  "grocery_shop",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو أحمد",
+   "relation": "generator"
+  },
+  {
+   "name": "سارة عمر",
+   "relation": "daughter"
+  },
+  {
+   "name": "زينب",
+   "relation": "spouse"
+  },
+  {
+   "name": "ياسر",
+   "relation": "colleague"
+  },
+  {
+   "name": "حسين",
+   "relation": "brother"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظف حكومي يهتم بتنظيم مصاريف عائلته ودفع أقساط المدرسة عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "عمر",
+  "last_name": "العبيدي",
+  "job": "موظف في دائرة الصحة",
+  "habits": [
+   "generator_fees",
+   "school_fees",
+   "medical",
+   "grocery_shop",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو أحمد",
+    "relation": "generator"
+   },
+   {
+    "name": "سارة عمر",
+    "relation": "daughter"
+   },
+   {
+    "name": "زينب",
+    "relation": "spouse"
+   },
+   {
+    "name": "ياسر",
+    "relation": "colleague"
+   },
+   {
+    "name": "حسين",
+    "relation": "brother"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظف حكومي يهتم بتنظيم مصاريف عائلته ودفع أقساط المدرسة عبر التطبيق."
+ }
+}

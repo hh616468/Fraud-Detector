@@ -1,0 +1,82 @@
+{
+ "id": "t006",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "البصرة",
+ "income_band": "high",
+ "active_period": "afternoon",
+ "prompt_set": "B",
+ "first_name": "سعاد",
+ "last_name": "المنصوري",
+ "job": "متقاعدة من التعليم",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو جاسم",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "daughter"
+  },
+  {
+   "name": "علي",
+   "relation": "son"
+  },
+  {
+   "name": "أم سارة",
+   "relation": "friend"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "جدة حنونة من البصرة تصرف أغلب راتبها على علاجها ومساعدة أولادها وتدفع للمولدة كل شهر.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "المنصوري",
+  "job": "متقاعدة من التعليم",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو جاسم",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "daughter"
+   },
+   {
+    "name": "علي",
+    "relation": "son"
+   },
+   {
+    "name": "أم سارة",
+    "relation": "friend"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "جدة حنونة من البصرة تصرف أغلب راتبها على علاجها ومساعدة أولادها وتدفع للمولدة كل شهر."
+ }
+}

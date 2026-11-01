@@ -1,0 +1,82 @@
+{
+ "id": "t014",
+ "split": "test",
+ "segment": "retiree",
+ "gender": "f",
+ "age_band": "60+",
+ "city": "كركوك",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "سعاد",
+ "last_name": "الجنابي",
+ "job": "مدرسة متقاعدة",
+ "habits": [
+  "medical",
+  "generator_fees",
+  "family_support",
+  "religious_donations",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "daughter"
+  },
+  {
+   "name": "أحمد",
+   "relation": "son"
+  },
+  {
+   "name": "أم محمود",
+   "relation": "friend"
+  },
+  {
+   "name": "إبراهيم",
+   "relation": "brother"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة وقورة تقضي وقتها بين العبادة ومساعدة أبنائها وتدفع التزامات المولدة إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "الجنابي",
+  "job": "مدرسة متقاعدة",
+  "habits": [
+   "medical",
+   "generator_fees",
+   "family_support",
+   "religious_donations",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "daughter"
+   },
+   {
+    "name": "أحمد",
+    "relation": "son"
+   },
+   {
+    "name": "أم محمود",
+    "relation": "friend"
+   },
+   {
+    "name": "إبراهيم",
+    "relation": "brother"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة وقورة تقضي وقتها بين العبادة ومساعدة أبنائها وتدفع التزامات المولدة إلكترونياً."
+ }
+}

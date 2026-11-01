@@ -1,0 +1,80 @@
+{
+ "id": "t018",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "كربلاء",
+ "income_band": "low",
+ "active_period": "night",
+ "prompt_set": "B",
+ "first_name": "زينب",
+ "last_name": "الساعدي",
+ "job": "خياطة منزلية",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "family_support",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو كرار",
+   "relation": "generator"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "sister"
+  },
+  {
+   "name": "أم علي",
+   "relation": "mother"
+  },
+  {
+   "name": "سعاد",
+   "relation": "friend"
+  },
+  {
+   "name": "أبو جاسم",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "امرأة مكافحة تدير شؤون بيتها بالليل وتعتمد على رصيد الموبايل للتواصل وية زبائنها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الساعدي",
+  "job": "خياطة منزلية",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "family_support",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو كرار",
+    "relation": "generator"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "sister"
+   },
+   {
+    "name": "أم علي",
+    "relation": "mother"
+   },
+   {
+    "name": "سعاد",
+    "relation": "friend"
+   },
+   {
+    "name": "أبو جاسم",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "امرأة مكافحة تدير شؤون بيتها بالليل وتعتمد على رصيد الموبايل للتواصل وية زبائنها."
+ }
+}

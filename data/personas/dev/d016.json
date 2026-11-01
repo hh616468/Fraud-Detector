@@ -1,0 +1,90 @@
+{
+ "id": "d016",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "41-60",
+ "city": "الرمادي",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "سعاد",
+ "last_name": "العبيدي",
+ "job": "موظفة إدارية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "school_fees",
+  "grocery_shop",
+  "medical"
+ ],
+ "contacts": [
+  {
+   "name": "أحمد",
+   "relation": "son"
+  },
+  {
+   "name": "مريم",
+   "relation": "daughter"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "فاطمة",
+   "relation": "colleague"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "موظفة حكومية تهتم بتدبير مصاريف البيت ودراسة أولادها عبر التطبيق.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "سعاد",
+  "last_name": "العبيدي",
+  "job": "موظفة إدارية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "school_fees",
+   "grocery_shop",
+   "medical"
+  ],
+  "contacts": [
+   {
+    "name": "أحمد",
+    "relation": "son"
+   },
+   {
+    "name": "مريم",
+    "relation": "daughter"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "فاطمة",
+    "relation": "colleague"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "موظفة حكومية تهتم بتدبير مصاريف البيت ودراسة أولادها عبر التطبيق."
+ }
+}

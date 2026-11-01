@@ -1,0 +1,90 @@
+{
+ "id": "t003",
+ "split": "test",
+ "segment": "salaried",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "بغداد",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "زينب",
+ "last_name": "الساعدي",
+ "job": "محاسبة بشركة خاصة",
+ "habits": [
+  "generator_fees",
+  "online_shopping",
+  "grocery_shop",
+  "family_support",
+  "phone_topups"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "سارة",
+   "relation": "sister"
+  },
+  {
+   "name": "أم أحمد",
+   "relation": "mother"
+  },
+  {
+   "name": "علي",
+   "relation": "brother"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "هبة",
+   "relation": "colleague"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "امرأة عملية تدير مصاريف البيت وتعتمد على التطبيقات في تسوقها اليومي.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الساعدي",
+  "job": "محاسبة بشركة خاصة",
+  "habits": [
+   "generator_fees",
+   "online_shopping",
+   "grocery_shop",
+   "family_support",
+   "phone_topups"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "سارة",
+    "relation": "sister"
+   },
+   {
+    "name": "أم أحمد",
+    "relation": "mother"
+   },
+   {
+    "name": "علي",
+    "relation": "brother"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "هبة",
+    "relation": "colleague"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "امرأة عملية تدير مصاريف البيت وتعتمد على التطبيقات في تسوقها اليومي."
+ }
+}

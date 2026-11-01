@@ -1,0 +1,401 @@
+decision_id,user_id,is_scam,family,category,score,tier,fired,baseline
+test-0001,t010,0,,routine,0,pass,M01 M02,0
+test-0002,t010,1,marketplace_deposit,scam,6,coach,R01 R05 R08,1
+test-0003,t012,0,,eid_gift,2,pass,R01,1
+test-0004,t004,0,,cold_start,0,pass,,0
+test-0005,t012,0,,bill,0,pass,M01 M02,0
+test-0006,t002,1,exchange_deposit,scam,8,coach,R01 R07 R08,1
+test-0007,t013,0,,routine,0,pass,M01,0
+test-0008,t007,0,,cold_start,2,pass,R01,1
+test-0009,t010,0,,routine,0,pass,M01 M02,0
+test-0010,t014,1,hacked_relative,scam,0,pass,R02 R05 M01 M02,0
+test-0011,t014,0,,cold_start,1,pass,R07 M02,0
+test-0012,t013,0,,honest_security_event,0,pass,R06 M01,0
+test-0013,t008,0,,honest_call,0,pass,R07 M01 M02,0
+test-0014,t015,0,,honest_call,0,pass,R07 M01 M02,0
+test-0015,t012,1,exchange_deposit,scam,14,coach,R01 R02 R03 R05 R07 R08,1
+test-0016,t014,0,,new_payee,2,pass,R01,1
+test-0017,t006,1,hacked_relative,scam,10,coach,R01 R02 R08 R12,1
+test-0018,t006,1,hacked_relative,scam,10,coach,R01 R02 R08 R12,1
+test-0019,t016,0,,cold_start,0,pass,R01 M02,1
+test-0020,t006,0,,routine,0,pass,M01 M02,0
+test-0021,t015,0,,honest_call,0,pass,R07 M01 M02,0
+test-0022,t003,1,safe_account,scam,13,coach,R01 R02 R07 R13,1
+test-0023,t003,0,,new_payee,2,pass,R01,1
+test-0024,t014,1,marketplace_deposit,scam,2,pass,R01,1
+test-0025,t016,1,prize_fee,scam,9,coach,R01 R05 R08 R09,1
+test-0026,t008,1,investment_platform,scam,4,nudge,R02 R04,0
+test-0027,t016,0,,cold_start,5,nudge,R03 R04,0
+test-0028,t005,1,investment_platform,scam,10,coach,R02 R03 R04 R08,0
+test-0029,t017,0,,new_payee,4,nudge,R01 R02,1
+test-0030,t001,1,investment_platform,scam,7,coach,R02 R04 R08,0
+test-0031,t008,0,,cold_start,0,pass,M02,0
+test-0032,t001,0,,unusual_amount,0,pass,R02 R07 M01 M02,0
+test-0033,t005,0,,routine,0,pass,M01,0
+test-0034,t001,0,,routine,0,pass,M01,0
+test-0035,t008,0,,cold_start,2,pass,R01,1
+test-0036,t013,0,,honest_call,0,pass,R07 M01 M02,0
+test-0037,t017,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0038,t006,1,marketplace_deposit,scam,2,pass,R01,1
+test-0039,t005,1,hacked_relative,scam,0,pass,R02 M01 M02,0
+test-0040,t007,0,,cold_start,2,pass,R04,0
+test-0041,t012,0,,honest_call,0,pass,R07 M01 M02,0
+test-0042,t003,0,,routine,0,pass,M01,0
+test-0043,t015,0,,routine,0,pass,M01 M02,0
+test-0044,t008,0,,eid_gift,0,pass,R04 M02,0
+test-0045,t010,0,,routine,0,pass,M01 M02,0
+test-0046,t018,0,,cold_start,0,pass,,0
+test-0047,t001,0,,routine,0,pass,M02,0
+test-0048,t004,0,,new_payee,4,nudge,R01 R02,1
+test-0049,t005,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0050,t003,0,,routine,0,pass,M01,0
+test-0051,t016,0,marketplace_deposit,matched_twin,2,pass,R01,1
+test-0052,t003,0,prize_fee,matched_twin,2,pass,R01,1
+test-0053,t016,1,marketplace_deposit,scam,2,pass,R01,1
+test-0054,t008,0,investment_platform,matched_twin,4,nudge,R01 R02,1
+test-0055,t007,0,,cold_start,2,pass,R04,0
+test-0056,t010,0,,honest_security_event,9,coach,R01 R05 R06 R08,1
+test-0057,t001,0,,routine,0,pass,M01,0
+test-0058,t017,0,,bill,0,pass,R05 M01 M02,0
+test-0059,t001,0,,routine,0,pass,M01,0
+test-0060,t017,0,,routine,0,pass,M01,0
+test-0061,t017,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0062,t019,0,,cold_start,0,pass,M02,0
+test-0063,t017,0,,honest_call,0,pass,R07 M01 M02,0
+test-0064,t012,1,hacked_relative,scam,8,coach,R01 R02 R05 R08,1
+test-0065,t017,0,,unusual_amount,0,pass,R02 R07 M01 M02,0
+test-0066,t005,1,marketplace_deposit,scam,7,coach,R01 R08 R10,1
+test-0067,t008,0,,new_payee,2,pass,R01 R02 M02,1
+test-0068,t003,0,,new_payee,0,pass,R01 M02,1
+test-0069,t005,1,safe_account,scam,10,coach,R01 R02 R03 R07,1
+test-0070,t013,0,,new_payee,2,pass,R01,1
+test-0071,t006,0,,new_payee,2,pass,R01,1
+test-0072,t015,0,,routine,0,pass,M01 M02,0
+test-0073,t016,0,,cold_start,0,pass,,0
+test-0074,t005,1,prize_fee,scam,5,nudge,R01 R07,1
+test-0075,t013,0,,routine,0,pass,M01,0
+test-0076,t019,0,exchange_deposit,matched_twin,7,coach,R01 R02 R03,1
+test-0077,t003,0,,bill,0,pass,M01 M02,0
+test-0078,t002,0,,routine,0,pass,M01,0
+test-0079,t014,0,,routine,0,pass,M02,0
+test-0080,t006,0,,routine,0,pass,M01 M02,0
+test-0081,t003,1,prize_fee,scam,5,nudge,R01 R08,1
+test-0082,t014,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0083,t012,0,,routine,0,pass,M01 M02,0
+test-0084,t019,0,,routine,0,pass,M02,0
+test-0085,t005,0,safe_account,matched_twin,10,coach,R01 R02 R03 R07,1
+test-0086,t014,0,,routine,0,pass,M01 M02,0
+test-0087,t008,0,,eid_gift,4,nudge,R01 R04,1
+test-0088,t014,0,,cold_start,0,pass,M01 M02,0
+test-0089,t018,0,safe_account,matched_twin,8,coach,R01 R03 R07,1
+test-0090,t019,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0091,t017,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0092,t010,0,refund_after_credit,matched_twin,6,coach,R01 R05 R07,1
+test-0093,t019,1,exchange_deposit,scam,13,coach,R01 R02 R03 R13,1
+test-0094,t008,0,,cold_start,0,pass,R01 M02,1
+test-0095,t001,1,refund_after_credit,scam,10,coach,R01 R02 R08 R11,1
+test-0096,t008,0,,new_payee,2,pass,R01,1
+test-0097,t003,0,,new_payee,5,nudge,R01 R06,1
+test-0098,t002,0,,honest_security_event,5,nudge,R01 R06,1
+test-0099,t008,1,investment_platform,scam,5,nudge,R02 R04 R05,0
+test-0100,t016,0,,cold_start,0,pass,R01 M02,1
+test-0101,t005,0,,honest_call,0,pass,R07 M01 M02,0
+test-0102,t007,0,,cold_start,2,pass,R01,1
+test-0103,t018,0,,cold_start,2,pass,R01,1
+test-0104,t004,0,,honest_security_event,0,pass,R06 M01,0
+test-0105,t010,0,,new_payee,5,nudge,R01 R08,1
+test-0106,t003,1,refund_after_credit,scam,10,coach,R01 R02 R07 R08,1
+test-0107,t005,0,,honest_call,0,pass,R07 M01 M02,0
+test-0108,t003,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0109,t001,0,,bill,0,pass,M01 M02,0
+test-0110,t016,0,prize_fee,matched_twin,3,pass,R01 R05,1
+test-0111,t008,0,,bill,0,pass,M01 M02,0
+test-0112,t019,1,safe_account,scam,14,coach,R01 R02 R03 R05 R07 R08,1
+test-0113,t010,1,hacked_relative,scam,4,nudge,R01 R02,1
+test-0114,t014,0,,bill,0,pass,M01 M02,0
+test-0115,t010,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0116,t003,0,,routine,0,pass,M01,0
+test-0117,t013,0,,bill,0,pass,M01 M02,0
+test-0118,t006,0,,honest_security_event,0,pass,R06 M01,0
+test-0119,t015,0,,honest_call,0,pass,R07 M01 M02,0
+test-0120,t006,0,,routine,0,pass,M01 M02,0
+test-0121,t006,0,,routine,0,pass,M01,0
+test-0122,t008,0,,bill,0,pass,M01 M02,0
+test-0123,t004,0,,eid_gift,2,pass,R01 R04 M02,1
+test-0124,t008,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0125,t013,0,,bill,0,pass,M01 M02,0
+test-0126,t012,0,,routine,0,pass,M01 M02,0
+test-0127,t005,1,prize_fee,scam,8,coach,R01 R07 R08,1
+test-0128,t013,0,,bill,0,pass,M01 M02,0
+test-0129,t013,0,,new_payee,4,nudge,R01 R02,1
+test-0130,t014,0,,honest_call,0,pass,R07 M01 M02,0
+test-0131,t015,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0132,t004,0,,routine,0,pass,M01,0
+test-0133,t013,0,,routine,0,pass,M01,0
+test-0134,t015,0,refund_after_credit,matched_twin,5,nudge,R01 R07,1
+test-0135,t003,1,prize_fee,scam,7,coach,R01 R08 R10,1
+test-0136,t008,1,prize_fee,scam,9,coach,R01 R05 R07 R08,1
+test-0137,t010,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0138,t003,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0139,t001,0,,bill,0,pass,M01 M02,0
+test-0140,t001,0,,honest_security_event,0,pass,R06 M01,0
+test-0141,t008,1,investment_platform,scam,7,coach,R02 R04 R08,0
+test-0142,t013,0,,routine,0,pass,M01,0
+test-0143,t017,0,,bill,0,pass,M01 M02,0
+test-0144,t015,0,exchange_deposit,matched_twin,4,nudge,R01 R02,1
+test-0145,t006,0,,routine,0,pass,M01,0
+test-0146,t013,0,,routine,0,pass,M01,0
+test-0147,t008,0,,routine,0,pass,M02,0
+test-0148,t012,0,,unusual_amount,0,pass,R02 R05 M01 M02,0
+test-0149,t010,0,,routine,0,pass,M01 M02,0
+test-0150,t005,1,prize_fee,scam,5,nudge,R01 R08,1
+test-0151,t017,0,,routine,0,pass,M02,0
+test-0152,t006,0,,honest_call,0,pass,R05 R07 M01 M02,0
+test-0153,t001,0,,new_payee,4,nudge,R01 R02,1
+test-0154,t005,0,prize_fee,matched_twin,2,pass,R01,1
+test-0155,t007,1,safe_account,scam,11,coach,R01 R07 R08 R09,1
+test-0156,t008,1,marketplace_deposit,scam,2,pass,R01,1
+test-0157,t001,0,,routine,0,pass,M02,0
+test-0158,t010,0,,new_payee,2,pass,R01,1
+test-0159,t017,0,,routine,0,pass,M01 M02,0
+test-0160,t016,0,,cold_start,0,pass,,0
+test-0161,t006,0,,honest_call,0,pass,R07 M01 M02,0
+test-0162,t006,0,,routine,0,pass,M01 M02,0
+test-0163,t006,0,refund_after_credit,matched_twin,7,coach,R01 R02 R07,1
+test-0164,t018,1,safe_account,scam,8,coach,R01 R03 R07,1
+test-0165,t005,0,,honest_call,1,pass,R07 M02,0
+test-0166,t015,0,exchange_deposit,matched_twin,4,nudge,R01 R02,1
+test-0167,t002,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0168,t011,0,,cold_start,0,pass,R01 M02,1
+test-0169,t001,0,,honest_security_event,1,pass,R06 M02,0
+test-0170,t019,0,,eid_gift,0,pass,R04 M02,0
+test-0171,t015,1,refund_after_credit,scam,11,coach,R01 R07 R08 R11,1
+test-0172,t001,1,exchange_deposit,scam,4,nudge,R01 R02,1
+test-0173,t012,1,safe_account,scam,19,coach,R01 R02 R06 R07 R08 R13,1
+test-0174,t014,0,,honest_call,0,pass,R07 M01 M02,0
+test-0175,t015,0,,bill,0,pass,M01 M02,0
+test-0176,t002,1,prize_fee,scam,14,coach,R01 R07 R08 R13,1
+test-0177,t013,0,,routine,0,pass,M01,0
+test-0178,t017,1,prize_fee,scam,8,coach,R01 R13,1
+test-0179,t017,0,,routine,0,pass,M01,0
+test-0180,t015,0,,unusual_amount,0,pass,M01 M02,0
+test-0181,t006,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0182,t015,0,,bill,0,pass,R05 M01 M02,0
+test-0183,t003,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0184,t010,0,,routine,0,pass,M01 M02,0
+test-0185,t008,0,,unusual_amount,0,pass,R02 M02,0
+test-0186,t010,1,refund_after_credit,scam,6,coach,R01 R05 R07,1
+test-0187,t006,1,refund_after_credit,scam,10,coach,R01 R02 R08 R11,1
+test-0188,t013,0,,routine,0,pass,M01,0
+test-0189,t004,1,investment_platform,scam,7,coach,R02 R04 R07,0
+test-0190,t002,1,hacked_relative,scam,0,pass,R02 M01 M02,0
+test-0191,t013,1,investment_platform,scam,4,nudge,R02 R04,0
+test-0192,t018,1,investment_platform,scam,3,pass,R08,0
+test-0193,t018,0,,cold_start,0,pass,R01 M02,1
+test-0194,t017,0,,new_payee,4,nudge,R01 R02,1
+test-0195,t015,0,,routine,0,pass,M01 M02,0
+test-0196,t013,0,,routine,0,pass,M01,0
+test-0197,t004,0,,routine,0,pass,M01,0
+test-0198,t014,0,prize_fee,matched_twin,5,nudge,R01 R07,1
+test-0199,t006,0,,new_payee,4,nudge,R01 R02,1
+test-0200,t008,1,marketplace_deposit,scam,2,pass,R01,1
+test-0201,t006,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0202,t007,0,,cold_start,0,pass,R01 M02,1
+test-0203,t001,0,,bill,0,pass,M01 M02,0
+test-0204,t017,0,,routine,0,pass,M01 M02,0
+test-0205,t017,0,exchange_deposit,matched_twin,4,nudge,R01 R02,1
+test-0206,t019,0,,routine,0,pass,M01 M02,0
+test-0207,t008,0,,cold_start,0,pass,R01 M02,1
+test-0208,t019,0,,new_payee,2,pass,R01,1
+test-0209,t004,0,,new_payee,2,pass,R01,1
+test-0210,t005,0,,routine,0,pass,M01 M02,0
+test-0211,t018,1,exchange_deposit,scam,17,coach,R01 R03 R07 R08 R13,1
+test-0212,t017,1,exchange_deposit,scam,8,coach,R01 R02 R05 R08,1
+test-0213,t003,0,,new_payee,2,pass,R01,1
+test-0214,t012,1,refund_after_credit,scam,8,coach,R01 R02 R05 R11,1
+test-0215,t006,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0216,t013,0,,routine,0,pass,M01,0
+test-0217,t011,1,exchange_deposit,scam,4,nudge,R01 R10,1
+test-0218,t019,0,,routine,0,pass,M01 M02,0
+test-0219,t006,0,,routine,0,pass,M01,0
+test-0220,t006,0,hacked_relative,matched_twin,4,nudge,R01 R02,1
+test-0221,t010,0,,honest_security_event,1,pass,R06 R07 M01 M02,0
+test-0222,t003,0,,honest_security_event,0,pass,R06 M01,0
+test-0223,t007,1,prize_fee,scam,7,coach,R01 R08 R10,1
+test-0224,t016,0,,cold_start,2,pass,R04,0
+test-0225,t015,1,safe_account,scam,10,coach,R01 R02 R07 R08,1
+test-0226,t013,0,,routine,0,pass,M01,0
+test-0227,t005,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0228,t005,0,investment_platform,matched_twin,4,nudge,R01 R02,1
+test-0229,t015,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0230,t017,0,,routine,0,pass,M01 M02,0
+test-0231,t013,0,,routine,0,pass,M01,0
+test-0232,t010,1,refund_after_credit,scam,7,coach,R01 R02 R11,1
+test-0233,t005,0,,routine,0,pass,M01 M02,0
+test-0234,t017,0,,unusual_amount,0,pass,M01 M02,0
+test-0235,t003,0,marketplace_deposit,matched_twin,5,nudge,R01 R06,1
+test-0236,t001,0,,routine,0,pass,M01,0
+test-0237,t008,0,,honest_call,0,pass,R07 M01 M02,0
+test-0238,t001,0,,eid_gift,0,pass,M01 M02,0
+test-0239,t004,0,,routine,0,pass,M01,0
+test-0240,t016,1,investment_platform,scam,4,nudge,R03 R05,0
+test-0241,t012,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0242,t017,0,,honest_security_event,0,pass,R05 R06 M01 M02,0
+test-0243,t003,0,,new_payee,2,pass,R01,1
+test-0244,t010,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0245,t019,0,,cold_start,0,pass,M02,0
+test-0246,t017,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0247,t005,1,safe_account,scam,13,coach,R01 R02 R03 R07 R08,1
+test-0248,t003,0,hacked_relative,matched_twin,5,nudge,R01 R02 R05,1
+test-0249,t010,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0250,t006,0,,honest_call,0,pass,R07 M01 M02,0
+test-0251,t008,0,,routine,0,pass,R07 M01 M02,0
+test-0252,t012,0,,new_payee,4,nudge,R01 R02,1
+test-0253,t008,1,safe_account,scam,11,coach,R01 R02 R03 R05 R07,1
+test-0254,t005,1,refund_after_credit,scam,5,nudge,R01 R11,1
+test-0255,t006,0,,eid_gift,0,pass,M01 M02,0
+test-0256,t016,0,,cold_start,2,pass,R01,1
+test-0257,t006,1,refund_after_credit,scam,10,coach,R01 R02 R07 R11,1
+test-0258,t003,0,,routine,0,pass,M01,0
+test-0259,t010,0,,routine,0,pass,M01 M02,0
+test-0260,t010,1,marketplace_deposit,scam,3,pass,R01 R05,1
+test-0261,t017,0,,bill,0,pass,R06 M01 M02,0
+test-0262,t007,1,hacked_relative,scam,5,nudge,R01 R03,1
+test-0263,t019,1,investment_platform,scam,7,coach,R02 R04 R08,0
+test-0264,t010,0,,routine,0,pass,M01 M02,0
+test-0265,t019,0,,routine,0,pass,M01 M02,0
+test-0266,t019,0,,new_payee,3,pass,R01 R05,1
+test-0267,t010,0,,routine,0,pass,M01 M02,0
+test-0268,t017,0,,honest_security_event,0,pass,R06 M01,0
+test-0269,t012,1,marketplace_deposit,scam,6,coach,R01 R05 R08,1
+test-0270,t001,0,,routine,0,pass,M01,0
+test-0271,t017,0,,honest_security_event,1,pass,R06 M02,0
+test-0272,t013,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0273,t005,0,,routine,0,pass,R07 M01 M02,0
+test-0274,t008,0,,unusual_amount,0,pass,R02 M01 M02,0
+test-0275,t018,0,,cold_start,0,pass,,0
+test-0276,t003,0,,honest_security_event,0,pass,R06 M01,0
+test-0277,t011,1,marketplace_deposit,scam,2,pass,R01,1
+test-0278,t006,0,refund_after_credit,matched_twin,4,nudge,R01 R02,1
+test-0279,t003,0,,bill,0,pass,R04 M02,0
+test-0280,t003,0,refund_after_credit,matched_twin,7,coach,R01 R02 R07,1
+test-0281,t015,0,,honest_call,0,pass,R07 M01 M02,0
+test-0282,t013,1,refund_after_credit,scam,10,coach,R01 R02 R07 R11,1
+test-0283,t015,0,,unusual_amount,0,pass,M01 M02,0
+test-0284,t010,0,,bill,0,pass,M02,0
+test-0285,t001,0,,routine,0,pass,M01 M02,0
+test-0286,t014,1,prize_fee,scam,8,coach,R01 R07 R08,1
+test-0287,t001,0,,bill,0,pass,M01 M02,0
+test-0288,t013,1,safe_account,scam,10,coach,R01 R02 R07 R08,1
+test-0289,t015,0,,routine,0,pass,M01 M02,0
+test-0290,t019,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0291,t015,0,,bill,0,pass,M01 M02,0
+test-0292,t016,0,,cold_start,2,pass,R04,0
+test-0293,t006,0,,new_payee,2,pass,R01,1
+test-0294,t008,0,,cold_start,0,pass,R04 M02,0
+test-0295,t003,0,,new_payee,4,nudge,R01 R02,1
+test-0296,t016,0,,cold_start,2,pass,R01,1
+test-0297,t010,1,exchange_deposit,scam,10,coach,R01 R02 R07 R08,1
+test-0298,t015,0,,bill,0,pass,M01 M02,0
+test-0299,t001,0,hacked_relative,matched_twin,4,nudge,R01 R02,1
+test-0300,t001,0,,bill,0,pass,M02,0
+test-0301,t013,0,,routine,0,pass,M01,0
+test-0302,t010,0,,bill,0,pass,M01 M02,0
+test-0303,t007,1,hacked_relative,scam,8,coach,R01 R08 R12,1
+test-0304,t015,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0305,t001,0,,eid_gift,0,pass,R04 M01 M02,0
+test-0306,t001,0,,new_payee,2,pass,R01,1
+test-0307,t011,0,,cold_start,2,pass,R01,1
+test-0308,t003,1,investment_platform,scam,7,coach,R02 R04 R08,0
+test-0309,t004,1,refund_after_credit,scam,10,coach,R01 R02 R08 R11,1
+test-0310,t001,1,hacked_relative,scam,7,coach,R01 R02 R08,1
+test-0311,t005,0,,routine,0,pass,M01,0
+test-0312,t011,0,,cold_start,0,pass,,0
+test-0313,t008,0,,honest_call,0,pass,R07 M01 M02,0
+test-0314,t003,0,,bill,0,pass,M01 M02,0
+test-0315,t006,0,refund_after_credit,matched_twin,7,coach,R01 R02 R07,1
+test-0316,t006,0,,unusual_amount,0,pass,M01 M02,0
+test-0317,t015,1,prize_fee,scam,6,coach,R01 R05 R08,1
+test-0318,t004,1,investment_platform,scam,7,coach,R02 R04 R08,0
+test-0319,t003,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0320,t004,1,safe_account,scam,10,coach,R01 R02 R07 R08,1
+test-0321,t006,1,refund_after_credit,scam,13,coach,R01 R02 R07 R08 R11,1
+test-0322,t008,0,,eid_gift,0,pass,R05 M02,0
+test-0323,t017,0,exchange_deposit,matched_twin,5,nudge,R01 R02 R05,1
+test-0324,t001,0,,honest_call,0,pass,R07 M01 M02,0
+test-0325,t003,0,,new_payee,4,nudge,R01 R02,1
+test-0326,t019,0,,honest_call,0,pass,R07 M01 M02,0
+test-0327,t012,0,,bill,0,pass,R05 M01 M02,0
+test-0328,t018,0,,cold_start,0,pass,,0
+test-0329,t004,0,,new_payee,2,pass,R01,1
+test-0330,t019,1,hacked_relative,scam,10,coach,R01 R02 R08 R12,1
+test-0331,t012,1,marketplace_deposit,scam,6,coach,R01 R05 R08,1
+test-0332,t008,0,,routine,0,pass,M01 M02,0
+test-0333,t018,1,investment_platform,scam,0,pass,,0
+test-0334,t003,0,,routine,0,pass,,0
+test-0335,t001,0,,routine,0,pass,M01,0
+test-0336,t012,0,,new_payee,5,nudge,R01 R08,1
+test-0337,t006,0,,routine,0,pass,M01 M02,0
+test-0338,t005,0,,new_payee,4,nudge,R01 R02,1
+test-0339,t012,0,,honest_call,0,pass,R07 M01 M02,0
+test-0340,t007,1,prize_fee,scam,8,coach,R01 R07 R09,1
+test-0341,t008,0,,unusual_amount,0,pass,R02 R05 M01 M02,0
+test-0342,t018,0,,cold_start,2,pass,R01,1
+test-0343,t005,0,,routine,0,pass,M01,0
+test-0344,t004,0,investment_platform,matched_twin,4,nudge,R01 R02,1
+test-0345,t003,1,marketplace_deposit,scam,5,nudge,R01 R06,1
+test-0346,t013,0,,bill,0,pass,M02,0
+test-0347,t003,0,,new_payee,7,coach,R01 R08 R10,1
+test-0348,t005,1,investment_platform,scam,4,nudge,R02 R04,0
+test-0349,t017,0,,routine,0,pass,M02,0
+test-0350,t003,0,,routine,0,pass,M01,0
+test-0351,t005,0,,routine,0,pass,M01,0
+test-0352,t003,1,refund_after_credit,scam,13,coach,R01 R02 R07 R08 R11,1
+test-0353,t002,0,,new_payee,3,pass,R01 R05,1
+test-0354,t019,0,,honest_call,0,pass,R07 M01 M02,0
+test-0355,t018,1,safe_account,scam,14,coach,R01 R03 R07 R13,1
+test-0356,t015,0,safe_account,matched_twin,7,coach,R01 R02 R07,1
+test-0357,t008,0,,bill,0,pass,M02,0
+test-0358,t005,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0359,t005,0,,routine,0,pass,M01,0
+test-0360,t013,0,,honest_call,0,pass,R07 M01 M02,0
+test-0361,t016,0,,cold_start,2,pass,R04,0
+test-0362,t019,1,refund_after_credit,scam,13,coach,R01 R02 R07 R08 R11,1
+test-0363,t008,0,investment_platform,matched_twin,4,nudge,R01 R02,1
+test-0364,t002,0,hacked_relative,matched_twin,4,nudge,R01 R02,1
+test-0365,t012,0,,eid_gift,4,nudge,R01 R04,1
+test-0366,t001,1,marketplace_deposit,scam,4,nudge,R01 R10,1
+test-0367,t018,0,,cold_start,0,pass,,0
+test-0368,t017,1,exchange_deposit,scam,7,coach,R01 R02 R08,1
+test-0369,t003,1,hacked_relative,scam,11,coach,R01 R02 R05 R08 R12,1
+test-0370,t017,1,hacked_relative,scam,0,pass,R02 M01 M02,0
+test-0371,t008,0,safe_account,matched_twin,11,coach,R01 R02 R03 R05 R07,1
+test-0372,t004,0,,cold_start,0,pass,,0
+test-0373,t015,0,,routine,1,pass,R06 M02,0
+test-0374,t011,0,,cold_start,0,pass,,0
+test-0375,t010,0,,new_payee,3,pass,R01 R05,1
+test-0376,t004,0,,honest_security_event,0,pass,R06 M01 M02,0
+test-0377,t014,1,investment_platform,scam,10,coach,R02 R04 R07 R08,0
+test-0378,t002,1,safe_account,scam,10,coach,R01 R02 R07 R08,1
+test-0379,t013,1,safe_account,scam,16,coach,R01 R02 R03 R06 R07 R08,1
+test-0380,t003,0,,routine,0,pass,M01,0
+test-0381,t017,0,,new_payee,4,nudge,R01 R02,1
+test-0382,t008,0,,honest_call,0,pass,R07 M01 M02,0
+test-0383,t007,1,prize_fee,scam,11,coach,R01 R08 R13,1
+test-0384,t004,0,,routine,0,pass,M01,0
+test-0385,t010,0,,bill,0,pass,R05 M01 M02,0
+test-0386,t010,0,,honest_call,0,pass,R07 M01 M02,0
+test-0387,t006,0,,new_payee,2,pass,R01,1
+test-0388,t017,1,marketplace_deposit,scam,8,coach,R01 R05 R08 R10,1
+test-0389,t019,0,safe_account,matched_twin,11,coach,R01 R02 R03 R05 R07,1
+test-0390,t008,0,,cold_start,0,pass,R01 M02,1
+test-0391,t001,1,hacked_relative,scam,0,pass,R02 M01 M02,0
+test-0392,t007,0,,cold_start,2,pass,R04,0
+test-0393,t006,0,,new_payee,2,pass,R01,1
+test-0394,t014,1,marketplace_deposit,scam,2,pass,R01,1
+test-0395,t013,0,,bill,0,pass,M02,0
+test-0396,t001,0,,honest_security_event,0,pass,R06 M01,0
+test-0397,t003,0,,honest_security_event,0,pass,R06 M01,0
+test-0398,t013,0,,bill,0,pass,M01 M02,0
+test-0399,t002,0,,routine,0,pass,M01 M02,0
+test-0400,t001,0,,honest_security_event,0,pass,R06 M01,0

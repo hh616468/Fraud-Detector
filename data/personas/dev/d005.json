@@ -1,0 +1,90 @@
+{
+ "id": "d005",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "العمارة",
+ "income_band": "high",
+ "active_period": "morning",
+ "prompt_set": "A",
+ "first_name": "مصطفى",
+ "last_name": "الخفاجي",
+ "job": "مهندس نفط",
+ "habits": [
+  "rent",
+  "online_shopping",
+  "phone_topups",
+  "medical",
+  "generator_fees"
+ ],
+ "contacts": [
+  {
+   "name": "سارة مصطفى",
+   "relation": "spouse"
+  },
+  {
+   "name": "علي الخفاجي",
+   "relation": "brother"
+  },
+  {
+   "name": "أبو كرار",
+   "relation": "landlord"
+  },
+  {
+   "name": "حسين المولدة",
+   "relation": "generator"
+  },
+  {
+   "name": "زيدون",
+   "relation": "colleague"
+  },
+  {
+   "name": "عمر",
+   "relation": "friend"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "مهندس طموح يعتمد على التطبيقات الرقمية لتنظيم مصاريف المنزل والتسوق الإلكتروني.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "مصطفى",
+  "last_name": "الخفاجي",
+  "job": "مهندس نفط",
+  "habits": [
+   "rent",
+   "online_shopping",
+   "phone_topups",
+   "medical",
+   "generator_fees"
+  ],
+  "contacts": [
+   {
+    "name": "سارة مصطفى",
+    "relation": "spouse"
+   },
+   {
+    "name": "علي الخفاجي",
+    "relation": "brother"
+   },
+   {
+    "name": "أبو كرار",
+    "relation": "landlord"
+   },
+   {
+    "name": "حسين المولدة",
+    "relation": "generator"
+   },
+   {
+    "name": "زيدون",
+    "relation": "colleague"
+   },
+   {
+    "name": "عمر",
+    "relation": "friend"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "مهندس طموح يعتمد على التطبيقات الرقمية لتنظيم مصاريف المنزل والتسوق الإلكتروني."
+ }
+}

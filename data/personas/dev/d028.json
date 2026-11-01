@@ -1,0 +1,90 @@
+{
+ "id": "d028",
+ "split": "dev",
+ "segment": "salaried",
+ "gender": "m",
+ "age_band": "26-40",
+ "city": "الرمادي",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "A",
+ "first_name": "مصطفى",
+ "last_name": "العبيدي",
+ "job": "مهندس مدني",
+ "habits": [
+  "rent",
+  "generator_fees",
+  "online_shopping",
+  "phone_topups",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "زينب مصطفى",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو كرار",
+   "relation": "landlord"
+  },
+  {
+   "name": "سعدون المولدة",
+   "relation": "generator"
+  },
+  {
+   "name": "عمر",
+   "relation": "brother"
+  },
+  {
+   "name": "ياسر",
+   "relation": "colleague"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "يعمل في قطاع المقاولات ويفضل إتمام كافة معاملاته المالية عبر الهاتف ليلاً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "مصطفى",
+  "last_name": "العبيدي",
+  "job": "مهندس مدني",
+  "habits": [
+   "rent",
+   "generator_fees",
+   "online_shopping",
+   "phone_topups",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "زينب مصطفى",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو كرار",
+    "relation": "landlord"
+   },
+   {
+    "name": "سعدون المولدة",
+    "relation": "generator"
+   },
+   {
+    "name": "عمر",
+    "relation": "brother"
+   },
+   {
+    "name": "ياسر",
+    "relation": "colleague"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "يعمل في قطاع المقاولات ويفضل إتمام كافة معاملاته المالية عبر الهاتف ليلاً."
+ }
+}

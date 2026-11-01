@@ -1,0 +1,90 @@
+{
+ "id": "d029",
+ "split": "dev",
+ "segment": "retiree",
+ "gender": "m",
+ "age_band": "60+",
+ "city": "البصرة",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "A",
+ "first_name": "جاسم",
+ "last_name": "الخفاجي",
+ "job": "موظف حكومي متقاعد",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "medical",
+  "religious_donations",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أحمد جاسم",
+   "relation": "son"
+  },
+  {
+   "name": "زينب جاسم",
+   "relation": "daughter"
+  },
+  {
+   "name": "سعاد جاسم",
+   "relation": "spouse"
+  },
+  {
+   "name": "أبو كرار",
+   "relation": "generator"
+  },
+  {
+   "name": "حسين علي",
+   "relation": "friend"
+  },
+  {
+   "name": "صيدلية الشفاء",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "low",
+ "bio": "رجل متقاعد من البصرة يهتم بدعم عائلته وتوفير احتياجاتهم الصحية.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "جاسم",
+  "last_name": "الخفاجي",
+  "job": "موظف حكومي متقاعد",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "medical",
+   "religious_donations",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أحمد جاسم",
+    "relation": "son"
+   },
+   {
+    "name": "زينب جاسم",
+    "relation": "daughter"
+   },
+   {
+    "name": "سعاد جاسم",
+    "relation": "spouse"
+   },
+   {
+    "name": "أبو كرار",
+    "relation": "generator"
+   },
+   {
+    "name": "حسين علي",
+    "relation": "friend"
+   },
+   {
+    "name": "صيدلية الشفاء",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "low",
+  "bio": "رجل متقاعد من البصرة يهتم بدعم عائلته وتوفير احتياجاتهم الصحية."
+ }
+}

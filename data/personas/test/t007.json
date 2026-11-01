@@ -1,0 +1,80 @@
+{
+ "id": "t007",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "m",
+ "age_band": "18-25",
+ "city": "بعقوبة",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "زيد",
+ "last_name": "التميمي",
+ "job": "طالب جامعي ومصمم حر",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "online_shopping",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سيف",
+   "relation": "generator"
+  },
+  {
+   "name": "عمار",
+   "relation": "friend"
+  },
+  {
+   "name": "سارة",
+   "relation": "sister"
+  },
+  {
+   "name": "أبو جاسم",
+   "relation": "shop"
+  },
+  {
+   "name": "والدي",
+   "relation": "father"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "شاب طموح من بعقوبة، يعتمد على التكنولوجيا في عمله ويسدد التزامات المولدة إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زيد",
+  "last_name": "التميمي",
+  "job": "طالب جامعي ومصمم حر",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "online_shopping",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سيف",
+    "relation": "generator"
+   },
+   {
+    "name": "عمار",
+    "relation": "friend"
+   },
+   {
+    "name": "سارة",
+    "relation": "sister"
+   },
+   {
+    "name": "أبو جاسم",
+    "relation": "shop"
+   },
+   {
+    "name": "والدي",
+    "relation": "father"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "شاب طموح من بعقوبة، يعتمد على التكنولوجيا في عمله ويسدد التزامات المولدة إلكترونياً."
+ }
+}

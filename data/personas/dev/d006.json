@@ -1,0 +1,80 @@
+{
+ "id": "d006",
+ "split": "dev",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "السماوة",
+ "income_band": "low",
+ "active_period": "afternoon",
+ "prompt_set": "A",
+ "first_name": "زينب",
+ "last_name": "الخفاجي",
+ "job": "خياطة منزلية",
+ "habits": [
+  "family_support",
+  "generator_fees",
+  "phone_topups",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "فاطمة",
+   "relation": "sister"
+  },
+  {
+   "name": "أبو علي",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "أم سارة",
+   "relation": "mother"
+  },
+  {
+   "name": "عمار",
+   "relation": "brother"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "تعمل من المنزل وتستخدم التطبيق لتسديد اشتراك المولدة وشحن رصيد هاتفها.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الخفاجي",
+  "job": "خياطة منزلية",
+  "habits": [
+   "family_support",
+   "generator_fees",
+   "phone_topups",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "فاطمة",
+    "relation": "sister"
+   },
+   {
+    "name": "أبو علي",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "أم سارة",
+    "relation": "mother"
+   },
+   {
+    "name": "عمار",
+    "relation": "brother"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "تعمل من المنزل وتستخدم التطبيق لتسديد اشتراك المولدة وشحن رصيد هاتفها."
+ }
+}

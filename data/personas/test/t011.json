@@ -1,0 +1,82 @@
+{
+ "id": "t011",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "26-40",
+ "city": "البصرة",
+ "income_band": "mid",
+ "active_period": "night",
+ "prompt_set": "B",
+ "first_name": "زينب",
+ "last_name": "الخفاجي",
+ "job": "مدرسة لغة عربية",
+ "habits": [
+  "generator_fees",
+  "phone_topups",
+  "online_shopping",
+  "family_support",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو كرار",
+   "relation": "generator"
+  },
+  {
+   "name": "مريم",
+   "relation": "sister"
+  },
+  {
+   "name": "سارة",
+   "relation": "friend"
+  },
+  {
+   "name": "أم علي",
+   "relation": "mother"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "mid",
+ "bio": "سيدة بصرية مهتمة بتربية أولادها وتدير مصاريف البيت ليلاً بعد انتهاء الدوام.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زينب",
+  "last_name": "الخفاجي",
+  "job": "مدرسة لغة عربية",
+  "habits": [
+   "generator_fees",
+   "phone_topups",
+   "online_shopping",
+   "family_support",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو كرار",
+    "relation": "generator"
+   },
+   {
+    "name": "مريم",
+    "relation": "sister"
+   },
+   {
+    "name": "سارة",
+    "relation": "friend"
+   },
+   {
+    "name": "أم علي",
+    "relation": "mother"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "mid",
+  "bio": "سيدة بصرية مهتمة بتربية أولادها وتدير مصاريف البيت ليلاً بعد انتهاء الدوام."
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "t020",
+ "split": "test",
+ "segment": "first_time",
+ "gender": "f",
+ "age_band": "18-25",
+ "city": "الكوت",
+ "income_band": "mid",
+ "active_period": "evening",
+ "prompt_set": "B",
+ "first_name": "زهراء",
+ "last_name": "الساعدي",
+ "job": "طالبة جامعية",
+ "habits": [
+  "online_shopping",
+  "phone_topups",
+  "generator_fees",
+  "grocery_shop"
+ ],
+ "contacts": [
+  {
+   "name": "أبو سجاد",
+   "relation": "generator"
+  },
+  {
+   "name": "زينب",
+   "relation": "sister"
+  },
+  {
+   "name": "مريم",
+   "relation": "friend"
+  },
+  {
+   "name": "الوالد",
+   "relation": "father"
+  },
+  {
+   "name": "سوق البركة",
+   "relation": "shop"
+  }
+ ],
+ "tech_comfort": "high",
+ "bio": "شابة طموحة من الكوت تحب تسوق الملابس أونلاين وتدفع اشتراك المولد إلكترونياً.",
+ "source": "llm",
+ "model_raw": {
+  "first_name": "زهراء",
+  "last_name": "الساعدي",
+  "job": "طالبة جامعية",
+  "habits": [
+   "online_shopping",
+   "phone_topups",
+   "generator_fees",
+   "grocery_shop"
+  ],
+  "contacts": [
+   {
+    "name": "أبو سجاد",
+    "relation": "generator"
+   },
+   {
+    "name": "زينب",
+    "relation": "sister"
+   },
+   {
+    "name": "مريم",
+    "relation": "friend"
+   },
+   {
+    "name": "الوالد",
+    "relation": "father"
+   },
+   {
+    "name": "سوق البركة",
+    "relation": "shop"
+   }
+  ],
+  "tech_comfort": "high",
+  "bio": "شابة طموحة من الكوت تحب تسوق الملابس أونلاين وتدفع اشتراك المولد إلكترونياً."
+ }
+}

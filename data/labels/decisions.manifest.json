@@ -1,0 +1,37 @@
+{
+ "seed": 20261030,
+ "val": {
+  "split_files": "devval",
+  "users": 10,
+  "decisions": 128,
+  "scam": 32,
+  "matched_twin": 2,
+  "hard_legit": 47,
+  "random_legit": 47,
+  "scams_by_type": {
+   "fake_exchange": 8,
+   "hacked_relative": 6,
+   "impersonation": 6,
+   "prize_fee": 9,
+   "refund_scam": 3
+  }
+ },
+ "test": {
+  "split_files": "test",
+  "users": 20,
+  "decisions": 400,
+  "scam": 101,
+  "matched_twin": 20,
+  "hard_legit": 139,
+  "random_legit": 140,
+  "scams_by_type": {
+   "fake_exchange": 19,
+   "fake_seller": 5,
+   "hacked_relative": 15,
+   "impersonation": 15,
+   "investment": 14,
+   "prize_fee": 22,
+   "refund_scam": 11
+  }
+ }
+}

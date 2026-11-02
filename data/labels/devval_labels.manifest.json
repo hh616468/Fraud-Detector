@@ -1,0 +1,82 @@
+{
+  "split": "devval",
+  "seed": 20261030,
+  "cases": 80,
+  "scam_transfers_out": 125,
+  "matched_twins": 15,
+  "by_type": {
+    "impersonation": 19,
+    "fake_exchange": 34,
+    "prize_fee": 38,
+    "refund_scam": 16,
+    "hacked_relative": 18
+  },
+  "assumptions": {
+    "per_type": {
+      "impersonation": {
+        "call": 0.7,
+        "security": 0.25,
+        "young": 0.5,
+        "fake_name": 0.5,
+        "note": 0.3,
+        "cue": 0.35
+      },
+      "fake_exchange": {
+        "call": 0.05,
+        "security": 0.05,
+        "young": 0.4,
+        "fake_name": 0.6,
+        "note": 0.3,
+        "cue": 0.1
+      },
+      "prize_fee": {
+        "call": 0.3,
+        "security": 0.15,
+        "young": 0.5,
+        "fake_name": 0.4,
+        "note": 0.6,
+        "cue": 0.45
+      },
+      "refund_scam": {
+        "call": 0.4,
+        "security": 0.05,
+        "young": 0.4,
+        "fake_name": 0.1,
+        "note": 0.5,
+        "cue": 0
+      },
+      "hacked_relative": {
+        "call": 0.1,
+        "security": 0.05,
+        "young": 0.3,
+        "fake_name": 0.1,
+        "note": 0.4,
+        "cue": 0
+      },
+      "investment": {
+        "call": 0.1,
+        "security": 0.05,
+        "young": 0.3,
+        "fake_name": 0.2,
+        "note": 0.4,
+        "cue": 0.1
+      },
+      "fake_seller": {
+        "call": 0.1,
+        "security": 0.03,
+        "young": 0.4,
+        "fake_name": 0.1,
+        "note": 0.6,
+        "cue": 0
+      }
+    },
+    "mule": {
+      "reuse": 0.3,
+      "reported": 0.15,
+      "reported_if_reused": 0.3,
+      "many_senders": 0.5
+    },
+    "topup_for_scam": 0.6,
+    "tap_skip": 0.4
+  }
+}

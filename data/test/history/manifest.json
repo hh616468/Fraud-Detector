@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-02T05:17:59.359177+00:00",
+  "seed": 20261030,
+  "personas": "personas.jsonl",
+  "personas_sha256": "dfb09d6649087eef85d1505c6f966830aaed4542af7fda0c7c7389f6b67dd62c",
+  "period": [
+    "2025-12-01",
+    "2026-06-15"
+  ],
+  "ramadan": [
+    "2026-02-18",
+    "2026-03-19"
+  ],
+  "eids": [
+    "2026-03-20",
+    "2026-05-27"
+  ],
+  "assumptions": {
+    "wallet_share": [
+      0.4,
+      1.0
+    ],
+    "off_hours_rate": 0.08,
+    "ramadan_night_shift": 0.6,
+    "call_active_p2p": 0.03,
+    "call_active_other": 0.01,
+    "new_payee_per_month": 0.8,
+    "young_new_payee": 0.25,
+    "deposit_note": 0.05,
+    "reason_tap_skip": 0.4,
+    "contact_saved_in_window": 0.15,
+    "eid_gift": 0.6,
+    "adha_sacrifice": 0.3,
+    "mistaken_credit": 0.1,
+    "topup_when_short": 0.7,
+    "device_per_year": {
+      "new_device": 0.8,
+      "sim_change": 0.3
+    },
+    "pin_reset_per_year": {
+      "low": 1.5,
+      "medium": 0.6,
+      "high": 0.3
+    }
+  },
+  "counts": {
+    "users": 20,
+    "recipients": 261,
+    "contacts": 163,
+    "transactions": 2071,
+    "device_events": 41
+  }
+}

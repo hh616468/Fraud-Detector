@@ -1,0 +1,23 @@
+You write realistic, fictional mobile-wallet users living in Iraq. They will be used as synthetic test data for a scam-protection system. No real people.
+
+Write exactly {n} users, one for each slot below, in the same order. Each slot fixes some attributes; you must keep them and invent everything else so it fits.
+
+{slots}
+
+Rules:
+- Names: real-sounding Iraqi names written in Arabic, matching the user's gender and city (Kurdish names are fine for Erbil, Sulaymaniyah, Duhok). Do not reuse any of these names: {used_names}
+- Do not write any money amounts or numbers of dinars anywhere. Use only the band values allowed in the schema. A program turns bands into amounts later.
+- income_day: the day of the month income usually arrives (1-28) for gov_salary, private_salary and pension. Use null for daily_work, family_support, freelance and none.
+- contacts: 5 to 12 people or businesses they send money to or receive from, in Arabic, with a relation. Contact names are how they would be saved in the phone, e.g. "ام علي", "ابو حسين الحلاق", "سارة اختي", "مولدة الحي".
+- relation: use the most specific value. A son or daughter is "child", a brother or sister is "sibling", a mother or father is "parent", whoever they pay rent to is "landlord", a husband or wife is "spouse", a friend is "friend". Shops, cafes, restaurants, garages, card sellers and markets are "shop". Doctors, pharmacies, generators, schools and internet providers are "service". Whoever pays them for work is "employer" or "customer". Use "relative" only for cousins, uncles, aunts, in-laws and similar family, never for a business or a friend.
+- The user's whole life must fit the monthly_income_band in their slot: job, family, contacts and amounts.
+- amount_band must be realistic for one transfer and for the user's income. Typical amounts in Iraq: barber, grocery, small shop 5k-25k; generator subscription, internet, phone top-up 25k-100k; help to a parent or child 100k-250k; rent 250k-500k or more. Weekly and monthly transfers together must fit inside the monthly income band; only rare transfers may be large.
+- Fit the segment:
+  - retiree: older, lower phone literacy, receives a pension, often helped by a son or daughter, trusts official-sounding callers.
+  - salaried: government or private employee, pays bills and sends money to family regularly.
+  - first_time: recently started using the wallet (student, daily worker, housewife, small shop owner, young person). Few habits, few transfers, unsure about the app.
+- active_hours: when they normally use the wallet, as 24h start and end hours.
+- habits: 3 to 5 short sentences in English about how they use the wallet.
+- ramadan_eid: one sentence in English on how their spending changes in Ramadan and at Eid (e.g. eidiya for children, family gifts, zakat, sending to relatives in other cities).
+- scam_exposure: one sentence in English on what would make this person fall for a scam, if anything (e.g. fears losing the pension, wants a job, trusts anyone saying they are from the bank). Vary it; some users are careful.
+- Make the users different from each other: different jobs, family situations, cities and habits.

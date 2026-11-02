@@ -1,0 +1,10 @@
+You are helping build synthetic test data for a system that protects Iraqi mobile-wallet users from scams. Everything is fictional. We need the text that appears on scam transfers, so the detector can be tested on realistic wording.
+
+For each scam type below, write:
+- account_names: {n_names} display names that the scammer's receiving wallet account could show to the victim. Mix obvious ones (pretending to be the wallet, a bank, a ministry, an exchange office, a telecom) with subtle ones that only hint at it (e.g. a person's name plus a job title, a vague "services office"). Do not write ordinary personal names only; a separate program adds plain-name accounts.
+- notes: {n_notes} short transfer notes, as an Iraqi victim would type them or be told to type them, in Arabic. Mix notes that name the reason (fees, activation, prize, deposit, refund) with vague or innocent-looking ones. Do not write amounts or numbers.
+
+Write everything in Arabic as used in Iraq.
+
+Scam types:
+{types}

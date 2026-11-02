@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-10-31T12:17:54.702211+00:00",
+  "model": "google/gemma-4-31B-it",
+  "url": "http://localhost:8070",
+  "seed": 7731,
+  "temperature": 1.0,
+  "count": 20,
+  "prompt_file": "persona_v2.txt",
+  "prompt_sha256": "833ed3502b644b28b8dfd9b729a5c4971b518d6d6209f01e0f30ea4d0c574763",
+  "avoided_names_from": [
+    "personas_devval.jsonl"
+  ]
+}

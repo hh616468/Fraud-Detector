@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-10-30T15:13:51.530356+00:00",
+  "model": "google/gemma-4-31B-it",
+  "url": "http://localhost:8070",
+  "seed": 20261030,
+  "temperature": 0.9,
+  "count": 40,
+  "prompt_file": "persona_v1.txt",
+  "prompt_sha256": "b5d5cdd2adccbe04b94b49a2c67e24c27d475dc6eca560e261de48de39f86bb7"
+}

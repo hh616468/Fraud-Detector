@@ -1,0 +1,492 @@
+recipient_id,display_name,phone,kind,city,created_at,is_biller,reported
+RD00001,احمد كريم,07720669087,person,Duhok,2020-12-29,False,False
+RD00002,سارة محمد,07775811041,person,Duhok,2021-02-16,False,False
+RD00003,مكتبة النور,07710920571,merchant,Duhok,2019-05-25,False,False
+RD00004,صيدلية الشفاء,07860827875,merchant,Duhok,2019-11-14,False,False
+RD00005,مولدة الحي,07866525892,merchant,Duhok,2024-11-27,False,False
+RD00006,نورين محمد,07791150756,person,Duhok,2022-11-17,False,False
+RD00007,رواتب موظفي الدولة,07799593885,employer,,2019-06-27,False,False
+RD00008,شبكة النور للانترنت,07567120776,biller,,2020-04-17,True,False
+RD00009,زين العراق - شحن,07713138002,biller,,2019-10-11,True,False
+RD00010,صيدلية خفاجي,07561645057,merchant,Duhok,2026-02-19,False,False
+RD00011,صيدلية خفاجي,07506441119,merchant,Duhok,2025-12-26,False,False
+RD00012,محل اثاث جنابي,07843272439,merchant,Duhok,2023-12-01,False,False
+RD00013,صيدلية جنابي,07867298305,merchant,Duhok,2024-06-30,False,False
+RD00014,فاطمة الخفاجي,07873658013,person,Duhok,2025-04-29,False,False
+RD00015,جامع الحي - Duhok - زكاة,07826997289,merchant,Duhok,2023-02-13,False,False
+RD00016,وكيل زين كاش - Duhok,07521673151,agent,Duhok,2019-09-23,False,False
+RD00017,محمد العبيدي,07527193097,person,Mosul,2022-08-15,False,False
+RD00018,كافيه ريفا,07831904615,merchant,Mosul,2021-09-06,False,False
+RD00019,ليلى العبيدي,07743570812,person,Mosul,2023-09-20,False,False
+RD00020,شركة التسويق العامري,07830583706,person,Mosul,2020-08-01,False,False
+RD00021,زينب العبيدي,07761864756,person,Mosul,2022-09-10,False,False
+RD00022,صالون التجميل,07867264469,merchant,Mosul,2021-10-07,False,False
+RD00023,متجر الملابس,07897162107,merchant,Mosul,2024-08-21,False,False
+RD00024,أبو سيف التاكسي,07786512129,merchant,Mosul,2024-01-21,False,False
+RD00025,سما نت,07892125708,biller,,2017-10-10,True,False
+RD00026,سجاد التميمي,07792063635,person,Mosul,2024-09-19,False,False
+RD00027,ايات الكبيسي,07746615591,person,Mosul,2024-11-11,False,False
+RD00028,محمد البياتي,07793342391,person,Mosul,2024-07-21,False,False
+RD00029,جامع الحي - Mosul - زكاة,07727635578,merchant,Mosul,2019-10-25,False,False
+RD00030,وكيل زين كاش - Mosul,07852554280,agent,Mosul,2019-03-08,False,False
+RD00031,محمود الشمري,07515760795,person,Kirkuk,2022-10-02,False,False
+RD00032,أسواق البركة,07855872074,merchant,Kirkuk,2022-03-17,False,False
+RD00033,صيدلية المركز,07859455841,merchant,Kirkuk,2023-05-31,False,False
+RD00034,ام علي جارتي الخفاجي,07795667565,person,Kirkuk,2025-02-22,False,False
+RD00035,الكهرباء,07807478447,merchant,Kirkuk,2021-09-30,False,False
+RD00036,هيئة التقاعد الوطنية - رواتب,07805729508,employer,,2020-12-25,False,False
+RD00037,متجر اونلاين موسوي,07549440960,merchant,Kirkuk,2022-09-04,False,False
+RD00038,صيدلية شمري,07829834311,merchant,Kirkuk,2026-04-15,False,False
+RD00039,محل اثاث جنابي,07827686451,merchant,Kirkuk,2026-03-13,False,False
+RD00040,حيدر الربيعي,07791667528,person,Kirkuk,2022-12-20,False,False
+RD00041,فني تبريد كبيسي,07870586690,merchant,Kirkuk,2026-02-16,False,False
+RD00042,حيدر الكعبي,07802623678,person,Kirkuk,2023-01-31,False,False
+RD00043,جامع الحي - Kirkuk - زكاة,07591487490,merchant,Kirkuk,2023-03-14,False,False
+RD00044,وكيل زين كاش - Kirkuk,07897909160,agent,Kirkuk,2020-05-03,False,False
+RD00045,نيروز عزيز,07852170532,person,Erbil,2025-08-18,False,False
+RD00046,ابو ريان عبدالله,07824568758,person,Erbil,2020-07-13,False,False
+RD00047,مولدة المنطقة,07796210289,merchant,Erbil,2019-03-19,False,False
+RD00048,مدرسة الأطفال,07784680104,merchant,Erbil,2024-08-08,False,False
+RD00049,سوبر ماركت الأمل,07503206091,merchant,Erbil,2023-06-16,False,False
+RD00050,أبو علي الحلاق,07521640029,merchant,Erbil,2022-05-19,False,False
+RD00051,اياد جلال,07813873794,person,Erbil,2021-08-25,False,False
+RD00052,شركة الإنترنت,07542630273,merchant,Erbil,2024-11-08,False,False
+RD00053,محل اثاث زبيدي,07529524055,merchant,Erbil,2024-04-03,False,False
+RD00054,هدى الزبيدي,07511151823,person,Erbil,2024-06-30,False,False
+RD00055,محل اثاث ربيعي,07811015903,merchant,Erbil,2023-07-14,False,False
+RD00056,عباس الساعدي,07856636988,person,Erbil,2026-04-03,False,False
+RD00057,حسين العبيدي,07885513897,person,Erbil,2025-12-16,False,False
+RD00058,محل موبايلات دليمي,07881943446,merchant,Erbil,2024-03-02,False,False
+RD00059,جامع الحي - Erbil - زكاة,07771800252,merchant,Erbil,2018-08-12,False,False
+RD00060,وكيل زين كاش - Erbil,07830008946,agent,Erbil,2018-11-04,False,False
+RD00061,هيفاء الله,07532882501,person,Sulaymaniyah,2019-03-01,False,False
+RD00062,ابو جاسم المؤجر محمود,07825742757,person,Sulaymaniyah,2020-05-01,False,False
+RD00063,صيدلية السليمانية,07737804364,merchant,Sulaymaniyah,2022-08-21,False,False
+RD00064,محل الخضار,07883246985,merchant,Sulaymaniyah,2022-05-12,False,False
+RD00065,سعاد رشيد,07832370322,person,Sulaymaniyah,2019-12-11,False,False
+RD00066,مولدة الحي,07848005015,merchant,Sulaymaniyah,2019-03-16,False,False
+RD00067,عمر الساعدي,07836654620,person,Sulaymaniyah,2023-11-26,False,False
+RD00068,عمر العزاوي,07859677147,person,Sulaymaniyah,2026-01-26,False,False
+RD00069,متجر اونلاين جبوري,07729994962,merchant,Sulaymaniyah,2023-12-25,False,False
+RD00070,صيدلية ربيعي,07528465682,merchant,Sulaymaniyah,2023-07-10,False,False
+RD00071,هدى الموسوي,07768081776,person,Sulaymaniyah,2024-07-10,False,False
+RD00072,فني تبريد بياتي,07839624732,merchant,Sulaymaniyah,2025-06-09,False,False
+RD00073,صيدلية عزاوي,07767132087,merchant,Sulaymaniyah,2024-04-01,False,False
+RD00074,جامع الحي - Sulaymaniyah - زكاة,07889088748,merchant,Sulaymaniyah,2019-07-16,False,False
+RD00075,وكيل زين كاش - Sulaymaniyah,07730770353,agent,Sulaymaniyah,2017-10-20,False,False
+RD00076,ابو سجاد الشمري,07805668004,person,Baghdad,2024-01-20,False,False
+RD00077,نور جاسم,07787864250,person,Baghdad,2022-04-27,False,False
+RD00078,سجاد جاسم,07574052198,person,Baghdad,2021-01-18,False,False
+RD00079,كارتات أبو علي,07877845927,merchant,Baghdad,2022-08-01,False,False
+RD00080,صيدلية الشفاء,07883334047,merchant,Baghdad,2022-09-07,False,False
+RD00081,مولدة المنطقة,07748362200,merchant,Baghdad,2023-07-12,False,False
+RD00082,هناء جاسم,07536662706,person,Baghdad,2020-11-17,False,False
+RD00083,سوبر ماركت النور,07827813131,merchant,Baghdad,2023-08-25,False,False
+RD00084,الافق للاتصالات,07783486823,biller,,2019-02-03,True,False
+RD00085,صيدلية شمري,07812717405,merchant,Baghdad,2025-10-07,False,False
+RD00086,فني تبريد شمري,07571631789,merchant,Baghdad,2024-08-11,False,False
+RD00087,فني تبريد حسيني,07819663710,merchant,Baghdad,2025-11-18,False,False
+RD00088,مريم العامري,07890695131,person,Baghdad,2022-11-04,False,False
+RD00089,عمر الموسوي,07833277866,person,Baghdad,2026-01-13,False,False
+RD00090,زينب الكبيسي,07746693883,person,Baghdad,2024-12-05,False,False
+RD00091,احمد اللامي,07552135818,person,Baghdad,2023-12-21,False,False
+RD00092,صيدلية لامي,07574119676,merchant,Baghdad,2024-08-02,False,False
+RD00093,جامع الحي - Baghdad - زكاة,07773202878,merchant,Baghdad,2023-08-12,False,False
+RD00094,وكيل زين كاش - Baghdad,07824159479,agent,Baghdad,2022-08-02,False,False
+RD00095,ابو مرتضى المقاول العزاوي,07852026118,person,Baghdad,2020-03-09,False,False
+RD00096,الغالية عباس,07543780800,person,Baghdad,2021-01-05,False,False
+RD00097,حمودي الربيعي,07538159674,person,Baghdad,2024-12-16,False,False
+RD00098,كافيه الشباب,07842322219,merchant,Baghdad,2023-01-03,False,False
+RD00099,محل الموبايلات,07720931103,merchant,Baghdad,2020-09-10,False,False
+RD00100,فاطمة الساعدي,07862890681,person,Baghdad,2024-12-05,False,False
+RD00101,صيدلية جبوري,07822236066,merchant,Baghdad,2025-04-28,False,False
+RD00102,مدرسة النخبة الزبيدي,07755833580,person,Najaf,2019-09-19,False,False
+RD00103,فاطمة كاظم,07579378785,person,Najaf,2025-07-06,False,False
+RD00104,ابو سيف صاحب البيت الموسوي,07834709846,person,Najaf,2024-11-14,False,False
+RD00105,صيدلية النجف,07524995813,merchant,Najaf,2021-05-18,False,False
+RD00106,مولدة الحي,07795306338,merchant,Najaf,2022-09-27,False,False
+RD00107,سوق الخضار,07818655152,merchant,Najaf,2020-01-20,False,False
+RD00108,ام مريم الربيعي,07827392249,person,Najaf,2024-02-20,False,False
+RD00109,صيدلية دليمي,07807780161,merchant,Najaf,2023-05-08,False,False
+RD00110,رقية الموسوي,07566370006,person,Najaf,2022-01-12,False,False
+RD00111,متجر اونلاين تميمي,07866127288,merchant,Najaf,2022-09-02,False,False
+RD00112,محل اثاث كبيسي,07701503470,merchant,Najaf,2024-09-02,False,False
+RD00113,يوسف الجنابي,07834348642,person,Najaf,2022-01-27,False,False
+RD00114,حسين الحسيني,07863992294,person,Najaf,2024-07-05,False,False
+RD00115,جامع الحي - Najaf - زكاة,07881966125,merchant,Najaf,2022-10-08,False,False
+RD00116,وكيل زين كاش - Najaf,07565360271,agent,Najaf,2021-08-16,False,False
+RD00117,ام احمد زبونة اللامي,07808640634,person,Nasiriyah,2023-04-23,False,False
+RD00118,ام سارة زبونة الكبيسي,07595085714,person,Nasiriyah,2022-10-13,False,False
+RD00119,محل القماش,07898897955,merchant,Nasiriyah,2023-10-22,False,False
+RD00120,علي منير,07559553499,person,Nasiriyah,2023-07-30,False,False
+RD00121,مولدة المنطقة,07506669127,merchant,Nasiriyah,2023-07-14,False,False
+RD00122,صيدلية الناصرية,07528477925,merchant,Nasiriyah,2024-12-09,False,False
+RD00123,فني تبريد شمري,07523891333,merchant,Nasiriyah,2026-06-05,False,False
+RD00124,جامع الحي - Nasiriyah - زكاة,07537435077,merchant,Nasiriyah,2020-10-29,False,False
+RD00125,رقية التميمي,07858981074,person,Nasiriyah,2023-05-31,False,False
+RD00126,وكيل زين كاش - Nasiriyah,07801445317,agent,Nasiriyah,2020-09-26,False,False
+RD00127,نور الكبيسي,07847627156,person,Basra,2024-01-29,False,False
+RD00128,أبو سجاد المولدة,07760797298,merchant,Basra,2025-02-14,False,False
+RD00129,سوق السمك,07855509766,merchant,Basra,2024-05-04,False,False
+RD00130,حيدر الجنابي,07816769132,person,Basra,2022-03-03,False,False
+RD00131,صيدلية الشفاء,07544036496,merchant,Basra,2025-06-11,False,False
+RD00132,الشركة العامة الموسوي,07899923750,person,Basra,2023-10-01,False,False
+RD00133,محل موبايلات جبوري,07570628472,merchant,Basra,2022-09-14,False,False
+RD00134,فاطمة الموسوي,07818978350,person,Basra,2023-08-23,False,False
+RD00135,رقية العامري,07870582381,person,Basra,2022-04-18,False,False
+RD00136,متجر اونلاين تميمي,07807235465,merchant,Basra,2025-03-01,False,False
+RD00137,متجر اونلاين دليمي,07790820084,merchant,Basra,2026-04-03,False,False
+RD00138,جامع الحي - Basra - زكاة,07542057310,merchant,Basra,2017-12-29,False,False
+RD00139,بائع اغنام عزاوي,07851636190,person,Basra,2024-12-23,False,False
+RD00140,وكيل زين كاش - Basra,07591092596,agent,Basra,2019-02-19,False,False
+RD00141,حسين محمود,07813536644,person,Erbil,2025-04-09,False,False
+RD00142,مريم محمود,07805365170,person,Erbil,2024-02-16,False,False
+RD00143,كافيه النجمة,07875491240,merchant,Erbil,2019-07-22,False,False
+RD00144,ريان محمود,07798741251,person,Erbil,2019-11-20,False,False
+RD00145,متجر الألعاب,07790970846,merchant,Erbil,2020-03-22,False,False
+RD00146,مدير المبيعات عزيز,07536006240,person,Erbil,2024-12-31,False,False
+RD00147,فاطمة الجنابي,07517923840,person,Erbil,2026-03-04,False,False
+RD00148,عباس اللامي,07709977682,person,Erbil,2026-03-14,False,False
+RD00149,ايات العبيدي,07729543112,person,Erbil,2021-12-25,False,False
+RD00150,متجر اونلاين جبوري,07562294919,merchant,Erbil,2025-07-19,False,False
+RD00151,محمد الحسيني,07783636780,person,Erbil,2026-02-04,False,False
+RD00152,محل موبايلات جبوري,07775785274,merchant,Erbil,2022-03-03,False,False
+RD00153,فني تبريد خفاجي,07541619628,merchant,Erbil,2023-06-08,False,False
+RD00154,صيدلية دليمي,07840744558,merchant,Erbil,2022-04-20,False,False
+RD00155,سوار عمر,07737091364,person,Sulaymaniyah,2024-07-20,False,False
+RD00156,صيدلية الحي,07894163240,merchant,Sulaymaniyah,2021-12-17,False,False
+RD00157,ام جلال عبدالله,07771029085,person,Sulaymaniyah,2022-02-14,False,False
+RD00158,الكهرباء,07884123165,merchant,Sulaymaniyah,2021-07-11,False,False
+RD00159,دائرة التقاعد صالح,07869544770,person,Sulaymaniyah,2024-01-19,False,False
+RD00160,فني تبريد تميمي,07793184349,merchant,Sulaymaniyah,2022-09-01,False,False
+RD00161,رقية البياتي,07882682825,person,Sulaymaniyah,2023-08-16,False,False
+RD00162,صيدلية لامي,07892520538,merchant,Sulaymaniyah,2026-03-15,False,False
+RD00163,صيدلية حسيني,07800242527,merchant,Sulaymaniyah,2024-08-02,False,False
+RD00164,عباس الخفاجي,07768609008,person,Sulaymaniyah,2026-05-29,False,False
+RD00165,محل اثاث كعبي,07880022530,merchant,Sulaymaniyah,2026-05-05,False,False
+RD00166,عمر الحسيني,07871506027,person,Sulaymaniyah,2023-09-29,False,False
+RD00167,سارة التميمي,07756366643,person,Sulaymaniyah,2024-09-20,False,False
+RD00168,ابو علي الكبيسي,07738855588,person,Basra,2025-01-28,False,False
+RD00169,احمد الموسوي,07821562626,person,Basra,2023-06-20,False,False
+RD00170,سوق الخضار,07536181588,merchant,Basra,2023-01-29,False,False
+RD00171,مولدة المنطقة,07880969042,merchant,Basra,2024-12-25,False,False
+RD00172,فاطمة كاظم,07770342619,person,Basra,2024-03-15,False,False
+RD00173,دائرة التقاعد الساعدي,07872526234,person,Basra,2025-05-12,False,False
+RD00174,سجاد الجبوري,07518831089,person,Basra,2026-05-25,False,False
+RD00175,فاطمة الزبيدي,07844444195,person,Basra,2023-11-15,False,False
+RD00176,رقية الحسيني,07560907304,person,Basra,2023-12-17,False,False
+RD00177,فني تبريد ربيعي,07845633992,merchant,Basra,2024-06-22,False,False
+RD00178,بائع اغنام حسيني,07753816627,person,Basra,2022-10-27,False,False
+RD00179,ابو رائد المالك الزبيدي,07751935224,person,Baghdad,2023-07-18,False,False
+RD00180,صيدلية بغداد,07872724775,merchant,Baghdad,2020-11-21,False,False
+RD00181,هناء محمود,07560026066,person,Baghdad,2024-06-01,False,False
+RD00182,سوبر ماركت,07845878213,merchant,Baghdad,2025-02-01,False,False
+RD00183,إنترنت الحي,07876565791,merchant,Baghdad,2023-03-22,False,False
+RD00184,دائرة التقاعد العامري,07532984630,person,Baghdad,2024-05-25,False,False
+RD00185,محمد الحسيني,07802134699,person,Baghdad,2024-10-11,False,False
+RD00186,رقية الجبوري,07715176396,person,Baghdad,2026-05-13,False,False
+RD00187,صيدلية تميمي,07598098772,merchant,Baghdad,2024-06-08,False,False
+RD00188,متجر اونلاين عبيدي,07809037170,merchant,Baghdad,2026-01-17,False,False
+RD00189,محل موبايلات كعبي,07856274609,merchant,Baghdad,2024-09-30,False,False
+RD00190,صيدلية زبيدي,07872152988,merchant,Baghdad,2023-05-09,False,False
+RD00191,متجر اونلاين جبوري,07877044232,merchant,Baghdad,2023-11-19,False,False
+RD00192,محل اثاث زبيدي,07843268805,merchant,Baghdad,2025-06-30,False,False
+RD00193,عمر الحسيني,07550587019,person,Baghdad,2025-12-25,False,False
+RD00194,ام جاسم الشمري,07880430590,person,Nasiriyah,2025-03-24,False,False
+RD00195,ابو علي مواد بناء,07566802202,merchant,Nasiriyah,2019-06-12,False,False
+RD00196,مولدة المنطقة,07863384846,merchant,Nasiriyah,2025-01-17,False,False
+RD00197,حسين محمد,07558708486,person,Nasiriyah,2022-09-07,False,False
+RD00198,سوق السمك,07520977842,merchant,Nasiriyah,2025-08-30,False,False
+RD00199,مقاول كرم الساعدي,07877654279,person,Nasiriyah,2022-11-08,False,False
+RD00200,زيد العبيدي,07794209933,person,Baghdad,2023-11-21,False,False
+RD00201,كوفي شوب,07812492547,merchant,Baghdad,2021-10-05,False,False
+RD00202,محل الموبايلات,07515686663,merchant,Baghdad,2019-04-18,False,False
+RD00203,الوالد فاروق,07510989089,person,Baghdad,2022-06-13,False,False
+RD00204,تطبيق التوصيل الجنابي,07822861099,person,Baghdad,2025-06-23,False,False
+RD00205,اسطى حمودي,07802869010,merchant,Baghdad,2024-04-12,False,False
+RD00206,سارة فاروق,07870013196,person,Baghdad,2021-01-08,False,False
+RD00207,محل موبايلات لامي,07566901397,merchant,Baghdad,2025-05-09,False,False
+RD00208,محل موبايلات جنابي,07803690287,merchant,Baghdad,2022-03-10,False,False
+RD00209,يوسف الربيعي,07812943877,person,Baghdad,2024-09-01,False,False
+RD00210,بائع اغنام ساعدي,07547701175,person,Baghdad,2026-05-15,False,False
+RD00211,الزوجة الشمري,07560042775,person,Nasiriyah,2020-06-22,False,False
+RD00212,ابو علي المالك الساعدي,07749760801,person,Nasiriyah,2021-07-06,False,False
+RD00213,صيدلية الشفاء,07598371205,merchant,Nasiriyah,2022-01-09,False,False
+RD00214,مولدة الحي,07574811251,merchant,Nasiriyah,2024-08-01,False,False
+RD00215,حيدر كاظم,07714320719,person,Nasiriyah,2025-09-18,False,False
+RD00216,مكتب البريد,07706171020,merchant,Nasiriyah,2024-12-25,False,False
+RD00217,ام احمد الكبيسي,07574197499,person,Nasiriyah,2019-12-18,False,False
+RD00218,سوبر ماركت,07752888206,merchant,Nasiriyah,2024-03-07,False,False
+RD00219,صيدلية عزاوي,07814937614,merchant,Nasiriyah,2026-05-15,False,False
+RD00220,محل اثاث خفاجي,07874204122,merchant,Nasiriyah,2026-02-09,False,False
+RD00221,متجر اونلاين كعبي,07594291708,merchant,Nasiriyah,2023-04-27,False,False
+RD00222,علي الجبوري,07595145345,person,Nasiriyah,2026-02-15,False,False
+RD00223,بائع اغنام دليمي,07794249332,person,Nasiriyah,2024-12-29,False,False
+RD00224,نورة البياتي,07511912675,person,Baghdad,2021-09-14,False,False
+RD00225,صالة الجيم,07561040086,merchant,Baghdad,2020-12-25,False,False
+RD00226,مطعم المشويات,07873688236,merchant,Baghdad,2019-02-07,False,False
+RD00227,أبو سيف مولدة,07762712644,merchant,Baghdad,2020-02-10,False,False
+RD00228,شركة الاتصالات,07894207302,merchant,Baghdad,2022-07-30,False,False
+RD00229,علاء التميمي,07732401917,person,Baghdad,2020-05-31,False,False
+RD00230,الشركة اللامي,07788203897,person,Baghdad,2022-11-03,False,False
+RD00231,محل ملابس,07534137779,merchant,Baghdad,2021-09-23,False,False
+RD00232,سعاد التميمي,07860381674,person,Baghdad,2024-07-14,False,False
+RD00233,كرار الخفاجي,07826883769,person,Baghdad,2026-01-16,False,False
+RD00234,محل موبايلات حسيني,07594478702,merchant,Baghdad,2022-07-21,False,False
+RD00235,فني تبريد جنابي,07877922162,merchant,Baghdad,2024-08-03,False,False
+RD00236,محل اثاث لامي,07703380977,merchant,Baghdad,2026-03-08,False,False
+RD00237,محل موبايلات بياتي,07536829314,merchant,Baghdad,2026-02-03,False,False
+RD00238,محمد الموسوي,07725841425,person,Baghdad,2026-06-07,False,False
+RD00239,احمد الجنابي,07511092931,person,Baghdad,2025-10-30,False,False
+RD00240,فني تبريد دليمي,07863034391,merchant,Baghdad,2022-06-06,False,False
+RD00241,محل اثاث جنابي,07740095024,merchant,Baghdad,2024-07-18,False,False
+RD00242,محل اثاث تميمي,07744116465,merchant,Baghdad,2025-02-21,False,False
+RD00243,محل موبايلات عبيدي,07705826206,merchant,Baghdad,2026-01-21,False,False
+RD00244,بائع اغنام عزاوي,07803819912,person,Baghdad,2026-05-17,False,False
+RD00245,ابو سناء الزبيدي,07705751324,person,Baghdad,2022-04-22,False,False
+RD00246,ام علي جارتي الكعبي,07583687443,person,Baghdad,2022-07-04,False,False
+RD00247,خياطة,07714452389,merchant,Baghdad,2024-10-07,False,False
+RD00248,محل الخضار,07812914205,merchant,Baghdad,2020-12-07,False,False
+RD00249,صيدلية,07887666773,merchant,Baghdad,2019-12-30,False,False
+RD00250,ميسون جاسم,07879771915,person,Baghdad,2025-05-20,False,False
+RD00251,احمد التميمي,07582525592,person,Baghdad,2026-04-12,False,False
+RD00252,حسين الربيعي,07516096840,person,Baghdad,2023-06-19,False,False
+RD00253,ام سجاد الخفاجي,07741461493,person,Najaf,2025-03-10,False,False
+RD00254,ابو علي خياط الكبيسي,07515611008,person,Najaf,2022-04-29,False,False
+RD00255,سوق النجف,07808002862,merchant,Najaf,2019-10-30,False,False
+RD00256,فاطمة كاظم,07800418136,person,Najaf,2021-01-21,False,False
+RD00257,صيدلية الشفاء,07883018086,merchant,Najaf,2024-03-18,False,False
+RD00258,محل الملابس,07519480704,merchant,Najaf,2024-03-06,False,False
+RD00259,مولدة الحي - Najaf,07820542946,biller,Najaf,2021-11-21,True,False
+RD00260,متجر اونلاين عبيدي,07586768189,merchant,Najaf,2026-06-09,False,False
+RD00261,بائع اغنام كعبي,07844773219,person,Najaf,2025-03-08,False,False
+RD00262,ام مصطفى الجبوري,07568842420,person,Baghdad,2019-05-21,False,False
+RD00263,ابو احمد الموسوي,07555399371,person,Baghdad,2021-04-01,False,False
+RD00264,حيدر التميمي,07539157641,person,Baghdad,2024-08-10,False,False
+RD00265,كارتات الانترنت,07521960144,merchant,Baghdad,2020-07-10,False,False
+RD00266,مولدة الحي,07846294156,merchant,Baghdad,2022-09-10,False,False
+RD00267,مطعم بغداد,07889592262,merchant,Baghdad,2021-09-17,False,False
+RD00268,سارة جاسم,07729903897,person,Baghdad,2024-05-06,False,False
+RD00269,مكتبة النور,07894056988,merchant,Baghdad,2020-05-15,False,False
+RD00270,محل موبايلات لامي,07893660772,merchant,Baghdad,2023-04-06,False,False
+RD00271,صيدلية كبيسي,07564233355,merchant,Baghdad,2026-01-07,False,False
+RD00272,فني تبريد بياتي,07578611302,merchant,Baghdad,2024-06-10,False,False
+RD00273,محل موبايلات بياتي,07853517235,merchant,Baghdad,2023-11-11,False,False
+RD00274,بائع اغنام حسيني,07862912687,person,Baghdad,2025-04-12,False,False
+RD00275,سارة حميد,07849915553,person,Karbala,2023-12-10,False,False
+RD00276,كافيتريا الجامعة,07884978246,merchant,Karbala,2019-08-03,False,False
+RD00277,علي رفيقي الكبيسي,07835765966,person,Karbala,2023-09-07,False,False
+RD00278,محل موبايلات,07883502359,merchant,Karbala,2019-06-05,False,False
+RD00279,زينب العامري,07822021100,person,Karbala,2024-11-30,False,False
+RD00280,وكيل زين كاش - Karbala,07800281122,agent,Karbala,2018-09-07,False,False
+RD00281,صيدلية زبيدي,07709309170,merchant,Karbala,2024-01-03,False,False
+RD00282,جامع الحي - Karbala - زكاة,07798597812,merchant,Karbala,2019-04-04,False,False
+RD00283,الغالية كاظم,07812332709,person,Basra,2022-07-08,False,False
+RD00284,ابو مرتضى الكبيسي,07814707976,person,Basra,2021-10-03,False,False
+RD00285,حلاق الحي,07882046538,merchant,Basra,2020-06-15,False,False
+RD00286,مطعم البصرة,07861139024,merchant,Basra,2021-02-14,False,False
+RD00287,شركة الانترنت,07757827651,merchant,Basra,2020-11-09,False,False
+RD00288,محمود العامري,07590415256,person,Basra,2019-02-15,False,False
+RD00289,مولدة,07892422612,merchant,Basra,2025-09-24,False,False
+RD00290,علي الموسوي,07892193734,person,Basra,2022-03-30,False,False
+RD00291,رقية الجنابي,07882731730,person,Basra,2024-10-13,False,False
+RD00292,نور الخفاجي,07749447637,person,Basra,2026-06-04,False,False
+RD00293,هدى الجنابي,07713949208,person,Basra,2025-04-10,False,False
+RD00294,محل موبايلات شمري,07533081278,merchant,Basra,2024-11-27,False,False
+RD00295,رقية الموسوي,07824574171,person,Basra,2022-02-02,False,False
+RD00296,هدى البياتي,07561841157,person,Basra,2024-08-13,False,False
+RD00297,علي الربيعي,07762976431,person,Basra,2025-12-16,False,False
+RD00298,سارة الخفاجي,07827767423,person,Basra,2020-10-16,False,False
+RD00299,احمد الكعبي,07831598943,person,Basra,2023-05-05,False,False
+RD00300,صيدلية,07518929062,merchant,Basra,2024-10-01,False,False
+RD00301,الكهربائي,07808969818,merchant,Basra,2023-11-29,False,False
+RD00302,خضروات ابو علي,07807376030,merchant,Basra,2022-01-11,False,False
+RD00303,ام محمد التميمي,07760157884,person,Basra,2025-05-02,False,False
+RD00304,مولدة,07532970211,merchant,Basra,2024-12-28,False,False
+RD00305,ايات البياتي,07823630964,person,Basra,2025-12-19,False,False
+RD00306,هدى الدليمي,07719526097,person,Basra,2024-05-22,False,False
+RD00307,فاطمة الجنابي,07727251271,person,Basra,2026-01-18,False,False
+RD00308,ابو سيف الزبيدي,07892237622,person,Baghdad,2023-10-06,False,False
+RD00309,ام نور خليل,07503176360,person,Baghdad,2022-09-24,False,False
+RD00310,أبو جاسم مولدة,07896469896,merchant,Baghdad,2025-09-16,False,False
+RD00311,مكتبة الرافدين,07811369943,merchant,Baghdad,2023-02-06,False,False
+RD00312,صيدلية الشفاء,07724062614,merchant,Baghdad,2022-10-07,False,False
+RD00313,ليلى اللامي,07822400387,person,Baghdad,2025-01-16,False,False
+RD00314,أسواق النور,07895806456,merchant,Baghdad,2025-09-18,False,False
+RD00315,محل موبايلات عامري,07786231719,merchant,Baghdad,2026-04-14,False,False
+RD00316,يوسف الساعدي,07715962193,person,Baghdad,2025-02-03,False,False
+RD00317,فني تبريد دليمي,07598694210,merchant,Baghdad,2022-07-11,False,False
+RD00318,متجر اونلاين عبيدي,07886535724,merchant,Baghdad,2025-01-19,False,False
+RD00319,صيدلية ربيعي,07808992778,merchant,Baghdad,2023-09-21,False,False
+RD00320,بائع اغنام كبيسي,07506438768,person,Baghdad,2026-04-17,False,False
+RD00321,ابو رامي المقاول الحسيني,07870003914,person,Kirkuk,2024-07-16,False,False
+RD00322,العزيزة كريم,07731073537,person,Kirkuk,2024-03-19,False,False
+RD00323,كارتات حمودي,07780502307,merchant,Kirkuk,2019-04-05,False,False
+RD00324,سعد الشمري,07842673842,person,Kirkuk,2019-02-24,False,False
+RD00325,مطعم البركة,07758684903,merchant,Kirkuk,2023-12-06,False,False
+RD00326,نور العبيدي,07866980909,person,Kirkuk,2026-01-22,False,False
+RD00327,احمد محمود,07882844399,person,Baghdad,2020-08-14,False,False
+RD00328,سارة محمود,07728299615,person,Baghdad,2023-07-23,False,False
+RD00329,أبو علي مولدة,07529933395,merchant,Baghdad,2024-11-16,False,False
+RD00330,صيدلية الحي,07537884368,merchant,Baghdad,2022-09-19,False,False
+RD00331,حجي كاظم الحسيني,07865009180,person,Baghdad,2024-03-19,False,False
+RD00332,محل الخضار,07585438635,merchant,Baghdad,2022-10-10,False,False
+RD00333,رقية اللامي,07714413072,person,Baghdad,2023-07-16,False,False
+RD00334,سجاد الساعدي,07867908109,person,Baghdad,2026-05-02,False,False
+RD00335,صيدلية عزاوي,07583059165,merchant,Baghdad,2023-08-24,False,False
+RD00336,زهراء الجبوري,07817573010,person,Baghdad,2024-01-14,False,False
+RD00337,محل موبايلات عبيدي,07886031797,merchant,Baghdad,2024-05-24,False,False
+RD00338,محل اثاث تميمي,07783018592,merchant,Baghdad,2024-08-02,False,False
+RD00339,شركة التوصيل الربيعي,07711212118,person,Baghdad,2020-09-10,False,False
+RD00340,أبو ميثم كراج,07817629129,merchant,Baghdad,2022-05-29,False,False
+RD00341,كافتيريا الشباب,07877857691,merchant,Baghdad,2020-07-06,False,False
+RD00342,زينب جاسم,07855292734,person,Baghdad,2023-05-08,False,False
+RD00343,راكان الشمري,07787038491,person,Baghdad,2020-07-25,False,False
+RD00344,ايات الحسيني,07838109090,person,Baghdad,2026-04-06,False,False
+RD00345,متجر اونلاين خفاجي,07563817214,merchant,Baghdad,2026-05-13,False,False
+RD00346,ابو علي زبون الساعدي,07503041000,person,Najaf,2019-10-10,False,False
+RD00347,ام سجاد الدليمي,07559420642,person,Najaf,2020-02-22,False,False
+RD00348,محل المواد الكهربائية,07852804540,merchant,Najaf,2024-05-21,False,False
+RD00349,أبو حسن مولدة,07842168823,merchant,Najaf,2019-06-26,False,False
+RD00350,عمار البياتي,07853694868,person,Najaf,2023-06-05,False,False
+RD00351,ابو مرتضى زبون الساعدي,07598860997,person,Najaf,2023-12-07,False,False
+RD00352,صيدلية دليمي,07720439029,merchant,Najaf,2026-03-10,False,False
+RD00353,محمد الحسيني,07822667638,person,Najaf,2022-10-04,False,False
+RD00354,فاطمة الربيعي,07804694225,person,Najaf,2026-03-09,False,False
+RD00355,بائع اغنام جبوري,07584586720,person,Najaf,2025-02-23,False,False
+RD00356,حيدر الحلي,07826855211,person,Najaf,2019-09-13,False,False
+RD00357,صيدلية الشفاء,07872900335,merchant,Najaf,2025-08-19,False,False
+RD00358,ام سجاد التميمي,07891150889,person,Najaf,2020-11-12,False,False
+RD00359,مولدة المنطقة,07830230354,merchant,Najaf,2020-02-21,False,False
+RD00360,سوق الخضرة,07860707875,merchant,Najaf,2024-08-27,False,False
+RD00361,فاطمة الحلي,07872837994,person,Najaf,2020-04-29,False,False
+RD00362,حيدر الجنابي,07869477329,person,Najaf,2023-07-07,False,False
+RD00363,فني تبريد حسيني,07893862408,merchant,Najaf,2024-09-04,False,False
+RD00364,نور اللامي,07827368485,person,Najaf,2026-05-04,False,False
+RD00365,فني تبريد دليمي,07542013678,merchant,Najaf,2022-06-19,False,False
+RD00366,محل اثاث جبوري,07868608655,merchant,Najaf,2025-04-11,False,False
+RD00367,بائع اغنام زبيدي,07866132726,person,Najaf,2024-11-09,False,False
+RD00368,احمد الجبوري,07590883182,person,Basra,2023-12-14,False,False
+RD00369,العزيزة الساعدي,07816947921,person,Basra,2023-12-06,False,False
+RD00370,حضانة الاطفال,07848788304,merchant,Basra,2019-02-18,False,False
+RD00371,سوبر ماركت النور,07741372818,merchant,Basra,2021-01-18,False,False
+RD00372,زينب الساعدي,07596749585,person,Basra,2024-06-25,False,False
+RD00373,كافيه الرصيف,07565317422,merchant,Basra,2024-09-22,False,False
+RD00374,مولدة الحي,07889675757,merchant,Basra,2021-10-23,False,False
+RD00375,محل الملابس,07840132934,merchant,Basra,2019-09-27,False,False
+RD00376,عمر الربيعي,07569836141,person,Basra,2025-10-08,False,False
+RD00377,صيدلية لامي,07872698038,merchant,Basra,2022-10-04,False,False
+RD00378,علي الكعبي,07565161805,person,Basra,2025-12-12,False,False
+RD00379,يوسف الجنابي,07810079701,person,Basra,2026-04-21,False,False
+RD00380,زينب الخفاجي,07872677268,person,Basra,2026-02-20,False,False
+RD00381,محل موبايلات لامي,07874449894,merchant,Basra,2024-06-03,False,False
+RD00382,صيدلية جبوري,07563609892,merchant,Basra,2025-01-31,False,False
+RD00383,رقية الكبيسي,07593434267,person,Basra,2026-04-16,False,False
+RD00384,بائع اغنام عامري,07836751565,person,Basra,2026-05-21,False,False
+RD00385,ابو مرتضى المقاول الخفاجي,07812175429,person,Baghdad,2024-07-24,False,False
+RD00386,علي الربيعي,07523272519,person,Baghdad,2020-05-13,False,False
+RD00387,كارتات اسياسيل,07768368817,merchant,Baghdad,2020-04-20,False,False
+RD00388,مطعم الفجر,07837644680,merchant,Baghdad,2022-10-09,False,False
+RD00389,حمودي الربيعي,07562376783,person,Baghdad,2022-07-31,False,False
+RD00390,ايات الساعدي,07834843695,person,Baghdad,2026-03-28,False,False
+RD00391,مريم الربيعي,07837521831,person,Baghdad,2024-02-29,False,False
+RD00392,فني تبريد موسوي,07892939374,merchant,Baghdad,2024-01-21,False,False
+RD00393,فني تبريد حسيني,07533360101,merchant,Baghdad,2026-03-19,False,False
+RD00394,هدى الجنابي,07545402910,person,Baghdad,2024-07-01,False,False
+RD00395,متجر اونلاين شمري,07881738572,merchant,Baghdad,2023-09-19,False,False
+RD00396,ابو علي كاظم,07749039351,person,Basra,2023-11-25,False,False
+RD00397,ام علي اللامي,07517754241,person,Basra,2024-01-11,False,False
+RD00398,صيدلية البصرة,07862473569,merchant,Basra,2019-05-02,False,False
+RD00399,مولدة المنطقة,07549923556,merchant,Basra,2019-11-11,False,False
+RD00400,حلاق المنطقة,07555582946,merchant,Basra,2020-07-20,False,False
+RD00401,يوسف الزبيدي,07594226193,person,Basra,2023-10-30,False,False
+RD00402,حسين الزبيدي,07511513407,person,Basra,2024-11-09,False,False
+RD00403,حسين العامري,07554435750,person,Basra,2023-10-20,False,False
+RD00404,محل اثاث شمري,07860746203,merchant,Basra,2025-05-29,False,False
+RD00405,محل اثاث خفاجي,07520051748,merchant,Basra,2025-06-30,False,False
+RD00406,رقية العزاوي,07892673128,person,Basra,2026-06-11,False,False
+RD00407,شيروان هاني,07869935259,person,Duhok,2025-04-20,False,False
+RD00408,سوبر ماركت Duhok,07839544005,merchant,Duhok,2020-11-29,False,False
+RD00409,دكتور كورد,07885157231,merchant,Duhok,2023-10-09,False,False
+RD00410,كهرباء,07510852315,merchant,Duhok,2020-06-27,False,False
+RD00411,ريانا هاني,07866414895,person,Duhok,2020-02-27,False,False
+RD00412,مريم الجبوري,07823384081,person,Duhok,2024-11-03,False,False
+RD00413,ايات الكبيسي,07864645333,person,Duhok,2023-09-01,False,False
+RD00414,علي العزاوي,07836966571,person,Duhok,2025-11-08,False,False
+RD00415,محل موبايلات عبيدي,07859632716,merchant,Duhok,2026-05-03,False,False
+RD00416,أبو سيف مولدة,07594694327,merchant,Baghdad,2020-04-14,False,False
+RD00417,حسين محمود,07844099808,person,Baghdad,2020-10-30,False,False
+RD00418,ام علي الربيعي,07812441710,person,Baghdad,2021-01-16,False,False
+RD00419,محل الخير,07574640865,merchant,Baghdad,2024-12-31,False,False
+RD00420,دكتور خالد,07839627808,merchant,Baghdad,2019-07-05,False,False
+RD00421,ابو مريم العبيدي,07708578504,person,Baghdad,2020-03-11,False,False
+RD00422,دائرة الكهرباء - الجباية,07582011220,biller,,2021-03-10,True,False
+RD00423,علي البياتي,07533234647,person,Baghdad,2022-01-20,False,False
+RD00424,عباس التميمي,07547965637,person,Baghdad,2023-09-26,False,False
+RD00425,محل اثاث شمري,07803638355,merchant,Baghdad,2022-12-12,False,False
+RD00426,محل موبايلات جنابي,07875054229,merchant,Baghdad,2023-11-21,False,False
+RD00427,محمد الحسيني,07783934538,person,Baghdad,2025-08-14,False,False
+RD00428,بائع اغنام شمري,07804666965,person,Baghdad,2024-08-27,False,False
+RD00429,مصطفى جاسم,07888053827,person,Nasiriyah,2020-05-15,False,False
+RD00430,محل الموبايلات,07599078794,merchant,Nasiriyah,2019-12-09,False,False
+RD00431,علي الربيعي,07733591602,person,Nasiriyah,2023-07-24,False,False
+RD00432,كوفي شوب,07825061486,merchant,Nasiriyah,2024-04-21,False,False
+RD00433,ميس جاسم,07899674047,person,Nasiriyah,2021-10-17,False,False
+RD00434,ايات الزبيدي,07784049497,person,Nasiriyah,2022-11-04,False,False
+RD00435,ابو رائد صاحب البيت اللامي,07725564989,person,Baghdad,2023-09-09,False,False
+RD00436,سارة الكعبي,07859202819,person,Baghdad,2022-11-18,False,False
+RD00437,مصطفى كاظم,07538120558,person,Baghdad,2023-12-07,False,False
+RD00438,أبو أحمد حلاق,07568734503,merchant,Baghdad,2023-01-31,False,False
+RD00439,زينب كاظم,07501551076,person,Baghdad,2021-01-06,False,False
+RD00440,كارتات نت,07844391248,merchant,Baghdad,2022-01-14,False,False
+RD00441,مولدة المنطقة,07568788490,merchant,Baghdad,2019-11-13,False,False
+RD00442,فني تبريد تميمي,07730324717,merchant,Baghdad,2025-02-07,False,False
+RD00443,هدى التميمي,07814942613,person,Baghdad,2022-11-05,False,False
+RD00444,محل اثاث عامري,07800924183,merchant,Baghdad,2025-09-09,False,False
+RD00445,صيدلية جنابي,07831143175,merchant,Baghdad,2023-06-29,False,False
+RD00446,سجاد الزبيدي,07751619885,person,Baghdad,2021-07-29,False,False
+RD00447,صيدلية الأمل,07575219581,merchant,Baghdad,2023-01-14,False,False
+RD00448,أبو مرتضى الخضروات,07565258692,merchant,Baghdad,2024-10-13,False,False
+RD00449,مولدة المنطقة,07508838993,merchant,Baghdad,2022-02-16,False,False
+RD00450,حسين الجنابي,07554483094,person,Baghdad,2021-04-18,False,False
+RD00451,كارتات ابو علي,07822370872,merchant,Baghdad,2019-11-17,False,False
+RD00452,سارة الدليمي,07824510153,person,Baghdad,2024-04-03,False,False
+RD00453,هدى الدليمي,07802381334,person,Baghdad,2022-04-27,False,False
+RD00454,علي العامري,07767176933,person,Baghdad,2026-02-11,False,False
+RD00455,محمد الجبوري,07818229193,person,Baghdad,2025-08-26,False,False
+RD00456,عباس العبيدي,07790517390,person,Baghdad,2023-05-04,False,False
+RD00457,احمد الدليمي,07539675957,person,Baghdad,2023-05-14,False,False
+RD00458,محل موبايلات ساعدي,07749908085,merchant,Baghdad,2026-01-25,False,False
+RD00459,حسين الربيعي,07849415179,person,Baghdad,2025-12-01,False,False
+RD00460,متجر اونلاين ربيعي,07834948910,merchant,Baghdad,2022-01-23,False,False
+RD00461,حيدر الخفاجي,07867928747,person,Baghdad,2026-03-11,False,False
+RD00462,ديالا عمر,07849120364,person,Erbil,2020-06-27,False,False
+RD00463,سوزان قادر,07885893255,person,Erbil,2022-02-13,False,False
+RD00464,سوبر ماركت الهدى,07534157915,merchant,Erbil,2024-02-17,False,False
+RD00465,دكتورة ليلى,07877570884,merchant,Erbil,2022-06-18,False,False
+RD00466,ابو جلال كريم,07855131889,person,Erbil,2021-10-02,False,False
+RD00467,محل الملابس,07879015884,merchant,Erbil,2022-04-09,False,False
+RD00468,اماني عمر,07815699678,person,Erbil,2022-06-15,False,False
+RD00469,كرار الكبيسي,07822826931,person,Erbil,2026-06-08,False,False
+RD00470,احمد اللامي,07874482889,person,Erbil,2025-03-29,False,False
+RD00471,فني تبريد زبيدي,07595942735,merchant,Erbil,2025-08-21,False,False
+RD00472,رقية الموسوي,07573731984,person,Erbil,2026-02-08,False,False
+RD00473,حيدر الجنابي,07844262494,person,Erbil,2025-02-12,False,False
+RD00474,ايات العزاوي,07821319559,person,Erbil,2025-05-09,False,False
+RD00475,بائع اغنام شمري,07551006408,person,Erbil,2026-05-20,False,False
+RD00476,ابو ميثم صاحب البيت الجبوري,07869191483,person,Baghdad,2024-05-21,False,False
+RD00477,احمد زميلي الكعبي,07828144711,person,Baghdad,2021-01-17,False,False
+RD00478,مطعم البركة,07854018336,merchant,Baghdad,2020-11-07,False,False
+RD00479,كافيه النخيل,07870695060,merchant,Baghdad,2020-03-20,False,False
+RD00480,الغالية السامرائي,07836901112,person,Baghdad,2025-04-08,False,False
+RD00481,أبو سيف النت,07845352562,merchant,Baghdad,2019-02-28,False,False
+RD00482,شركة الدفع اللامي,07729090103,person,Baghdad,2019-02-03,False,False
+RD00483,حلاق المدينة,07873138639,merchant,Baghdad,2023-03-06,False,False
+RD00484,فهد الجبوري,07588514152,person,Baghdad,2021-03-02,False,False
+RD00485,مولدة الحي - Baghdad,07847791764,biller,Baghdad,2019-04-30,True,False
+RD00486,فني تبريد كعبي,07577750718,merchant,Baghdad,2022-07-23,False,False
+RD00487,زهراء الدليمي,07781589844,person,Baghdad,2023-04-09,False,False
+RD00488,زهراء الدليمي,07874578433,person,Baghdad,2026-05-27,False,False
+RD00489,علي الخفاجي,07799804691,person,Baghdad,2022-01-30,False,False
+RD00490,محل موبايلات عامري,07590877003,merchant,Baghdad,2026-03-30,False,False
+RD00491,ايات الربيعي,07735553404,person,Baghdad,2022-07-13,False,False

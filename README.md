@@ -138,6 +138,5 @@ Coaching auto-checks, 30 coaching-tier val cases through Gemma-4-31B
 - **Seeds:** simulator and decision builder use seed 2026 ([data/build.py](data/build.py)).
 - **Catalogue sources:** Central Bank of Iraq warnings on impersonation of financial employees (18 Oct 2025)
   and fake exchange-company pages (17 Apr 2024); 964media on misuse of the Zain Cash name (15 Mar 2024).
-- **AI coding assistant:** see the team's disclosure note.
 
 Team: Hussein Hamza & Sajjad Adil.
